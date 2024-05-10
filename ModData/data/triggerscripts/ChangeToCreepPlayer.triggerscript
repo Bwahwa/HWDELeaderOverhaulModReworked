@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="ChangeToCreepPlayer.triggerscript" Type="TriggerScript" NextTriggerVarID="17" NextTriggerID="3" NextConditionID="3" NextEffectID="7" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="nullPlayerVar" IsNull="true" />
+		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
+		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="newUnitVar" IsNull="false" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="String" Name="newStringVar" IsNull="false">Creeps</TriggerVar>
+		<TriggerVar ID="10" Type="PlayerState" Name="newPlayerStateVar" IsNull="false">Playing</TriggerVar>
+		<TriggerVar ID="11" Type="PlayerList" Name="newPlayerListVar" IsNull="false" />
+		<TriggerVar ID="12" Type="Squad" Name="newSquadVar" IsNull="false" />
+		<TriggerVar ID="13" Type="Trigger" Name="NewTrigger2Var" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="14" Type="ListPosition" Name="newListPositionVar" IsNull="false">First</TriggerVar>
+		<TriggerVar ID="15" Type="Player" Name="linkedPlayerVar" IsNull="false" />
+		<TriggerVar ID="16" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="592" Y="176" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="GetNPCPlayersByName" DBID="943" Version="1" CommentOut="false">
+					<Input Name="NPCPlayerName" SigID="1" Optional="false">9</Input>
+					<Input Name="NPCPlayerState" SigID="2" Optional="true">10</Input>
+					<Output Name="NPCPlayerList" SigID="3" Optional="false">11</Output>
+				</Effect>
+				<Effect ID="2" Type="GetParentSquad" DBID="519" Version="1" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="false">6</Input>
+					<Output Name="ParentSquad" SigID="2" Optional="false">12</Output>
+				</Effect>
+				<Effect ID="6" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">13</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="2" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1832" Y="241" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2" Type="CanGetOnePlayer" DBID="434" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="PlayerList" SigID="1" Optional="false">11</Input>
+						<Input Name="ListPosition" SigID="2" Optional="false">14</Input>
+						<Output Name="FoundPlayer" SigID="3" Optional="false">15</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="3" Type="ChangeOwner" DBID="137" Version="3" CommentOut="false">
+					<Input Name="ChangeSquad" SigID="6" Optional="true">12</Input>
+					<Input Name="ChangeSquadList" SigID="7" Optional="true">16</Input>
+					<Input Name="NewOwner" SigID="3" Optional="false">15</Input>
+				</Effect>
+				<Effect ID="4" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="5" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

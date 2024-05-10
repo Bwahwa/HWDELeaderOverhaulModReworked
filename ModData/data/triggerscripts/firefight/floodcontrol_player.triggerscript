@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="floodcontrol_player.triggerscript" Type="TriggerScript" NextTriggerVarID="854" NextTriggerID="66" NextConditionID="98" NextEffectID="327" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Unit" Name="ExternalUnitVar1" IsNull="true" />
+		<TriggerVar ID="2" Type="UnitList" Name="ExternalUnitListVar1" IsNull="true" />
+		<TriggerVar ID="3" Type="Squad" Name="ExternalSquadVar1" IsNull="true" />
+		<TriggerVar ID="4" Type="SquadList" Name="ExternalSquadListVar1" IsNull="true" />
+		<TriggerVar ID="6" Type="Power" Name="ExternalPowerVar1" IsNull="true" />
+		<TriggerVar ID="7" Type="Cost" Name="ExternalCostVar1" IsNull="true" />
+		<TriggerVar ID="8" Type="Vector" Name="ExternalLocationVar1" IsNull="true" />
+		<TriggerVar ID="9" Type="VectorList" Name="ExternalLocationListVar1" IsNull="true" />
+		<TriggerVar ID="10" Type="Player" Name="Player" IsNull="false" />
+		<TriggerVar ID="11" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="12" Type="Squad" Name="ExternSquadVar1" IsNull="true" />
+		<TriggerVar ID="13" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="14" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+		<TriggerVar ID="15" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="16" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+		<TriggerVar ID="17" Type="String" Name="" IsNull="false">firefight\floodcontrol_skirmishplayer.triggerscript</TriggerVar>
+		<TriggerVar ID="18" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+		<TriggerVar ID="144" Type="Leader" Name="" IsNull="false">Arbiter</TriggerVar>
+		<TriggerVar ID="145" Type="Leader" Name="" IsNull="false">Brute Chieftain</TriggerVar>
+		<TriggerVar ID="146" Type="Leader" Name="" IsNull="false">Prophet of Mercy</TriggerVar>
+		<TriggerVar ID="240" Type="Leader" Name="" IsNull="false">Cutter</TriggerVar>
+		<TriggerVar ID="241" Type="Leader" Name="" IsNull="false">Forge</TriggerVar>
+		<TriggerVar ID="242" Type="Leader" Name="" IsNull="false">Anders</TriggerVar>
+		<TriggerVar ID="500" Type="Tech" Name="" IsNull="false">unsc_warthog_upgrade1</TriggerVar>
+		<TriggerVar ID="501" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade1</TriggerVar>
+		<TriggerVar ID="502" Type="Tech" Name="" IsNull="false">cov_ghost_upgrade1</TriggerVar>
+		<TriggerVar ID="503" Type="Cost" Name="" IsNull="false">0=1200,1=0,2=0,3=0,4=0</TriggerVar>
+		<TriggerVar ID="504" Type="Leader" Name="" IsNull="false">BanishedBrute</TriggerVar>
+		<TriggerVar ID="505" Type="Leader" Name="" IsNull="false">BanishedElite</TriggerVar>
+		<TriggerVar ID="506" Type="Cost" Name="" IsNull="false">0=1500,1=0,2=0,3=0,4=0</TriggerVar>
+		<TriggerVar ID="507" Type="Tech" Name="" IsNull="false">cov_ghost_upgrade1</TriggerVar>
+		<TriggerVar ID="508" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade1</TriggerVar>
+		<TriggerVar ID="509" Type="Trigger" Name="TriggerVar7" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="510" Type="Trigger" Name="TriggerVar7" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="511" Type="Trigger" Name="TriggerVar7" IsNull="false">4</TriggerVar>
+		<TriggerVar ID="512" Type="Trigger" Name="TriggerVar7" IsNull="false">5</TriggerVar>
+		<TriggerVar ID="513" Type="Trigger" Name="TriggerVar7" IsNull="false">6</TriggerVar>
+		<TriggerVar ID="514" Type="Leader" Name="" IsNull="false">Flood</TriggerVar>
+		<TriggerVar ID="515" Type="Trigger" Name="TriggerVar7" IsNull="false">7</TriggerVar>
+		<TriggerVar ID="1092" Type="String" Name="" IsNull="false">firefight\floodcontrol_startbonus.triggerscript</TriggerVar>
+		<TriggerVar ID="1093" Type="Unit" Name="ExternalUnitVar1" IsNull="true" />
+		<TriggerVar ID="1094" Type="UnitList" Name="ExternalUnitListVar1" IsNull="true" />
+		<TriggerVar ID="1095" Type="Squad" Name="ExternalSquadVar1" IsNull="true" />
+		<TriggerVar ID="1096" Type="SquadList" Name="ExternalSquadListVar1" IsNull="true" />
+		<TriggerVar ID="1097" Type="Power" Name="ExternalPowerVar1" IsNull="true" />
+		<TriggerVar ID="1098" Type="Cost" Name="ExternalCostVar1" IsNull="true" />
+		<TriggerVar ID="1099" Type="Vector" Name="ExternalLocationVar1" IsNull="true" />
+		<TriggerVar ID="1100" Type="VectorList" Name="ExternalLocationListVar1" IsNull="true" />
+		<TriggerVar ID="1101" Type="Float" Name="ExternalFloatVar1" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="0" Name="Startup and launch skirmish rules" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="167" Y="233" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">10</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">11</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">12</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">13</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">14</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">15</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">16</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="198" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">17</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">1</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">2</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">3</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">4</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">10</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">6</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">7</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">8</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">9</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">18</Input>
+				</Effect>
+				<Effect ID="2123" Type="LaunchScript" DBID="392" Version="4" CommentOut="false">
+					<Input Name="ScriptName" SigID="15" Optional="false">1092</Input>
+					<Input Name="ExternalUnit" SigID="2" Optional="true">1093</Input>
+					<Input Name="ExternalUnitList" SigID="3" Optional="true">1094</Input>
+					<Input Name="ExternalSquad" SigID="4" Optional="true">1095</Input>
+					<Input Name="ExternalSquadList" SigID="5" Optional="true">1096</Input>
+					<Input Name="ExternalPlayer" SigID="6" Optional="true">10</Input>
+					<Input Name="ExternalPower" SigID="7" Optional="true">1097</Input>
+					<Input Name="ExternalCost" SigID="8" Optional="true">1098</Input>
+					<Input Name="ExternalLocation" SigID="11" Optional="true">1099</Input>
+					<Input Name="ExternalLocationList" SigID="12" Optional="true">1100</Input>
+					<Input Name="ExternalFloat" SigID="13" Optional="true">1101</Input>
+				</Effect>
+				<Effect ID="10" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">509</Input>
+				</Effect>
+				<Effect ID="11" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">510</Input>
+				</Effect>
+				<Effect ID="12" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">511</Input>
+				</Effect>
+				<Effect ID="13" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">512</Input>
+				</Effect>
+				<Effect ID="14" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">513</Input>
+				</Effect>
+				<Effect ID="15" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">515</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="2" Name="Arbiter Prophet Player Ready" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="964" Y="569" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<Or>
+					<Condition ID="400" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">144</Input>
+					</Condition>
+					<Condition ID="401" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">146</Input>
+					</Condition>
+				</Or>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="500" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">503</Input>
+				</Effect>
+				<Effect ID="501" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">502</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="3" Name="Brute Player Ready" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="964" Y="569" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="402" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">145</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="502" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">503</Input>
+				</Effect>
+				<Effect ID="503" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">501</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="4" Name="UNSC Player Ready" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1062" Y="459" GroupID="1" TemplateID="-1">
+			<TriggerConditions>
+				<Or>
+					<Condition ID="403" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">240</Input>
+					</Condition>
+					<Condition ID="404" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">241</Input>
+					</Condition>
+					<Condition ID="405" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">242</Input>
+					</Condition>
+				</Or>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="504" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">503</Input>
+				</Effect>
+				<Effect ID="505" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">500</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="5" Name="BanishedBrute" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1637" Y="573" GroupID="1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="406" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">504</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="506" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">506</Input>
+				</Effect>
+				<Effect ID="507" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">508</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="6" Name="BanishedElite" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1649" Y="1439" GroupID="1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="407" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">505</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="508" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">503</Input>
+				</Effect>
+				<Effect ID="509" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">507</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="7" Name="Flood Player" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1649" Y="1439" GroupID="1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="408" Type="PlayerUsingLeader" DBID="477" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">10</Input>
+						<Input Name="Leader" SigID="2" Optional="false">514</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="510" Type="SetResources" DBID="277" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Resources" SigID="2" Optional="false">503</Input>
+				</Effect>
+				<Effect ID="511" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">10</Input>
+					<Input Name="Tech" SigID="2" Optional="false">500</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

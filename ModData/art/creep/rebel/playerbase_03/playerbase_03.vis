@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\rebel\playerbase_03\playerbase_damaged_03</file>
+				<damagefile>creep\rebel\playerbase_03\playerbase_03</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>creep\rebel\arcadiaBase_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack01" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack02" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack03" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MachinegunAttack04" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

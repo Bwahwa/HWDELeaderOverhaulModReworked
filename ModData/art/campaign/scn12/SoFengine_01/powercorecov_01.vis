@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>campaign\scn12\sofengine_01\covcore</file>
+				<damagefile>campaign\scn12\sofengine_01\powercore_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="TempleShield" tobone="TempleShieldAttach" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Shield" tobone="SmallShieldAttach" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\Cov\temple\researchFX_01" tobone="BeamFX" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>campaign\scn02\methanerefine_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.33" end="1" name="effects\environment\harvest\methanepopoff_01" tobone="MethaneFX1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.33" end="1" name="effects\environment\harvest\methanepopoff_01" tobone="MethaneFX2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.6" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.33" end="1" name="play_ani_cov_supplypad_drop" tobone="SoundBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.66" end="1" name="effects\environment\harvest\methanepopoff_01" tobone="MethaneFX3" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.66" end="1" name="effects\environment\harvest\methanepopoff_01" tobone="MethaneFX4" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.6" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.66" end="1" name="play_ani_cov_supplypad_drop" tobone="SoundBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.99" end="1" name="effects\environment\harvest\methanepopoff_01" tobone="MethaneFX5" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.3" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.99" end="1" name="effects\environment\harvest\methanepopoff_01" tobone="MethaneFX6" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="3.6" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.99" end="1" name="play_ani_cov_supplypad_drop" tobone="SoundBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Research" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_threeseconds</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.032" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_smoke01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.147" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_sparks03" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.635" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_reactorcaps01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.782" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_fire02" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_threeseconds</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.032" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_smoke01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.147" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_sparks03" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.635" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_reactorcaps01" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.782" end="1" name="effects\impacts\unsc\tankshell_02\tankshell_02" tobone="bone_fire02" checkvisible="true" lockToGround="false" attach="false" disregardorient="true" force="0" force2="0" lifespan="2.28" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="TempleShield">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\building\shield_01\shield_socketTemple03_01</file>
+			</asset>
+		</component>
+		<anim type="100health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.899999976158142</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.899999976158142</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="75health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.599999964237213</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.599999964237213</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="50health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.299999982118607</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.299999982118607</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_sixseconds</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.267999976873398</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="25health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.149999991059303</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0410999990999699</Value>
+							<Alpha>0.0769999995827675</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.020499998703599</Value>
+							<Alpha>0.169400006532669</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0958999991416931</Value>
+							<Alpha>0.253600001335144</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.020499998703599</Value>
+							<Alpha>0.323399990797043</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.157499998807907</Value>
+							<Alpha>0.421999990940094</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0410999990999699</Value>
+							<Alpha>0.487699955701828</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.315099984407425</Value>
+							<Alpha>0.625299990177155</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0410999990999699</Value>
+							<Alpha>0.748499989509583</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.149999991059303</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+	</model>
+	<model name="Shield">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\building\shield_01\shield_socketSmall_01</file>
+			</asset>
+		</component>
+		<anim type="100health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.899999976158142</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.899999976158142</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="75health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.599999964237213</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.599999964237213</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="50health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.299999982118607</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.299999982118607</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_sixseconds</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0</Value>
+							<Alpha>0.267999976873398</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>1</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+		<anim type="25health" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>effects\fx_dummy_onesecond</file>
+				<weight>1</weight>
+				<progression>
+					<Stages>
+						<FloatProgressionStage>
+							<Value>0.149999991059303</Value>
+							<Alpha>0</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0410999990999699</Value>
+							<Alpha>0.0769999995827675</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.020499998703599</Value>
+							<Alpha>0.169400006532669</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0958999991416931</Value>
+							<Alpha>0.253600001335144</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.020499998703599</Value>
+							<Alpha>0.323399990797043</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.157499998807907</Value>
+							<Alpha>0.421999990940094</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0410999990999699</Value>
+							<Alpha>0.487699955701828</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.315099984407425</Value>
+							<Alpha>0.625299990177155</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.0410999990999699</Value>
+							<Alpha>0.748499989509583</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+						<FloatProgressionStage>
+							<Value>0.149999991059303</Value>
+							<Alpha>1</Alpha>
+							<ValueVariance>0</ValueVariance>
+						</FloatProgressionStage>
+					</Stages>
+					<Cycles>1</Cycles>
+					<Loop>false</Loop>
+				</progression>
+			</asset>
+		</anim>
+	</model>
+</visual>

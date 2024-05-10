@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultmodel="mantis01">
+	<model name="mantis01">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mantis_01\mesh_mantis01</file>
+				<damagefile>unsc\vehicle\mantis_01\legs</damagefile>
+			</asset>
+			<attach type="ModelRef" name="body_0" tobone="socketbone_body_0" frombone="GrannyRootBone_body_0" syncanims="true" disregardorient="false" />
+			<point pointType="Board" bone="bone_hijack_0" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_02</file>
+				<weight>23</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_03</file>
+				<weight>50</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_04</file>
+				<weight>3</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\walk_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.141000003" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.217999995" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.602999985" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.672999978" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\walk_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.0189999994" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.217999995" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.577000022" end="1" name="ani_mk1_walk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.672999978" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone L Foot" syncanims="false" disregardorient="true" />
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone R Foot" syncanims="false" disregardorient="true" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\jog_01</file>
+				<weight>1</weight>
+				<tag type="TerrainEffect" start="0" position="0.217999995" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone L Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainEffect" start="0" position="0.672999978" end="1" name="effects\terraineffects\UNSC_cyclops" tobone="Bone R Foot" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone L Foot" syncanims="false" disregardorient="false" />
+			<attach type="TerrainEffect" name="effects\terraineffects\UNSC_cyclops_FX" tobone="Bone R Foot" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="effects\special\unit_hourglass_01" tobone="Bone Mark1" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Build" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="UpgradeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\attack_01</file>
+				<weight>6</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\attack_01</file>
+				<weight>6</weight>
+			</asset>
+		</anim>
+		<anim type="GuassAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\attack_01</file>
+				<weight>6</weight>
+			</asset>
+		</anim>
+		<anim type="StandardRocket" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\attack_01</file>
+				<weight>6</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="body_0">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mantis_01\mesh_body_0</file>
+				<damagefile />
+			</asset>
+			<attach type="ModelRef" name="machine_gun" tobone="socketbone_hand_right_0" frombone="GrannyRootBone_hand_right_0" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="rocket_launcher_upgrade" tobone="socketbone_hand_left_0" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="rocket_launcher" tobone="socketbone_hand_left_0" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\death_body_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="UpgradeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="Attack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="GuassAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+		<anim type="StandardRocket" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_01</file>
+				<weight>6</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\idle_body_02</file>
+				<weight>23</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="rocket_launcher_upgrade">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_mantis_upgrade3" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mantis_01\mesh_hand_left_upgrade_0</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc/infantry/marine_01/nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mantis_01\mesh_hand_left_upgrade_0</file>
+				<damagefile />
+			</asset>
+		</component>
+		<anim type="UpgradeAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\mantis_attack_hand_left02</file>
+				<weight>6</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_vfx_MissileMuzzle1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.006" end="1" tobone="bone_rocket_left_end_upgrade_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.006" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_rocket_left_end_upgrade_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.29" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_vfx_MissileMuzzle1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.29" end="1" tobone="bone_rocket_left_end_upgrade_2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.29" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_rocket_left_end_upgrade_2" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.52" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_vfx_MissileMuzzle3" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.52" end="1" tobone="bone_rocket_left_end_upgrade_1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.52" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_rocket_left_end_upgrade_1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.79" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_vfx_MissileMuzzle3" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.79" end="1" tobone="bone_rocket_left_end_3_upgrade_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.79" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_rocket_left_end_3_upgrade_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="machine_gun">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mantis_01\mesh_hand_right_0</file>
+			</asset>
+		</component>
+		<anim type="Attack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\gun_attack_01</file>
+				<weight>6</weight>
+				<tag type="Attack" start="0" position="0.1" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.1" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.2" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.2" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.3" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.3" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.4" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.4" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.5" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.5" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.6" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.6" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.7" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.7" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.8" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.8" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.9" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.9" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.97" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.97" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.15" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.15" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.25" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.35" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.35" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.45" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.45" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.55" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.55" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.65" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.65" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.75" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.75" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.85" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.85" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.95" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.95" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GuassAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\gun_attack_01</file>
+				<weight>6</weight>
+				<tag type="Attack" start="0" position="0.100000001" end="1" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.100000001" end="1" name="effects/Unit_FX/unsc/spartan/spartanmgmuzzleblast_01" tobone="bone_vfx_ChainGunMuzzle" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.49000001" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="rocket_launcher">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_mantis_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc/infantry/marine_01/nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mantis_01\mesh_hand_left_0</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mantis_01\mesh_hand_left_0</file>
+				<damagefile />
+			</asset>
+		</component>
+		<anim type="StandardRocket" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\mantis_01\mantis_attack_hand_left02_small</file>
+				<weight>6</weight>
+				<tag type="Particle" start="0" position="0.006" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_vfx_MissileMuzzle5" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.006" end="1" tobone="bone_rocket_left_end_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.006" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_rocket_left_end_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.49000001" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_vfx_MissileMuzzle5" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="4" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.49000001" end="1" tobone="bone_rocket_left_end_1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.49000001" end="1" name="play_unsc_odst_rocket_launcher" tobone="bone_rocket_left_end_1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.899999976" end="1" name="PLAY_SFX_3D_FLY_UNSC_Mantis_MissileReload" tobone="GrannyRootBone_hand_left_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+</visual>

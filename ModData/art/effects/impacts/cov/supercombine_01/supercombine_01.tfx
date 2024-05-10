@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\cov\supercombine_01\supercombine_01</particlefile>
+   </default>
+
+</TerrainEffect>

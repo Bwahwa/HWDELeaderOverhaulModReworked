@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="newTriggerscript.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger5303348Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="2" Type="Tech" Name="newTechVar1" IsNull="false">HumanPlayerBuildingTransform</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger5303348" ID="1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="34" Y="-266" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="PlayerIsHuman" DBID="426" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">1</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+          <Input Name="Player" SigID="1" Optional="false">1</Input>
+          <Input Name="Tech" SigID="2" Optional="false">2</Input>
+        </Effect>
+        <Effect ID="1" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="rebel_salvage_spade_01.triggerscript" Type="TriggerScript" NextTriggerVarID="26" NextTriggerID="2" NextConditionID="2" NextEffectID="6" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="setupVar" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="newPlayerVar" IsNull="false" />
+		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
+		<TriggerVar ID="4" Type="Squad" Name="newSquadVar" IsNull="false" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="10" Type="Object" Name="nullObjectVar" IsNull="true" />
+		<TriggerVar ID="11" Type="Vector" Name="newVectorVar" IsNull="false" />
+		<TriggerVar ID="12" Type="ProtoSquad" Name="newProtoSquadVar" IsNull="false">rebel_inf_infantry_01</TriggerVar>
+		<TriggerVar ID="13" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="14" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="15" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="16" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="17" Type="Bool" Name="nullBoolVar" IsNull="true" />
+		<TriggerVar ID="18" Type="Squad" Name="newSquadVar" IsNull="false" />
+		<TriggerVar ID="19" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="20" Type="Bool" Name="nullBoolVar" IsNull="true" />
+		<TriggerVar ID="21" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="22" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="23" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="24" Type="Bool" Name="nullBoolVar" IsNull="true" />
+		<TriggerVar ID="25" Type="Bool" Name="nullBoolVar" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="setup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="48" Y="-208" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">9</Input>
+					<Input Name="Squad" SigID="2" Optional="true">4</Input>
+					<Input Name="Object" SigID="4" Optional="true">10</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">11</Output>
+				</Effect>
+				<Effect ID="2" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+					<Input Name="ProtoSquad" SigID="1" Optional="false">12</Input>
+					<Input Name="CreateLocation" SigID="2" Optional="false">11</Input>
+					<Input Name="Facing" SigID="12" Optional="true">13</Input>
+					<Input Name="SquadOwner" SigID="3" Optional="false">2</Input>
+					<Input Name="FlyInStart" SigID="8" Optional="true">14</Input>
+					<Input Name="FlyInEnd" SigID="9" Optional="true">15</Input>
+					<Input Name="RallyPoint" SigID="10" Optional="true">16</Input>
+					<Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">17</Input>
+					<Output Name="CreatedSquad" SigID="4" Optional="true">18</Output>
+					<Output Name="AddToSquadList" SigID="5" Optional="true">19</Output>
+					<Output Name="SquadListClearExisting" SigID="6" Optional="true">20</Output>
+				</Effect>
+				<Effect ID="3" Type="Move" DBID="66" Version="6" CommentOut="false">
+					<Input Name="Squad" SigID="1" Optional="true">18</Input>
+					<Input Name="SquadList" SigID="5" Optional="true">21</Input>
+					<Input Name="TargetUnit" SigID="6" Optional="true">22</Input>
+					<Input Name="TargetSquad" SigID="7" Optional="true">4</Input>
+					<Input Name="TargetLocation" SigID="2" Optional="true">23</Input>
+					<Input Name="AttackMove" SigID="8" Optional="true">24</Input>
+					<Input Name="QueueOrder" SigID="9" Optional="true">25</Input>
+				</Effect>
+				<Effect ID="4" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="5" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

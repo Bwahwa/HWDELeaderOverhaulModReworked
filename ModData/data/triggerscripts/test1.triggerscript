@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="test1.triggerscript" Type="TriggerScript" NextTriggerVarID="9999" NextTriggerID="9999" NextConditionID="9999" NextEffectID="9999">
+  <TriggerGroups />
+  <TriggerVars>
+    <TriggerVar ID="2" Type="Player" Name="NewPlayer2" IsNull="false" />
+    <TriggerVar ID="3" Type="ProtoSquadList" Name="NewProtoSquadList3" IsNull="false">rebel_inf_emptrooper_01,cov_inf_grunt_01</TriggerVar>
+    <TriggerVar ID="4" Type="Vector" Name="NewVector4" IsNull="false" />
+    <TriggerVar ID="5" Type="Power" Name="nullPower" IsNull="true" />
+    <TriggerVar ID="6" Type="Squad" Name="nullSquad" IsNull="true" />
+    <TriggerVar ID="7" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="8" Type="Unit" Name="nullUnit" IsNull="true" />
+    <TriggerVar ID="9" Type="UnitList" Name="nullUnitList" IsNull="true" />
+    <TriggerVar ID="10" Type="Cost" Name="nullCost" IsNull="true" />
+    <TriggerVar ID="11" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="12" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="13" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="14" Type="Vector" Name="nullVector" IsNull="true" />
+    <TriggerVar ID="15" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="16" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="17" Type="SquadList" Name="nullSquadList" IsNull="true" />
+    <TriggerVar ID="18" Type="Bool" Name="nullBool" IsNull="true" />
+    <TriggerVar ID="19" Type="Trigger" Name="NewTrigger0" IsNull="false">0</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger ID="0" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-2356" Y="-1018" GroupID="-1" TemplateID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">5</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">6</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">7</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">8</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">9</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">10</Output>
+          </Condition>
+          <Condition ID="4" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">4</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="1" Type="CreateSquads" DBID="875" Version="1" CommentOut="false">
+          <Input Name="FlyInSquads" SigID="1" Optional="false">3</Input>
+          <Input Name="Player" SigID="2" Optional="false">2</Input>
+          <Input Name="CreatePosition" SigID="3" Optional="false">4</Input>
+          <Input Name="Facing" SigID="4" Optional="true">11</Input>
+          <Input Name="FlyInStart" SigID="5" Optional="true">12</Input>
+          <Input Name="FlyInEnd" SigID="6" Optional="true">13</Input>
+          <Input Name="RallyPoint" SigID="7" Optional="true">14</Input>
+          <Input Name="AttackMoveRallyPoint" SigID="8" Optional="true">15</Input>
+          <Output Name="CreatedSquads" SigID="9" Optional="true">16</Output>
+          <Output Name="AddToList" SigID="10" Optional="true">17</Output>
+          <Output Name="ClearExisting" SigID="11" Optional="true">18</Output>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

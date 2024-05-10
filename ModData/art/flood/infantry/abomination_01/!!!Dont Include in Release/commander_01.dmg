@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<damagetemplate xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<intactToFracturedThreshold>0.75</intactToFracturedThreshold>
+	<fracturedToDestructibleThreshold>0.75</fracturedToDestructibleThreshold>
+	<percentagebased>
+		<event />
+		<event />
+		<event />
+		<event />
+		<event>
+			<action delay="5" span="3" weaponFilter="All" type="dissolvedeath" />
+			<action delay="7.98999977" type="puredelay" />
+		</event>
+	</percentagebased>
+</damagetemplate>

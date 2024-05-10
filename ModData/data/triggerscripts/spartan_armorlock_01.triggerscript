@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="spartan_armorlock_01.triggerscript" Type="TriggerScript" NextTriggerVarID="23" NextTriggerID="4" NextConditionID="4" NextEffectID="7" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="NewTrigger0Var" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="newPlayerVar" IsNull="false" />
+		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
+		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="newUnitVar" IsNull="false" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="Squad" Name="linkedSquadVar" IsNull="false" />
+		<TriggerVar ID="10" Type="Trigger" Name="NewTrigger2Var" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="11" Type="Bool" Name="nullBoolVar" IsNull="true" />
+		<TriggerVar ID="12" Type="Bool" Name="linkedBoolVar" IsNull="false" />
+		<TriggerVar ID="13" Type="Trigger" Name="NewTrigger3Var" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="14" Type="Operator" Name="newOperatorVar" IsNull="false">EqualTo</TriggerVar>
+		<TriggerVar ID="15" Type="Bool" Name="newBoolVar" IsNull="false">True</TriggerVar>
+		<TriggerVar ID="16" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="17" Type="Object" Name="nullObjectVar" IsNull="true" />
+		<TriggerVar ID="18" Type="Vector" Name="newVectorVar" IsNull="false" />
+		<TriggerVar ID="19" Type="Vector" Name="linkedVectorVar" IsNull="false" />
+		<TriggerVar ID="20" Type="ProtoObject" Name="newProtoObjectVar" IsNull="false">pow_cp_smallExplode_01</TriggerVar>
+		<TriggerVar ID="21" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="22" Type="Float" Name="nullFloatVar" IsNull="true" />
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="NewTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="569" Y="262" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="GetParentSquad" DBID="519" Version="1" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="false">6</Input>
+					<Output Name="ParentSquad" SigID="2" Optional="false">9</Output>
+				</Effect>
+				<Effect ID="6" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">10</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="2" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1495" Y="350" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2" Type="CheckModeChange" DBID="386" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Squad" SigID="1" Optional="false">9</Input>
+						<Output Name="Result" SigID="3" Optional="true">11</Output>
+						<Output Name="IsNormal" SigID="2" Optional="true">12</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="5" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">13</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="3" Name="NewTrigger3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="2265" Y="469" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="3" Type="CompareBool" DBID="114" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstBool" SigID="1" Optional="false">12</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">14</Input>
+						<Input Name="SecondBool" SigID="3" Optional="false">15</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="2" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">6</Input>
+					<Input Name="Squad" SigID="2" Optional="true">16</Input>
+					<Input Name="Object" SigID="4" Optional="true">17</Input>
+					<Output Name="OutputLocation" SigID="3" Optional="false">18</Output>
+				</Effect>
+				<Effect ID="3" Type="LocationTieToGround" DBID="58" Version="1" CommentOut="false">
+					<Input Name="SourceLocation" SigID="1" Optional="false">18</Input>
+					<Output Name="GroundLocation" SigID="2" Optional="false">19</Output>
+				</Effect>
+				<Effect ID="4" Type="LaunchProjectile" DBID="57" Version="3" CommentOut="false">
+					<Input Name="ProjectileOwner" SigID="1" Optional="false">2</Input>
+					<Input Name="ProjectileProto" SigID="2" Optional="false">20</Input>
+					<Input Name="StartLoc" SigID="3" Optional="false">18</Input>
+					<Input Name="TargetLoc" SigID="4" Optional="true">19</Input>
+					<Input Name="TargetUnit" SigID="5" Optional="true">21</Input>
+					<Input Name="DamageOverride" SigID="6" Optional="true">22</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

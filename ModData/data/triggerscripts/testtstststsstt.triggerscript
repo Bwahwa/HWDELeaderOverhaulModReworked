@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="New Triggerscript.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger4017234Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Squad" Name="newSquadVar1" IsNull="false" />
+    <TriggerVar ID="2" Type="AnimType" Name="newAnimTypeVar1" IsNull="false">Train</TriggerVar>
+    <TriggerVar ID="3" Type="Time" Name="nullTimeVar" IsNull="true" />
+    <TriggerVar ID="4" Type="Player" Name="nullPlayerVar" IsNull="true" />
+    <TriggerVar ID="5" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="6" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="7" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="8" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="9" Type="Cost" Name="nullCostVar" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger4017234" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="208.4" Y="-124.6" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">4</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">5</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">1</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">6</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">7</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">8</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">9</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="PlayAnimationSquad" DBID="160" Version="2" CommentOut="false">
+          <Input Name="SquadToAnimate" SigID="1" Optional="false">1</Input>
+          <Input Name="AnimType" SigID="2" Optional="false">2</Input>
+          <Output Name="AnimDuration" SigID="4" Optional="true">3</Output>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

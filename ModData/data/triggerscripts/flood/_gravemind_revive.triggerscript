@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="_gravemind_revive.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="StartVar" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Trigger" Name="AI?GetCloseBuildingsVar" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="2" Type="Trigger" Name="GetOneCloseBuildingBuildBaseVar" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="3" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="5" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="6" Type="Player" Name="nullPlayerVar" IsNull="true" />
+    <TriggerVar ID="7" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="8" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="9" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="10" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="11" Type="Cost" Name="nullCostVar" IsNull="true" />
+    <TriggerVar ID="12" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+    <TriggerVar ID="13" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">Building</TriggerVar>
+    <TriggerVar ID="14" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="15" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="16" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="17" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="18" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="19" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="20" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="21" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="22" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="23" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="24" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="25" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="26" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="27" Type="Player" Name="GaiaPlayer" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="28" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false" />
+    <TriggerVar ID="29" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="30" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="31" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="32" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="33" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="34" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="35" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="36" Type="Tech" Name="nullTechVar" IsNull="true" />
+    <TriggerVar ID="37" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="38" Type="Bool" Name="newBoolVar1" IsNull="false" />
+    <TriggerVar ID="39" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">fld_bldg_gravemind_01</TriggerVar>
+    <TriggerVar ID="40" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="41" Type="ListPosition" Name="newListPositionVar1" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="200" Type="Trigger" Name="TransformVar" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="201" Type="Trigger" Name="TransformVar" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="203" Type="PlayerList" Name="nullPlayerListVar" IsNull="true" />
+    <TriggerVar ID="204" Type="ObjectType" Name="newObjectTypeVar1" IsNull="false">MainBaseBuilding</TriggerVar>
+    <TriggerVar ID="205" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="206" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="207" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="208" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="209" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="210" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="211" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="212" Type="UnitList" Name="newUnitListVar1" IsNull="false" />
+    <TriggerVar ID="213" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="214" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">fld_bldg_gravemind_01</TriggerVar>
+    <TriggerVar ID="215" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="216" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="217" Type="ListPosition" Name="newListPositionVar1" IsNull="false">Random</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="Start" ID="1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-506" Y="-203" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">6</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">7</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">8</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">9</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">3</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">10</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">11</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetOwner" DBID="193" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">3</Input>
+          <Input Name="Squad" SigID="2" Optional="true">4</Input>
+          <Output Name="Owner" SigID="3" Optional="false">5</Output>
+        </Effect>
+        <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">1</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="AI?GetCloseBuildings" ID="2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="640" Y="-146" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+          </Condition>
+          <Condition ID="2" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FilterPlayer" SigID="3" Optional="true">5</Input>
+            <Input Name="FilterPlayerList" SigID="10" Optional="true">12</Input>
+            <Input Name="FilterObjectType" SigID="4" Optional="true">13</Input>
+            <Input Name="FilterLocation" SigID="1" Optional="true">14</Input>
+            <Input Name="FilterDistance" SigID="2" Optional="true">15</Input>
+            <Input Name="FilterBoxForward" SigID="11" Optional="true">16</Input>
+            <Input Name="FilterBoxHalfX" SigID="13" Optional="true">17</Input>
+            <Input Name="FilterBoxHalfY" SigID="14" Optional="true">18</Input>
+            <Input Name="FilterBoxHalfZ" SigID="15" Optional="true">19</Input>
+            <Input Name="FilterUnitList" SigID="9" Optional="true">20</Input>
+            <Output Name="FoundUnits" SigID="8" Optional="true">21</Output>
+            <Output Name="FoundUnitCount" SigID="6" Optional="true">22</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="2" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">200</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="GetOneCloseBuildingBuildBase" ID="3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="1248,6" Y="-160,2" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="CanGetOneUnit" DBID="356" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="UnitList" SigID="1" Optional="false">21</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">41</Input>
+            <Output Name="FoundUnit" SigID="3" Optional="false">23</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">23</Input>
+          <Input Name="Squad" SigID="2" Optional="true">24</Input>
+          <Input Name="Object" SigID="4" Optional="true">25</Input>
+          <Output Name="OutputLocation" SigID="3" Optional="false">26</Output>
+        </Effect>
+        <Effect ID="4" Type="GetUnits" DBID="112" Version="3" CommentOut="false">
+          <Input Name="FilterPlayer" SigID="1" Optional="true">27</Input>
+          <Input Name="FilterObjectType" SigID="2" Optional="true">28</Input>
+          <Input Name="FilterLocation" SigID="3" Optional="true">29</Input>
+          <Input Name="FilterDistance" SigID="4" Optional="true">30</Input>
+          <Input Name="FilterUnitList" SigID="7" Optional="true">31</Input>
+          <Output Name="FoundUnits" SigID="5" Optional="true">32</Output>
+          <Output Name="FoundUnitCount" SigID="6" Optional="true">33</Output>
+        </Effect>
+        <Effect ID="5" Type="GetClosestUnit" DBID="939" Version="1" CommentOut="false">
+          <Input Name="UnitList" SigID="1" Optional="false">32</Input>
+          <Input Name="TestLocation" SigID="2" Optional="false">26</Input>
+          <Output Name="ClosestUnit" SigID="4" Optional="false">34</Output>
+        </Effect>
+        <Effect ID="6" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">34</Input>
+          <Input Name="ProtoSquad" SigID="2" Optional="true">35</Input>
+          <Input Name="Tech" SigID="6" Optional="true">36</Input>
+          <Input Name="Count" SigID="3" Optional="true">37</Input>
+          <Input Name="NoCost" SigID="4" Optional="true">38</Input>
+          <Input Name="ProtoBuilding" SigID="7" Optional="true">39</Input>
+          <Input Name="Player" SigID="8" Optional="true">5</Input>
+          <Output Name="BuildingCommandState" SigID="5" Optional="true">40</Output>
+        </Effect>
+        <Effect ID="7" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="CheckForHives" ID="4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="338,8" Y="-621,4" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="15" Type="CanGetUnits" DBID="2" Version="6" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FilterPlayer" SigID="3" Optional="true">5</Input>
+            <Input Name="FilterPlayerList" SigID="10" Optional="true">203</Input>
+            <Input Name="FilterObjectType" SigID="4" Optional="true">204</Input>
+            <Input Name="FilterLocation" SigID="1" Optional="true">205</Input>
+            <Input Name="FilterDistance" SigID="2" Optional="true">206</Input>
+            <Input Name="FilterBoxForward" SigID="11" Optional="true">207</Input>
+            <Input Name="FilterBoxHalfX" SigID="13" Optional="true">208</Input>
+            <Input Name="FilterBoxHalfY" SigID="14" Optional="true">209</Input>
+            <Input Name="FilterBoxHalfZ" SigID="15" Optional="true">210</Input>
+            <Input Name="FilterUnitList" SigID="9" Optional="true">211</Input>
+            <Output Name="FoundUnits" SigID="8" Optional="true">212</Output>
+            <Output Name="FoundUnitCount" SigID="6" Optional="true">213</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="60" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">201</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="61" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">2</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger Name="Transform" ID="5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="829,6" Y="-581,4" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="16" Type="CanGetOneUnit" DBID="356" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="UnitList" SigID="1" Optional="false">212</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">217</Input>
+            <Output Name="FoundUnit" SigID="3" Optional="false">215</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="62" Type="Transform" DBID="172" Version="1" CommentOut="false">
+          <Input Name="NewProtoObject" SigID="1" Optional="false">214</Input>
+          <Input Name="TransformUnit" SigID="2" Optional="true">215</Input>
+          <Input Name="TransformList" SigID="3" Optional="true">216</Input>
+        </Effect>
+        <Effect ID="63" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

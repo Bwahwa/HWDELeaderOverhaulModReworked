@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<logic type="Tech">
+				<logicdata value="creep_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>creep\rebel\watchtower_01\watchtower_damaged_01</file>
+						<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\watchtower_01\watchtower_damaged_01</file>
+						<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\rebel\watchtower_01\watchtower_damaged_01</file>
+				<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+			</asset>
+			<attach type="ModelFile" name="unsc\building\turretSocket_01\turretSocket_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="unsc\building\turretSocket_01\turretSocketTrim_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+	</model>
+	<model name="Con1_Queued">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\building\turretSocket_01\turretSocket_01</file>
+			</asset>
+			<attach type="ModelFile" name="unsc\building\turretSocket_01\turretSocketSubTerrain_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="unsc\building\turretSocket_01\turretSocketTrim_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Con1_Building" tobone="bone_attachpoint" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\socket\turretsocketsteamque_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\socket\turretsocketsteamstart_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretSocket_01\open_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="ani_unsc_command_clunk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="ani_unsc_command_start_lockdown" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="TerrainAlpha" start="0" position="0" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" userData="sizeX=4.0 sizeZ=4.0 value=off type=rect" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.295" end="1" name="ani_steam_start_02" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.301" end="1" name="ani_unsc_command_clunk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.436" end="1" name="ani_unsc_command_clunk_02" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.5" end="1" name="ani_unsc_command_door_drop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.808" end="1" name="ani_unsc_command_clunk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.859" end="1" name="ani_unsc_command_clunk_02" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretSocket_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_command_center_lock_unlock" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="TerrainAlpha" start="0" position="0" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" userData="sizeX=6 sizeZ=6 value=on type=rect" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Con1_Building">
+		<component>
+			<logic type="Tech">
+				<logicdata value="creep_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>creep\rebel\watchtower_01\watchtower_damaged_01</file>
+						<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\watchtower_01\watchtower_damaged_01</file>
+						<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\rebel\watchtower_01\watchtower_damaged_01</file>
+				<damagefile>unsc\building\turret_01\turret_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretSocket_01\turretWait_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_med_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Sound" start="0" position="0" end="1" name="stop_turret" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0.019" end="1" name="effects\impacts\unsc\lightcannon_01\lightcannon_01" tobone="bone_impact_02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.077" end="1" name="effects\impacts\unsc\lightcannon_01\lightcannon_01" tobone="bone_impact_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.256" end="1" name="effects\impacts\unsc\lightcannon_01\lightcannon_01" tobone="bone_impact_00" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.327" end="1" name="effects\impacts\unsc\tankshell_01\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Con2_Rise">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\building\turretSocket_01\turretSocket_01</file>
+			</asset>
+			<attach type="ModelFile" name="unsc\building\turretSocket_01\turretSocketSubTerrain_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelFile" name="unsc\building\turretSocket_01\turretSocketTrim_01" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Con2_Building" tobone="bone_attachpoint" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\building_FX\unsc\socket\turretsocketsteam_01" tobone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretSocket_01\turretRaise_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="ani_servo_loop" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0" end="1" name="ani_unsc_command_clunk_02" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Light" start="0" position="0" end="1" name="unsc\building\turret_01\turretsocketlights_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="27.84" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.096" end="1" name="ani_unsc_command_clunk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.154" end="1" name="ani_servo_loop_02" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.154" end="1" name="ani_unsc_command_clunk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.16" end="1" name="play_ani_metal_groans" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.16" end="1" name="ani_alarm_01" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.301" end="1" name="play_ani_metal_groans" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.551" end="1" name="play_ani_metal_groans" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.859" end="1" name="play_ani_metal_groans" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.994" end="1" name="ani_unsc_command_clunk" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="1" end="1" name="stop_command_center_lock_unlock" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\socket_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="stop_command_center_lock_unlock" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="TerrainAlpha" start="0" position="0" end="1" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" userData="sizeX=6 sizeZ=6 value=on type=rect" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Con2_Building">
+		<component>
+			<logic type="Tech">
+				<logicdata value="creep_basic" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>creep\rebel\watchtower_01\watchtower_damaged_01</file>
+						<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\building\watchtower_01\watchtower_damaged_01</file>
+						<damagefile>creep\rebel\watchtower_01\watchtower_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\rebel\watchtower_01\watchtower_damaged_01</file>
+				<damagefile>unsc\building\turret_01\turret_01</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turretSocket_01\turretBuild_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\building\turret_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_med_lowpass" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Sound" start="0" position="0" end="1" name="stop_turret" tobone="GrannyRootBone" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="false" />
+				<tag type="Particle" start="0" position="0.019" end="1" name="effects\impacts\unsc\lightcannon_01\lightcannon_01" tobone="bone_impact_02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.077" end="1" name="effects\impacts\unsc\lightcannon_01\lightcannon_01" tobone="bone_impact_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.256" end="1" name="effects\impacts\unsc\lightcannon_01\lightcannon_01" tobone="bone_impact_00" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.327" end="1" name="effects\impacts\unsc\tankshell_01\tank_shell_impact_01" tobone="bone_impact_01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<logic type="BuildingCompletion">
+		<logicdata value="p0" modelref="Con1_Queued" weight="1" />
+		<logicdata value="p11" modelref="Con2_Rise" weight="1" />
+		<logicdata value="p100" modelref="Default" weight="1" />
+	</logic>
+</visual>

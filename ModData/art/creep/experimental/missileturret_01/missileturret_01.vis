@@ -1,0 +1,387 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\experimental\missileturret_01\MegaTurret_01</file>
+			</asset>
+			<attach type="ModelRef" name="Fence" tobone="GrannyRootBone" frombone="GrannyRootBone" syncanims="false" disregardorient="true" />
+			<attach type="ModelRef" name="Turret" tobone="bone_turret" frombone="bone_turret" syncanims="true" disregardorient="false" />
+			<point pointType="Cover" bone="bone_attachpoint01" pointData="Metal" />
+			<point pointType="Cover" bone="bone_attachpoint02" pointData="Metal" />
+			<point pointType="Cover" bone="bone_attachpoint03" pointData="Metal" />
+			<point pointType="Cover" bone="bone_attachpoint04" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MegaTurretAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="idle">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="BarrageAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\unlock_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\lock_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+<!--New Missile Turret-->
+	<model name="Turret">
+		<component>
+			<logic type="Tech">
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\wolverine_01\wolverine_turret_01</file>
+						<damagefile>unsc\vehicle\wolverine_01\wolverine_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\wolverine_01\wolverine_turret_01</file>
+			</asset>
+			<attach type="ModelRef" name="Gun" tobone="bone_mainpivotMotor01" frombone="bone_mainpivotMotor01" syncanims="true" disregardorient="false" />
+			<point pointType="Pickup" bone="GrannyRootBone" pointData="Metal" />
+
+		</component>
+	</model>
+
+	<model name="Gun">
+		<component>
+			<logic type="Tech">
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\wolverine_01\wolverine_missilehousing_022</file>
+						<damagefile>unsc\vehicle\wolverine_01\wolverine_01</damagefile>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\wolverine_01\wolverine_missilehousing_022</file>
+				<damagefile>unsc\vehicle\wolverine_01\wolverine_01</damagefile>
+			</asset>
+			<point pointType="Pickup" bone="GrannyRootBone" pointData="Metal" />
+		</component>
+<!--Upgraded Missile Barrage-->
+		<anim type="BarrageAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\wolverine_01\wolverine_barrage_01</file>
+				<weight>1</weight>
+				<tag type="Particle" start="0" position="0.09" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.115" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.215" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.219" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.12" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.12" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.12" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.145" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.245" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.149" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.249" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.16" end="1" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.16" end="1" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.15" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.175" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.275" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.179" end="1" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.279" end="1" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.18" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.18" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.18" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.205" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.305" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.209" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.309" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.21" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.21" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.269" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.269" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.369" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.270" end="1" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.370" end="1" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.270" end="1" tobone="bone_launchpoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.270" end="1" tobone="bone_launchpoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.299" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.299" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.399" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.300" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.400" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.300" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.300" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.329" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.329" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.429" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.330" end="1" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.430" end="1" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.330" end="1" tobone="bone_launchpoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.330" end="1" tobone="bone_launchpoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.359" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.359" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.459" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.360" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.460" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.360" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.360" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+
+
+
+
+				<tag type="Particle" start="0" position="0.19" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.215" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.315" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.219" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.319" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.22" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.22" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.22" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.245" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.345" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.249" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.349" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.26" end="1" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.26" end="1" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.25" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.275" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.375" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.279" end="1" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.379" end="1" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.28" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.28" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.28" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.305" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.405" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.309" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.409" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.31" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.31" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.369" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.369" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.469" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.370" end="1" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.470" end="1" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.370" end="1" tobone="bone_launchpoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.370" end="1" tobone="bone_launchpoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.399" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.399" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.499" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.400" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.500" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.400" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.400" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.429" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.429" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.529" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.430" end="1" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.530" end="1" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.430" end="1" tobone="bone_launchpoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.430" end="1" tobone="bone_launchpoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.459" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.459" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.559" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.460" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.560" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.460" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.460" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+
+
+
+				<tag type="Particle" start="0" position="0.29" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.315" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.415" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.319" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.419" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.32" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.32" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.32" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.345" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.445" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.349" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.449" end="1" tobone="bone_launchpoint02" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.36" end="1" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.36" end="1" tobone="bone_launchpoint02" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.35" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.375" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.475" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.379" end="1" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.479" end="1" tobone="bone_launchpoint03" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.38" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.38" end="1" tobone="bone_launchpoint03" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.38" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.405" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.505" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.409" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.509" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.41" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.41" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.469" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.469" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.569" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.470" end="1" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.570" end="1" tobone="bone_launchpoint05" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.470" end="1" tobone="bone_launchpoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.470" end="1" tobone="bone_launchpoint05" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.499" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.499" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.599" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.500" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.600" end="1" tobone="bone_launchpoint06" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.500" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.500" end="1" tobone="bone_launchpoint06" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.529" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.529" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.629" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.530" end="1" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.630" end="1" tobone="bone_launchpoint07" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.530" end="1" tobone="bone_launchpoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.530" end="1" tobone="bone_launchpoint07" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.559" end="1" name="effects\vehicle_fx\unsc\wolverine\singleblast_fire_01" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.559" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Sound" start="0" position="0.659" end="1" name="play_unsc_vulture_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Attack" start="0" position="0.560" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.660" end="1" tobone="bone_launchpoint08" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="1" position="0.560" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-15" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="PhysicsImpulse" start="0" position="0.560" end="1" tobone="bone_launchpoint08" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="-4" force2="0" lifespan="0" loop="false" checkSelected="false" checkFOW="true" />
+
+
+			</asset>
+		</anim>
+
+<!--End of New Missile Turret-->
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\unlock_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\lock_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Captured">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>hook\building\MegaTurret_01\MegaTurret_01</file>
+			</asset>
+			<attach type="ModelRef" name="Turret" tobone="bone_turret" frombone="bone_turret" syncanims="true" disregardorient="false" />
+			<point pointType="Cover" bone="bone_attachpoint01" pointData="Metal" />
+			<point pointType="Cover" bone="bone_attachpoint02" pointData="Metal" />
+			<point pointType="Cover" bone="bone_attachpoint03" pointData="Metal" />
+			<point pointType="Cover" bone="bone_attachpoint04" pointData="Metal" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MegaTurretAttack" exitAction="Transition" tweenTime="10" tweenToAnimation="idle">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\attack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\unlock_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="10" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\megaTurret_01\lock_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Fence">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\building\fieldarmorywalls_01\fieldarmorywalls_01</file>
+			</asset>
+		</component>
+	</model>
+</visual>

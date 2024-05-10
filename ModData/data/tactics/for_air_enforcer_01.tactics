@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>PlasmaCannons</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>650</DamagePerSecond>
+		<WeaponType>SmallArmsPlasma</WeaponType>
+		<Projectile>for_proj_enforcer_01</Projectile>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.33</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0.5</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<AOERadius>1</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Flood">10</TargetPriority>
+		<OverridesRevive />
+	</Weapon>
+	<Weapon>
+		<Name>PlasmaCannonsAir</Name>
+		<AttackRate>0.5</AttackRate>
+		<DamagePerSecond>650</DamagePerSecond>
+		<WeaponType>SmallArmsPlasma</WeaponType>
+		<Projectile>for_proj_enforcer_01</Projectile>
+		<MaxVelocityLead>30</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>0.33</Accuracy>
+		<MaxDeviation>1</MaxDeviation>
+		<MovingAccuracy>0.5</MovingAccuracy>
+		<MovingMaxDeviation>1.5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<AOERadius>1</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.25</AOEDamageFactor>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="Flood">10</TargetPriority>
+		<OverridesRevive />
+	</Weapon>
+	<Weapon>
+		<Name>Mortar</Name>
+		<AttackRate>3</AttackRate>
+		<DamagePerSecond>550</DamagePerSecond>
+		<WeaponType>LightExplosive</WeaponType>
+		<Projectile>fx_proj_enforcerCannon_01</Projectile>
+		<ImpactEffect size="Medium">cov_brutechopper_01</ImpactEffect>
+		<MaxVelocityLead>15</MaxVelocityLead>
+		<MaxRange>70</MaxRange>
+		<Accuracy>1</Accuracy>
+		<MaxDeviation>5</MaxDeviation>
+		<MovingAccuracy>0.4</MovingAccuracy>
+		<MovingMaxDeviation>16</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.33</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<AOERadius>5</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.25</AOEDistanceFactor>
+		<AOEDamageFactor>0.5</AOEDamageFactor>
+		<DamageRatingOverride type="Unarmored">0</DamageRatingOverride>
+		<TargetPriority type="TurretBuilding">10</TargetPriority>
+		<TargetPriority type="Building">-3</TargetPriority>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+		<OverridesRevive />
+	</Weapon>
+	<Action>
+		<Name>PlasmaCannonsAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaCannonsAttack</Anim>
+		<Weapon>PlasmaCannons</Weapon>
+		<MainAttack />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>PlasmaCannonsAirAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>PlasmaCannonsAttack</Anim>
+		<Weapon>PlasmaCannonsAir</Weapon>
+		<MainAttack />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>MortarAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>MortarAttack</Anim>
+		<Weapon>Mortar</Weapon>
+		<MainAttack />
+		<Strafing maxDistance="45" turnRate="360" trackingSpeed="40" jitter="20" />
+		<DisableAttackWaitTimer />
+		<PersistBetweenOpps />
+	</Action>
+	<Action>
+		<Name>AvoidCollisionAir</Name>
+		<ActionType>AvoidCollisionAir</ActionType>
+		<HoverAltitudeOffset>0</HoverAltitudeOffset>
+		<MaxPitch>5.0f</MaxPitch>
+		<MaxRoll>20.0f</MaxRoll>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GarrisonHotDrop</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>HotDropUp</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonHotDrop</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>HotDropDown</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>GroundVehicle</TargetType>
+			<TargetType>Building</TargetType>
+			<TargetType>TurretBuilding</TargetType>
+			<Action>MortarAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>Flying</TargetType>
+			<Action>PlasmaCannonsAirAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>PlasmaCannonsAttackAction</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>GarrisonHotDrop</Action>
+		</TargetRule>
+		<TargetRule>
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>HotDropPickup</TargetType>
+			<Action>UngarrisonHotDrop</Action>
+		</TargetRule>
+		<PersistentAction>AvoidCollisionAir</PersistentAction>
+	</Tactic>
+</TacticData>

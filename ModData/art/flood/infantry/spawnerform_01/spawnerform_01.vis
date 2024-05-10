@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\infantry\spawnerform_01\spawnerform_01</file>
+				<damagefile>template\defaultInfantry</damagefile>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Roar" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_infected_marine" tobone="GrannyRootBone_spawner01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.720000029" end="1" tobone="GrannyRootBone_spawner01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.25" force2="0" lifespan="1" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="PlasmaRifleAttack" exitAction="Loop" tweenTime="1" tweenToAnimation="PlasmaRifleAttack">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\attack_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.378378378" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.484594595" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.594594595" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\attack_02</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.219999999" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.319999993" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.419999987" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.519999981" end="1" tobone="bone_vfx_VomitPoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="SpawningAI" exitAction="Loop" tweenTime="1" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\attack_spawn_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.30" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.31" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.32" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.33" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="SpawningAA" exitAction="Loop" tweenTime="1" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\attack_spawn_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.30" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.31" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="SpawningAV" exitAction="Loop" tweenTime="1" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\attack_spawn_01</file>
+				<weight>1</weight>
+				<tag type="Attack" start="0" position="0.30" end="1" tobone="b_tentacles_0" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Clamshell" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\cower_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\death_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_infected_marine" tobone="GrannyRootBone_spawner01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.75" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.100000001" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\death_02</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0" end="1" name="play_death_infected_marine" tobone="GrannyRootBone_spawner01" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="CameraShake" start="0" position="0.75" end="1" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0.100000001" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\walk_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Flail" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Spin" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>flood\infantry\spawnerform_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+</visual>

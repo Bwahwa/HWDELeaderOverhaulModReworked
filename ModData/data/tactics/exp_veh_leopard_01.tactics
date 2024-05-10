@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Artillery</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>425</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_cannon_03</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.15</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.15</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Flying">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+<!--Special Cannon Attack-->
+	<Weapon>
+		<Name>ArtillerySpecial</Name>
+		<AttackRate>5</AttackRate>
+		<DamagePerSecond>2000</DamagePerSecond>
+		<WeaponType>HeavyExplosive</WeaponType>
+		<Projectile>fx_proj_cannon_03</Projectile>
+		<ImpactEffect size="Medium">Tankshell</ImpactEffect>
+		<MaxVelocityLead>20</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<MinRange>0</MinRange>
+		<Accuracy>0</Accuracy>
+		<MaxDeviation>3</MaxDeviation>
+		<MovingAccuracy>0.05</MovingAccuracy>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
+		<AccuracyDistanceFactor>0.15</AccuracyDistanceFactor>
+		<AccuracyDeviationFactor>0.15</AccuracyDeviationFactor>
+		<EnableHeightBonusDamage />
+		<Hardpoint>Turret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<EnableHeightBonusDamage />
+		<TargetPriority type="GroundVehicle">10</TargetPriority>
+		<TargetPriority type="TurretBuilding">5</TargetPriority>
+		<TargetPriority type="Infantry">3</TargetPriority>
+		<TargetPriority type="Building">1</TargetPriority>
+		<TargetPriority type="Flying">-3</TargetPriority>
+		<Dodgeable />
+		<Deflectable />
+	</Weapon>
+<!--Missile Launcher-->
+	<Weapon>
+		<Name>MissileLauncher</Name>
+		<AttackRate>6</AttackRate>
+		<DamagePerSecond>180</DamagePerSecond>
+		<WeaponType>MediumExplosive</WeaponType>
+		<Projectile>fx_proj_vultureMissile_01</Projectile>
+		<ImpactEffect size="Medium">tankshell</ImpactEffect>
+		<MaxVelocityLead>10</MaxVelocityLead>
+		<MaxRange>75</MaxRange>
+		<Hardpoint>AddOnTurret</Hardpoint>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>5</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>15</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>600</PhysicsForceMin>
+		<PhysicsForceMax>800</PhysicsForceMax>
+		<TargetPriority type="Flying">10</TargetPriority>
+		<TargetPriority type="GroundVehicle">8</TargetPriority>
+		<TargetPriority type="TurretBuilding">7</TargetPriority>
+		<TargetPriority type="Building">6</TargetPriority>
+		<TargetPriority type="Infantry">4</TargetPriority>
+		<EnableHeightBonusDamage />
+		<Dodgeable />
+	</Weapon>
+	<Action>
+		<Name>Deflect_01</Name>
+		<ActionType>Deflect</ActionType>
+		<DeflectChanceMin>0.55</DeflectChanceMin>
+		<DeflectChanceMax>0.55</DeflectChanceMax>
+		<DeflectMaxAngle>360</DeflectMaxAngle>
+		<DeflectCooldown>0</DeflectCooldown>
+		<MultiDeflect />
+		<SmallArms />
+	</Action>
+	<Action>
+		<Name>MissileLauncherAttackAction</Name>
+		<ActionType>SlaveTurretAttack</ActionType>
+		<Anim>AddOnAttack</Anim>
+		<Weapon>MissileLauncher</Weapon>
+	</Action>
+	<Action>
+		<Name>ArtilleryAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtilleryAttack</Anim>
+		<Weapon>Artillery</Weapon>
+		<SlaveAttackAction>MissileLauncherAttackAction</SlaveAttackAction>
+		<MainAttack />
+	</Action>
+<!--Special Ability-->
+	<Action>
+		<Name>ArtillerySpecialAttackAction</Name>
+		<ActionType>RangedAttack</ActionType>
+		<Anim>ArtillerySpecial</Anim>
+		<Weapon>ArtillerySpecial</Weapon>
+		<MainAttack />
+		<DontLoopAttackAnim />
+	</Action>
+	<Action>
+		<Name>LockdownMove</Name>
+		<ActionType>Move</ActionType>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>Unlock</Name>
+		<ActionType>ChangeMode</ActionType>
+		<SquadMode>Normal</SquadMode>
+	</Action>
+	<Action>
+		<Name>GarrisonTeleport</Name>
+		<ActionType>Garrison</ActionType>
+		<Anim>TeleportOut</Anim>
+		<WorkRange>15</WorkRange>
+	</Action>
+	<Action>
+		<Name>UngarrisonTeleport</Name>
+		<ActionType>Ungarrison</ActionType>
+		<Anim>TeleportIn</Anim>
+		<WorkRange>0</WorkRange>
+	</Action>
+	<Action>
+		<Name>GatherCollectables</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Collectable</Resource>
+		<WorkRate>1</WorkRate>
+		<WorkRange>3</WorkRange>
+	</Action>
+	<Tactic>
+		<PersistentAction>Deflect_01</PersistentAction>
+		<TargetRule>
+			<Ability>Command</Ability>
+			<Action>ArtillerySpecialAttackAction</Action>
+			<TargetType>NonFlying</TargetType>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<TargetType>Collectable</TargetType>
+			<Action>GatherCollectables</Action>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<TargetType>NonFlying</TargetType>
+			<Action>ArtilleryAttackAction1</Action>
+			<SquadMode>Normal</SquadMode>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Relation>Self</Relation>
+			<TargetType>TeleportPickup</TargetType>
+			<Action>GarrisonTeleport</Action>
+		</TargetRule>
+		<TargetRule>
+			<GaiaOwned />
+			<Ability>Ungarrison</Ability>
+			<Relation>Self</Relation>
+			<TargetType>TeleportDropoff</TargetType>
+			<Action>UngarrisonTeleport</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

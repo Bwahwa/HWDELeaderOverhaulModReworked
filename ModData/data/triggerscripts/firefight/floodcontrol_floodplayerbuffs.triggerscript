@@ -1,0 +1,327 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SkirmishPlayer.triggerscript" Type="TriggerScript" NextTriggerVarID="592" NextTriggerID="64" NextConditionID="77" NextEffectID="151" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="0" Type="Player" Name="Player" IsNull="false" />
+		<TriggerVar ID="1" Type="Power" Name="ExternPowerVar1" IsNull="true" />
+		<TriggerVar ID="2" Type="Squad" Name="ExternSquadVar1" IsNull="true" />
+		<TriggerVar ID="3" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="4" Type="Unit" Name="ExternUnitVar1" IsNull="true" />
+		<TriggerVar ID="5" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="6" Type="Cost" Name="ExternCostVar1" IsNull="true" />
+		<TriggerVar ID="7" Type="Trigger" Name="TriggerVar1" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="8" Type="Time" Name="Tech 1" IsNull="false">350000</TriggerVar>
+		<TriggerVar ID="9" Type="Time" Name="Tech 1" IsNull="false">450000</TriggerVar>
+		<TriggerVar ID="10" Type="Operator" Name="Tech 1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="11" Type="Time" Name="Tech 1" IsNull="false"></TriggerVar>
+		<TriggerVar ID="12" Type="Time" Name="Tech 2" IsNull="false">600000</TriggerVar>
+		<TriggerVar ID="13" Type="Time" Name="Tech 2" IsNull="false">800000</TriggerVar>
+		<TriggerVar ID="14" Type="Operator" Name="Tech 2" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="15" Type="Time" Name="Tech 2" IsNull="false"></TriggerVar>
+		<TriggerVar ID="16" Type="Time" Name="Tech 3" IsNull="false">800000</TriggerVar>
+		<TriggerVar ID="17" Type="Time" Name="Tech 3" IsNull="false">1000000</TriggerVar>
+		<TriggerVar ID="18" Type="Operator" Name="Tech 3" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="19" Type="Time" Name="Tech 3" IsNull="false"></TriggerVar>
+		<TriggerVar ID="20" Type="Time" Name="Global Upgrade" IsNull="false">1200000</TriggerVar>
+		<TriggerVar ID="21" Type="Operator" Name="Global Upgrade" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="22" Type="Trigger" Name="TriggerVar1" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="23" Type="Trigger" Name="TriggerVar1" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="24" Type="Trigger" Name="TriggerVar1" IsNull="false">4</TriggerVar>
+		<TriggerVar ID="25" Type="Trigger" Name="TriggerVar1" IsNull="false">5</TriggerVar>
+		<TriggerVar ID="26" Type="Time" Name="Stats" IsNull="false">100000</TriggerVar>
+		<TriggerVar ID="27" Type="Time" Name="Stats" IsNull="false">800000</TriggerVar>
+		<TriggerVar ID="28" Type="Operator" Name="Stats" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="29" Type="Time" Name="Stats" IsNull="false"></TriggerVar>
+		<TriggerVar ID="100" Type="Tech" Name="" IsNull="false">floodcontrol_globalbuff_01</TriggerVar>
+		<TriggerVar ID="101" Type="Tech" Name="" IsNull="false">floodcontrol_wave_buff_00</TriggerVar>
+		<TriggerVar ID="102" Type="Tech" Name="" IsNull="false">floodcontrol_wave_buff_01</TriggerVar>
+		<TriggerVar ID="103" Type="Tech" Name="" IsNull="false">floodcontrol_wave_buff_02</TriggerVar>
+		<TriggerVar ID="104" Type="Tech" Name="" IsNull="false">cov_ghost_upgrade1</TriggerVar>
+		<TriggerVar ID="105" Type="Tech" Name="" IsNull="false">unsc_warthog_upgrade1</TriggerVar>
+		<TriggerVar ID="106" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade1</TriggerVar>
+		<TriggerVar ID="108" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade1</TriggerVar>
+		<TriggerVar ID="109" Type="Tech" Name="" IsNull="false">cov_wraith_upgrade2</TriggerVar>
+		<TriggerVar ID="110" Type="Tech" Name="" IsNull="false">cov_ghost_upgrade2</TriggerVar>
+		<TriggerVar ID="111" Type="Tech" Name="" IsNull="false">cov_brute_upgrade1</TriggerVar>
+		<TriggerVar ID="112" Type="Tech" Name="" IsNull="false">unsc_flameMarine_upgrade1</TriggerVar>
+		<TriggerVar ID="113" Type="Tech" Name="" IsNull="false">unsc_marine_upgrade1</TriggerVar>
+		<TriggerVar ID="114" Type="Tech" Name="" IsNull="false">unsc_scorpion_upgrade2</TriggerVar>
+		<TriggerVar ID="115" Type="Tech" Name="" IsNull="false">unsc_warthog_upgrade2</TriggerVar>
+		<TriggerVar ID="116" Type="Tech" Name="" IsNull="false">unsc_wolverine_upgrade2</TriggerVar>
+		<TriggerVar ID="117" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade2</TriggerVar>
+		<TriggerVar ID="118" Type="Tech" Name="" IsNull="false">cov_banshee_upgrade3</TriggerVar>
+		<TriggerVar ID="119" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade2</TriggerVar>
+		<TriggerVar ID="121" Type="Tech" Name="" IsNull="false">cov_locust_upgrade2</TriggerVar>
+		<TriggerVar ID="123" Type="Tech" Name="" IsNull="false">cov_ghost_upgrade3</TriggerVar>
+		<TriggerVar ID="124" Type="Tech" Name="" IsNull="false">cov_brute_upgrade2</TriggerVar>
+		<TriggerVar ID="125" Type="Tech" Name="" IsNull="false">unsc_cobra_upgrade2</TriggerVar>
+		<TriggerVar ID="126" Type="Tech" Name="" IsNull="false">unsc_flameMarine_upgrade2</TriggerVar>
+		<TriggerVar ID="127" Type="Tech" Name="" IsNull="false">unsc_hornet_upgrade2</TriggerVar>
+		<TriggerVar ID="129" Type="Tech" Name="" IsNull="false">unsc_warthog_upgrade3</TriggerVar>
+		<TriggerVar ID="130" Type="Tech" Name="" IsNull="false">unsc_wolverine_upgrade3</TriggerVar>
+		<TriggerVar ID="131" Type="Tech" Name="" IsNull="false">cov_bruteChopper_upgrade3</TriggerVar>
+		<TriggerVar ID="120" Type="Tech" Name="" IsNull="false">cov_jackal_upgrade3</TriggerVar>
+		<TriggerVar ID="107" Type="Tech" Name="" IsNull="false">cov_banshee_upgrade2</TriggerVar>
+		<TriggerVar ID="128" Type="Tech" Name="" IsNull="false">unsc_scorpion_upgrade3</TriggerVar>
+		<TriggerVar ID="122" Type="Tech" Name="" IsNull="false">cov_wraith_upgrade3</TriggerVar>
+		<TriggerVar ID="132" Type="Tech" Name="" IsNull="false">unsc_tech_adrenaline</TriggerVar>
+		<TriggerVar ID="133" Type="Tech" Name="" IsNull="false">fld_upgrade_health</TriggerVar>
+		<TriggerVar ID="134" Type="Tech" Name="" IsNull="false">fld_upgrade_damage</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="345" Y="333" GroupID="-1" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">0</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">1</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">2</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">3</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">4</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">5</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">6</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
+					<Input Name="Min" SigID="1" Optional="true">8</Input>
+					<Input Name="Max" SigID="2" Optional="true">9</Input>
+					<Output Name="Random" SigID="3" Optional="false">11</Output>
+				</Effect>
+				<Effect ID="2" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
+					<Input Name="Min" SigID="1" Optional="true">12</Input>
+					<Input Name="Max" SigID="2" Optional="true">13</Input>
+					<Output Name="Random" SigID="3" Optional="false">15</Output>
+				</Effect>
+				<Effect ID="3" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
+					<Input Name="Min" SigID="1" Optional="true">16</Input>
+					<Input Name="Max" SigID="2" Optional="true">17</Input>
+					<Output Name="Random" SigID="3" Optional="false">19</Output>
+				</Effect>
+				<Effect ID="4" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
+					<Input Name="Min" SigID="1" Optional="true">26</Input>
+					<Input Name="Max" SigID="2" Optional="true">27</Input>
+					<Output Name="Random" SigID="3" Optional="false">29</Output>
+				</Effect>
+				<Effect ID="5" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">101</Input>
+				</Effect>
+				<Effect ID="6" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">104</Input>
+				</Effect>
+				<Effect ID="7" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">105</Input>
+				</Effect>
+				<Effect ID="8" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">106</Input>
+				</Effect>
+				<Effect ID="9" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">22</Input>
+				</Effect>
+				<Effect ID="10" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">23</Input>
+				</Effect>
+				<Effect ID="11" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">24</Input>
+				</Effect>
+				<Effect ID="12" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">25</Input>
+				</Effect>
+				<Effect ID="112" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">7</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="1" Name="Global buff upgrade" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1717" Y="29" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">21</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">20</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="13" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">100</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="2" Name="Tech 1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1717" Y="29" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="102" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">18</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">19</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="14" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">108</Input>
+				</Effect>
+				<Effect ID="15" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">109</Input>
+				</Effect>
+				<Effect ID="16" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">110</Input>
+				</Effect>
+				<Effect ID="17" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">111</Input>
+				</Effect>
+				<Effect ID="18" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">112</Input>
+				</Effect>
+				<Effect ID="19" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">113</Input>
+				</Effect>
+				<Effect ID="20" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">114</Input>
+				</Effect>
+				<Effect ID="21" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">115</Input>
+				</Effect>
+				<Effect ID="22" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">116</Input>
+				</Effect>
+				<Effect ID="23" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">117</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="3" Name="Tech 2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1717" Y="29" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">14</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">15</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="24" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">102</Input>
+				</Effect>
+				<Effect ID="25" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">118</Input>
+				</Effect>
+				<Effect ID="26" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">119</Input>
+				</Effect>
+				<Effect ID="27" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">121</Input>
+				</Effect>
+				<Effect ID="28" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">123</Input>
+				</Effect>
+				<Effect ID="29" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">124</Input>
+				</Effect>
+				<Effect ID="30" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">125</Input>
+				</Effect>
+				<Effect ID="31" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">126</Input>
+				</Effect>
+				<Effect ID="32" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">127</Input>
+				</Effect>
+				<Effect ID="33" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">129</Input>
+				</Effect>
+				<Effect ID="34" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">131</Input>
+				</Effect>
+				<Effect ID="35" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">130</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="4" Name="Tech 3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1717" Y="29" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="3" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">18</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">19</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="36" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">120</Input>
+				</Effect>
+				<Effect ID="37" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">107</Input>
+				</Effect>
+				<Effect ID="38" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">128</Input>
+				</Effect>
+				<Effect ID="39" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">122</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="5" Name="Stats" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1717" Y="29" GroupID="0" TemplateID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="4" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="CompareType" SigID="1" Optional="false">28</Input>
+						<Input Name="CompareTime" SigID="2" Optional="false">29</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="40" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">132</Input>
+				</Effect>
+				<Effect ID="41" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">133</Input>
+				</Effect>
+				<Effect ID="42" Type="TechActivate" DBID="60" Version="1" CommentOut="false">
+					<Input Name="Player" SigID="1" Optional="false">0</Input>
+					<Input Name="Tech" SigID="2" Optional="false">134</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

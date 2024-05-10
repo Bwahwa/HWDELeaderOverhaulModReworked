@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="sampleScriptProject.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger1Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="ProtoSquad" Name="newProtoSquadVar1" IsNull="false">heretic_veh_gorgon</TriggerVar>
+    <TriggerVar ID="2" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="3" Type="Vector" Name="newVectorVar1" IsNull="false">1,0,0</TriggerVar>
+    <TriggerVar ID="4" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="5" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="6" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="7" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="8" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="9" Type="Squad" Name="newSquadVar1" IsNull="false" />
+    <TriggerVar ID="10" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="11" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="12" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="13" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="14" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="15" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="16" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="17" Type="Cost" Name="nullCostVar" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger1" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-222" Y="-98.5" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">4</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">12</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">13</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">14</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">15</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">16</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">17</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="CreateSquad" DBID="36" Version="7" CommentOut="false">
+          <Input Name="ProtoSquad" SigID="1" Optional="false">1</Input>
+          <Input Name="CreateLocation" SigID="2" Optional="false">2</Input>
+          <Input Name="Facing" SigID="12" Optional="true">3</Input>
+          <Input Name="SquadOwner" SigID="3" Optional="false">4</Input>
+          <Input Name="FlyInStart" SigID="8" Optional="true">5</Input>
+          <Input Name="FlyInEnd" SigID="9" Optional="true">6</Input>
+          <Input Name="RallyPoint" SigID="10" Optional="true">7</Input>
+          <Input Name="AttackMoveRallyPoint" SigID="11" Optional="true">8</Input>
+          <Output Name="CreatedSquad" SigID="4" Optional="true">9</Output>
+          <Output Name="AddToSquadList" SigID="5" Optional="true">10</Output>
+          <Output Name="SquadListClearExisting" SigID="6" Optional="true">11</Output>
+        </Effect>
+        <Effect ID="1" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

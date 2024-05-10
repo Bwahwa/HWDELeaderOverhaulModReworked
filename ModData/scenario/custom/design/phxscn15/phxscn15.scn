@@ -1,0 +1,3054 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">PHXscn15</Terrain>
+	<Sky>environment\sky\sw_interior_sky_scn12</Sky>
+	<TerrainEnv>environment\sky\cloudy_sky_dome_en.ddx</TerrainEnv>
+	<Lightset>PHXscn15</Lightset>
+	<Pathing>PHXscn15</Pathing>
+	<Cinematics />
+	<Lightsets />
+	<TalkingHeads />
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Fixed" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="2" Position="143.014801,-0.683799982,481.36441" Forward="-0.0983000025,0,0.995199978" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+		<Position Player="-1" Number="1" Position="890.135071,-0.683799982,702.036987" Forward="0.63380003,0,-0.773500025" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player1" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="1" Team="1" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Player2" UseStartingUnits="true" Controllable="true" UsePlayerSettings="true" Civ="UNSC" Color="2" Team="2" DefaultResources="true" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Creeps" LocalisedDisplayName="25565,Forerunner" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Rebels" LocalisedDisplayName="25966,Rebels" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="1" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Covenant" LocalisedDisplayName="31267,Covenant" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="3" Team="2" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Flood" LocalisedDisplayName="25560,Flood" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Color="13" Team="4" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+		<Player Name="Covenant" LocalisedDisplayName="31267,Covenant" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Leader1="Prophet of Mercy" Color="3" Team="4" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads />
+			<ForbidTechs />
+		</Player>
+	</Players>
+	<Objectives>
+		<MaxObjectiveID>-1</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>2</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>2</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres>
+<!--South East Base-->
+			<Sphere ID="104683" Name="DesignSphere104683" Position="818.356201,-0.675800025,233.143997" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+<!--North East Base-->
+			<Sphere ID="104684" Name="DesignSphere104684" Position="625.680481,-0.683300018,895.020996" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+<!--South West Base-->
+			<Sphere ID="104685" Name="DesignSphere104685" Position="345.710693,-0.683799982,183.723099" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+<!--North West Base-->
+			<Sphere ID="104686" Name="DesignSphere104686" Position="200.7939,-0.701499999,761.910095" Radius="60">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+<!--South East Reactor-->
+			<Sphere ID="104688" Name="DesignSphere104688" Position="660.755371,-0.683799982,161.905701" Radius="40">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+<!--North West Reactor-->
+			<Sphere ID="115326" Name="DesignSphere115326" Position="404.038696,0,819.737976" Radius="40">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+<!--Center Creeps-->
+			<Sphere ID="115327" Name="DesignSphere104683" Position="530.163513,0.0719999969,515.838806" Radius="200">
+				<Data>
+					<Type>Creeps</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+			</Sphere>
+		</Spheres>
+		<Lines>
+			<Lines Name="DesignPath3574" Position="452.551086,-0.683799982,209.734604" ID="3574">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>412.1411,-0.6878,245.7821|377.1536,-0.6912,238.3924|350.5161,-0.6838,240.7220|340.9525,-0.6838,260.2294|354.3665,-0.6838,276.4780|399.3911,-0.8994,269.3516|381.2874,-0.6838,202.4838|418.6830,-1.2205,158.0910|469.7658,-0.6838,165.4938|461.1302,-0.6838,202.2070</Points>
+			</Lines>
+			<Lines Name="DesignPath3575" Position="845.351074,-0.683799982,596.36377" ID="3575">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>861.3523,-0.6838,630.3685|836.0637,-0.6838,674.2882|799.8319,-0.6838,690.6793|791.9540,-0.6838,680.7542|773.8667,0.1690,612.2073|806.3456,-0.6839,597.8552|825.0658,-0.6838,576.4410|842.4999,-0.6838,582.5549</Points>
+			</Lines>
+			<Lines Name="DesignPath3576" Position="254.891006,-0.683799982,693.428894" ID="3576">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>284.7032,-0.6838,726.0675|318.0939,-0.6838,732.7261|326.5826,-1.8479,695.2659|292.8781,-0.8952,684.4253|255.3396,-0.6843,709.0318|167.0790,-0.7719,705.2366|182.5459,-0.6838,633.7154|232.6277,-0.6838,635.8470|253.1761,-0.6838,683.4227</Points>
+			</Lines>
+			<Lines Name="DesignPath3577" Position="606.98468,-0.0165999997,794.72522" ID="3577">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>607.9219,-0.8736,771.1801|586.9269,-0.8355,737.0887|539.0311,-0.6896,733.0611|521.2883,0.2527,701.1182|547.2814,-0.6838,681.3275|580.2261,-0.6838,685.9615|571.4338,-1.0231,716.7359|595.2225,-2.0650,779.6129|604.4951,-1.4549,835.4172|622.7173,-1.4425,842.4729|633.8320,-2.2731,827.3947|618.2360,-0.6243,799.3928</Points>
+			</Lines>
+		</Lines>
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="areas" Visible="false" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="2" Name="door" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="false" Player="3" ID="182" TintValue="1" EditorName="creep_obj_dummy_01_1" Position="0,0,0" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">creep_obj_dummy_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_shieldinterior_forerunnerventdead_01_276" ID="10000057" Position="961.264526,-4.04930019,295.491608" Forward="-0.950800002,0,0.309799999" Right="0.309799999,0,0.950800002" Group="-1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_forerunnerventdead_01</Object>
+		<Object IsSquad="false" Player="0" ID="72783" TintValue="1" EditorName="sys_creepWorld_ShieldWorld_01" Position="252.582901,35.1421013,504.673187" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepWorld_flood_01</Object>
+
+<!--Downed Spirit-->
+		<Object IsSquad="True" Player="7" ID="9616" TintValue="1" EditorName="cov_inf_goliathleader_01" Position="300,0,930" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_goliathleader_01</Object>
+		<Object IsSquad="True" Player="7" ID="9616" TintValue="1" EditorName="cov_veh_grunt_goblin_01" Position="285,0,930" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">cov_veh_grunt_goblin_01</Object>
+		<Object IsSquad="True" Player="7" ID="9616" TintValue="1" EditorName="cov_veh_grunt_goblin_01" Position="315,0,930" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">cov_veh_grunt_goblin_01</Object>
+		<Object IsSquad="True" Player="7" ID="9616" TintValue="1" EditorName="cov_air_banshee_01" Position="300,0,930" Forward="0,0,-1" Right="-1,0,0" Group="-1" VisualVariationIndex="0">cov_air_banshee_01</Object>
+
+<!--North East Base-->
+		<Object IsSquad="false" Player="5" TintValue="1" EditorName="game_base_Socket_01_2934" ID="2935" Position="625.680481,-0.683300018,895.020996" Forward="1,0,-0.0037" Right="-0.0037,0,-1" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+
+		<Object IsSquad="false" Player="5" ID="72786" TintValue="1" EditorName="sys_creepDifficulty_medium_01_72786" Position="625.680481,-0.683300018,895.020996" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="5" ID="2940" TintValue="1" EditorName="sys_creepReward_small_01_2940" Position="625,0,845" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="5" ID="127" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="625,0,845" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="5" ID="168" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="625,0,845" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+
+<!--North West Base-->
+		<Object IsSquad="false" Player="5" TintValue="1" EditorName="game_base_Socket_01_2934" ID="2934" Position="200.7939,-0.701499999,761.910095" Forward="0.50120002,0,0.8653" Right="0.8653,0,-0.50120002" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="5" ID="72786" TintValue="1" EditorName="sys_creepDifficulty_medium_01_72786" Position="200.7939,-0.701499999,761.910095" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="5" ID="2940" TintValue="1" EditorName="sys_creepReward_small_01_2940" Position="250,0,785" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="5" ID="9615" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="250,0,785" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="5" ID="9630" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="250,0,785" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+<!--South West Base-->
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="game_base_Socket_01_2934" ID="2932" Position="345.710693,-0.683799982,183.723099" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+
+		<Object IsSquad="false" Player="4" ID="72786" TintValue="1" EditorName="sys_creepDifficulty_medium_01_72786" Position="345.710693,-0.683799982,183.723099" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="4" ID="2940" TintValue="1" EditorName="sys_creepReward_small_01_2940" Position="370,0,220" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="4" ID="9615" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="370,0,220" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="4" ID="9630" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="370,0,220" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+<!--South East Base-->
+		<Object IsSquad="false" Player="4" TintValue="1" EditorName="game_base_Socket_01_2903" ID="2903" Position="818.356201,-0.675800025,233.143997" Forward="-0.556599975,0,-0.830799997" Right="-0.830799997,0,0.556599975" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="4" ID="72786" TintValue="1" EditorName="sys_creepDifficulty_medium_01_72786" Position="818.356201,-0.675800025,233.143997" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_medium_01</Object>
+		<Object IsSquad="false" Player="4" ID="2940" TintValue="1" EditorName="sys_creepReward_small_01_2940" Position="775,0,255" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepReward_small_01</Object>
+		<Object IsSquad="false" Player="4" ID="127" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="775,0,255" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="false" Player="4" ID="168" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="775,0,255" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+
+<!--East Player Base-->
+		<Object IsSquad="True" Player="5" ID="9630" TintValue="1" EditorName="cov_veh_wraith_01" Position="820.135071,-0.683799982,772.036987" Forward="-0.63380003,0,0.773500025" Right="0.773500025,0,0.63380003" Group="-1" VisualVariationIndex="0">cov_veh_wraith_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_veh_wraith_01" Position="855.135071,-0.683799982,632.036987" Forward="0.63380003,0,-0.773500025" Right="-0.773500025,0,-0.63380003" Group="-1" VisualVariationIndex="0">cov_veh_wraith_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_veh_wraithaa_01" Position="890.135071,-0.683799982,782.036987" Forward="-0.63380003,0,0.773500025" Right="0.773500025,0,0.63380003" Group="-1" VisualVariationIndex="0">cov_veh_wraithaa_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_veh_wraithaa_01" Position="920.135071,-0.683799982,640.036987" Forward="0.63380003,0,-0.773500025" Right="-0.773500025,0,-0.63380003" Group="-1" VisualVariationIndex="0">cov_veh_wraithaa_01</Object>
+
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_bldg_shadeTurret_01" Position="860.135071,-3,772.036987" Forward="-0.63380003,0,0.773500025" Right="0.773500025,0,0.63380003" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_bldg_shadeTurret_01" Position="890.135071,-1,626.036987" Forward="0.63380003,0,-0.773500025" Right="-0.773500025,0,-0.63380003" Group="-1" VisualVariationIndex="0">cov_bldg_shadeTurret_01</Object>
+
+<!--West Player Base-->
+		<Object IsSquad="True" Player="4" ID="9630" TintValue="1" EditorName="rebel_veh_scorpionheavy_01" Position="170.014801,-0.683799982,561.36441" Forward="-0.0983000025,0,0.995199978" Right="0.995199978,0,0.0983000025" Group="-1" VisualVariationIndex="0">rebel_veh_scorpionheavy_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_veh_scorpionheavy_01" Position="183.014801,-0.683799982,411.36441" Forward="0.0983000025,0,-0.995199978" Right="-0.995199978,0,-0.0983000025" Group="-1" VisualVariationIndex="0">rebel_veh_scorpionheavy_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_veh_viper_01" Position="95.014801,-0.683799982,550.36441" Forward="-0.0983000025,0,0.995199978" Right="0.995199978,0,0.0983000025" Group="-1" VisualVariationIndex="0">rebel_veh_viper_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_veh_viper_01" Position="103.014801,-0.683799982,405.36441" Forward="0.0983000025,0,-0.995199978" Right="-0.995199978,0,-0.0983000025" Group="-1" VisualVariationIndex="0">rebel_veh_viper_01</Object>
+<!--Flood Presence North-->
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_launcher_01" Position="150,0,950" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_launcher_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_stalk_02" Position="190,0,920" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_stalk_02</Object>
+
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_barracks_01" Position="170,0,900" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_barracks_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_barracks_01" Position="150,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_barracks_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_nest_03" Position="210,0,890" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_nest_03</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_launcher_01" Position="140,0,910" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_launcher_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_barracks_01" Position="440,0,910" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_barracks_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_nest_03" Position="400,0,920" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_nest_03</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_stalk_02" Position="440,0,940" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_stalk_02</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_barracks_01" Position="500,0,960" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_barracks_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_barracks_01" Position="480,0,945" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_barracks_01</Object>
+		<Object IsSquad="False" Player="6" ID="9616" TintValue="1" EditorName="fld_bldg_launcher_01" Position="480,0,970" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_bldg_launcher_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="490,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="400,0,910" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="440,0,935" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="480,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectionForm_01" Position="480,0,935" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectionForm_01</Object>
+
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="150,0,900" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="130,0,900" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectedRanged_01" Position="170,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectedRanged_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectionForm_01" Position="130,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectionForm_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_inf_infectionForm_01" Position="120,0,920" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_inf_infectionForm_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_air_swarm_01" Position="150,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_air_swarm_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_air_swarm_01" Position="190,0,900" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_air_swarm_01</Object>
+		<Object IsSquad="True" Player="6" ID="9616" TintValue="1" EditorName="fld_air_swarm_01" Position="450,0,930" Forward="-0.914900005,0,0.403699994" Right="0.403699994,0,0.914900005" Group="-1" VisualVariationIndex="0">fld_air_swarm_01</Object>
+
+			<!--Crates-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3197" ID="3197" Position="150,0,900" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3201" ID="3201" Position="150,0,900" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3203" ID="3203" Position="150,0,900" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3197" ID="3197" Position="295,0,880" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3201" ID="3201" Position="295,0,880" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3203" ID="3203" Position="295,0,880" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3197" ID="3197" Position="420,0,920" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3201" ID="3201" Position="420,0,920" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3203" ID="3203" Position="420,0,920" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+
+<!--Supply Hooks-->
+<!--North-->
+	<!--North West-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bonus_reactor_01" ID="3154" Position="404.038696,0,829.737976" Forward="-0.675400019,0,-0.737399995" Right="-0.737399995,0,0.675400019" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="3" ID="72785" TintValue="1" EditorName="sys_creepDifficulty_easy_01_72785" Position="404.038696,0,800.737976" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="True" Player="3" ID="9630" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01" Position="404.038696,0,819.737976" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="True" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01" Position="404.038696,0,819.737976" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="True" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01" Position="404.038696,0,819.737976" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+
+	<!--West-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_spawner_supply3hole_01" ID="3155" Position="178.396301,-0.683799982,603.709473" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="false" Player="4" ID="72785" TintValue="1" EditorName="sys_creepDifficulty_easy_01_72785" Position="158.396301,0,603.709473" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="True" Player="4" ID="9630" TintValue="1" EditorName="rebel_inf_infantry_01" Position="178,0,625" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantry_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_inf_infantrygrenade_01" Position="158,0,605" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantrygrenade_01</Object>
+		<Object IsSquad="True" Player="4." ID="9616" TintValue="1" EditorName="rebel_inf_infantry_01" Position="178,0,585" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantry_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_inf_infantry_01" Position="198,0,605" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantry_01</Object>
+
+	<!--South West-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_spawner_supply3hole_01_3152" ID="3152" Position="190,0,330" Forward="0.198599994,0,0.980099976" Right="0.980099976,0,-0.198599994" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="True" Player="4" ID="9630" TintValue="1" EditorName="rebel_inf_infantry_01" Position="190,0,350" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantry_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_inf_infantrygrenade_01" Position="170,0,330" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantrygrenade_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_inf_infantry_01" Position="190,0,310" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantry_01</Object>
+		<Object IsSquad="True" Player="4" ID="9616" TintValue="1" EditorName="rebel_inf_infantry_01" Position="210,0,330" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rebel_inf_infantry_01</Object>
+
+<!--South-->
+	<!--North East-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_spawner_supply3hole_01_3152" ID="3152" Position="770,0,790" Forward="0.198599994,0,0.980099976" Right="0.980099976,0,-0.198599994" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="false" Player="5" ID="72785" TintValue="1" EditorName="sys_creepDifficulty_easy_01_72785" Position="740,0,790" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="True" Player="5" ID="9630" TintValue="1" EditorName="cov_inf_elitefuelrod_01" Position="770,0,810" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_elitefuelrod_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_inf_grunt_01" Position="790,0,790" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_inf_grunt_01" Position="770,0,770" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_inf_grunt_01" Position="750,0,790" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+
+	<!--East-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_spawner_supply3hole_01" ID="3152" Position="877.77832,0,502.134094" Forward="0.198599994,0,0.980099976" Right="0.980099976,0,-0.198599994" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="false" Player="5" ID="72785" TintValue="1" EditorName="sys_creepDifficulty_easy_01_72785" Position="857.77832,0,502.134094" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="True" Player="5" ID="9630" TintValue="1" EditorName="cov_inf_grunt_01" Position="875,0,520" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_inf_elitefuelrod_01" Position="895,0,500" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_elitefuelrod_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_inf_grunt_01" Position="875,0,480" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+		<Object IsSquad="True" Player="5" ID="9616" TintValue="1" EditorName="cov_inf_grunt_01" Position="855,0,500" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">cov_inf_grunt_01</Object>
+
+	<!--South East-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bonus_reactor_01" ID="2952" Position="660.755371,-0.683799982,161.905701" Forward="-0.909300029,0,-0.416200012" Right="-0.416200012,0,0.909300029" Group="-1" VisualVariationIndex="0">hook_bonus_reactor_01</Object>
+		<Object IsSquad="false" Player="3" ID="72785" TintValue="1" EditorName="sys_creepDifficulty_easy_01_72785" Position="660.755371,0,140.905701" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_easy_01</Object>
+		<Object IsSquad="True" Player="3" ID="9630" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01" Position="660.755371,0,140.905701" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="True" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01" Position="640.755371,0,160.905701" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="True" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01" Position="660.755371,0,180.905701" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+
+
+<!--Extra Objects-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_activationNode_01_3267" ID="3267" Position="677.854187,-3.76550007,299.89209" Forward="0.569700003,0,-0.82190001" Right="-0.82190001,0,-0.569700003" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_activationNode_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_activationNode_01_3268" ID="3268" Position="418.321594,-3.6717,279.914398" Forward="-0.429199994,0,-0.903199971" Right="-0.903199971,0,0.429199994" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_activationNode_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_activationNode_01_3269" ID="3269" Position="790.719727,-3.49029994,535.799377" Forward="0.997200012,0,0.0742999986" Right="0.0742999986,0,-0.997200012" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_activationNode_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_activationNode_01_3270" ID="3270" Position="642.844971,-3.72119999,751.889282" Forward="0.437700003,0.000699999975,0.899100006" Right="0.899100006,0.0013,-0.437700003" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_activationNode_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_activationNode_01_3271" ID="3271" Position="382.694702,-3.82629991,731.440613" Forward="-0.565199971,0,0.824899971" Right="0.824899971,0,0.565199971" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_activationNode_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_activationNode_01_3272" ID="3272" Position="270.202393,-4.14470005,493.538788" Forward="-0.997099996,0,-0.0763999969" Right="-0.0763999969,0,0.997099996" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_activationNode_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_arm_01_3273" ID="3273" Position="548.226501,-2.05679989,254.149307" Forward="0.0666999966,0,-0.997799993" Right="-0.997799993,0,-0.0666999966" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_arm_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_arm_01_3274" ID="3274" Position="767.298523,-1.98080003,402.175598" Forward="0.901300013,0,-0.433099985" Right="-0.433099985,0,-0.901300013" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_arm_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_arm_01_3275" ID="3275" Position="747.324219,-2.49110007,664.374573" Forward="0.829100013,0,0.559099972" Right="0.559099972,0,-0.829100013" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_arm_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_arm_01_3276" ID="3276" Position="510.625214,-2.22589993,777.923523" Forward="-0.0732999966,0,0.997300029" Right="0.997300029,0,0.0732999966" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_arm_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_arm_01_3277" ID="3277" Position="290.446503,-2.37199998,630.367188" Forward="-0.90200001,0,0.431800008" Right="0.431800008,0,0.90200001" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_arm_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_arm_01_3278" ID="3278" Position="314.366211,-2.09940004,368.668213" Forward="-0.826699972,0,-0.562699974" Right="-0.562699974,0,0.826699972" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>
+			<Flag>IncludeInSimRep</Flag>cpgn_scn15_arm_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_scn15_centerPiece_01_3279" ID="3279" Position="530.163513,0.0719999969,515.838806" Forward="-0.0760999992,0,0.997099996" Right="0.997099996,0,0.0760999992" Group="2" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>cpgn_scn15_centerPiece_01</Object>
+
+<!--Center Creeps-->
+		<Object IsSquad="false" Player="0" ID="72785" TintValue="1" EditorName="sys_creepDifficulty_hard_01_72785" Position="550.77832,0,550" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_creepDifficulty_hard_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="500.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="530.163513,0.0719999969,545.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="530.163513,0.0719999969,485.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="630.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+		<Object IsSquad="true" Player="3" ID="9616" TintValue="1" EditorName="sys_foreRunnerMarker_sentinel_01_9616" Position="560.163513,0.0719999969,515.838806" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_foreRunnerMarker_sentinel_01</Object>
+
+
+
+
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_01_3544" ID="3544" Position="170.751801,0.0693999976,111.592903" Forward="-0.389400005,0,0.92110002" Right="0.92110002,0,0.389400005" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_01_3545" ID="3545" Position="979.510315,-2.35689998,288.289215" Forward="-0.931999981,0,0.362399995" Right="0.362399995,0,0.931999981" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_01_3546" ID="3546" Position="143.514099,13.7705002,1005.89502" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_02_3547" ID="3547" Position="432.309998,40.0439987,312.094513" Forward="0.479400009,0,0.877600014" Right="0.877600014,0,-0.479400009" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_02_3548" ID="3548" Position="656.783081,33.0769997,329.592102" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_02_3549" ID="3549" Position="755.227173,42.1701012,532.501587" Forward="-0.0997999981,0,0.995000005" Right="0.995000005,0,0.0997999981" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_02_3550" ID="3550" Position="627.366882,37.0528984,721.254883" Forward="-0.891200006,0,0.453599989" Right="0.453599989,0,0.891200006" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_02_3551" ID="3551" Position="402.456787,39.4841003,702.394714" Forward="-0.808499992,0,-0.588500023" Right="-0.588500023,0,0.808499992" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_02_3552" ID="3552" Position="305.805908,38.8925018,497.650299" Forward="0.0584000014,0,-0.998300016" Right="-0.998300016,0,-0.0584000014" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_03_3553" ID="3553" Position="586.126526,7.70219994,489.070892" Forward="0.479400009,0,0.877600014" Right="0.877600014,0,-0.479400009" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_03_3554" ID="3554" Position="574.282227,33.9641991,547.170105" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_03_3555" ID="3555" Position="525.987671,3.99580002,571.80542" Forward="-0.0997999981,0,0.995000005" Right="0.995000005,0,0.0997999981" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_03_3556" ID="3556" Position="474.933289,-0.683799982,540.593079" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_03_3557" ID="3557" Position="483.544312,29.6191006,484.442688" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="cpgn_utility_airBlock_03_3558" ID="3558" Position="534.718079,24.6399994,457.93219" Forward="0.997500002,0,0.0706999972" Right="0.0706999972,0,-0.997500002" Group="-1" VisualVariationIndex="0">cpgn_utility_airBlock_03</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreconsole_02_3398" ID="3398" Position="689.591675,-0.81129998,282.386902" Forward="0.558799982,0,-0.829299986" Right="-0.829299986,0,-0.558799982" Group="2" VisualVariationIndex="0">env_harvest_foreconsole_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreconsole_02_3399" ID="3399" Position="811.763123,-0.835099995,537.300415" Forward="0.997600019,0,0.0698999986" Right="0.0698999986,0,-0.997600019" Group="2" VisualVariationIndex="0">env_harvest_foreconsole_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreconsole_02_3400" ID="3400" Position="652.278687,-0.258899987,771.100281" Forward="0.427399993,0,0.904100001" Right="0.904100001,0,-0.427399993" Group="2" VisualVariationIndex="0">env_harvest_foreconsole_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreconsole_02_3401" ID="3401" Position="370.723785,-1.18760002,748.953186" Forward="-0.555299997,0,0.831700027" Right="0.831700027,0,0.555299997" Group="2" VisualVariationIndex="0">env_harvest_foreconsole_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreconsole_02_3402" ID="3402" Position="249.122696,-1.90830004,492.007813" Forward="-0.997600019,0,-0.0694999993" Right="-0.0694999993,0,0.997600019" Group="2" VisualVariationIndex="0">env_harvest_foreconsole_02</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="env_harvest_foreconsole_02_3403" ID="3403" Position="409.005005,-0.870299995,260.772186" Forward="-0.439200014,0,-0.898400009" Right="-0.898400009,0,0.439200014" Group="2" VisualVariationIndex="0">env_harvest_foreconsole_02</Object>
+<!--Map Cover-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3163" Position="833.4789,-0.6838,447.6197" Forward="-0.9854,0,0.17" Right="0.17,0,0.9854" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3407" Position="874.9111,-0.6838,584.078" Forward="-0.9975,0,0.0707" Right="0.0707,0,0.9975" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3454" Position="240.3227,-0.6838,309.8142" Forward="0.7833,0,0.6216" Right="0.6216,0,-0.7833" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3157" Position="135.6019,-1.9784,633.5473" Forward="0.9917,0,-0.1289" Right="-0.1289,0,-0.9917" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3157" Position="330,0,850" Forward="0.9917,0,-0.1289" Right="-0.1289,0,-0.9917" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3157" Position="430,0,870" Forward="0.9917,0,-0.1289" Right="-0.1289,0,-0.9917" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="hook_bldg_sniperplatform_01_2845" ID="3157" Position="685,-0.683799982,230" Forward="0.9917,0,-0.1289" Right="-0.1289,0,-0.9917" Group="-1" VisualVariationIndex="0">hook_bldg_sniperplatform_01</Object>
+	<!--Light Wall-->
+		<Object IsSquad="false" Player="0" ID="12007" TintValue="1" EditorName="hook_bldg_wall_01_12007" Position="532.6395,-1.2042,175" Forward="-1,0,0" Right="0,0,1" Group="-1" VisualVariationIndex="0">hook_bldg_wall_01</Object>
+		<Object IsSquad="false" Player="0" ID="12009" TintValue="1" EditorName="hook_bldg_wall_02_12009" Position="532.6395,-1.2042,121" Forward="1,0,0" Right="0,0,-1" Group="-1" VisualVariationIndex="0">hook_bldg_wall_02</Object>
+
+<!--Supply Crates-->
+	<!--New Crates-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3197" ID="3197" Position="220.3227,-0.6838,279.8142" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3201" ID="3201" Position="220.3227,-0.6838,279.8142" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3203" ID="3203" Position="220.3227,-0.6838,279.8142" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3197" ID="3197" Position="863.4789,-0.6838,407.6197" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3201" ID="3201" Position="863.4789,-0.6838,407.6197" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3203" ID="3203" Position="863.4789,-0.6838,407.6197" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+
+	<!--End of New cRates-->
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3167" ID="3167" Position="801.59082,-0.683799982,643.571899" Forward="0.255499989,0,-0.966799974" Right="-0.966799974,0,-0.255499989" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3169" ID="3169" Position="796.388794,-0.683799982,651.828613" Forward="0.931999981,0,0.362399995" Right="0.362399995,0,-0.931999981" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3171" ID="3171" Position="578.341003,-1.81799996,200.174393" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3175" ID="3175" Position="481.745514,-0.683799982,196.1931" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3191" ID="3191" Position="167.901794,-0.983200014,322.892303" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3195" ID="3195" Position="191.631897,-0.700999975,668.793518" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3197" ID="3197" Position="730.048584,-0.26699999,857.759094" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3A_01_3203" ID="3203" Position="608.391174,-0.692200005,827.887817" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3A_01</Object>
+
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3167" ID="3167" Position="801.59082,-0.683799982,643.571899" Forward="0.255499989,0,-0.966799974" Right="-0.966799974,0,-0.255499989" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3169" ID="3169" Position="796.388794,-0.683799982,651.828613" Forward="0.931999981,0,0.362399995" Right="0.362399995,0,-0.931999981" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3171" ID="3171" Position="578.341003,-1.81799996,200.174393" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3175" ID="3175" Position="481.745514,-0.683799982,196.1931" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3191" ID="3191" Position="167.901794,-0.983200014,322.892303" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3195" ID="3195" Position="191.631897,-0.700999975,668.793518" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3197" ID="3197" Position="730.048584,-0.26699999,857.759094" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3B_01_3203" ID="3203" Position="608.391174,-0.692200005,827.887817" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3B_01</Object>
+
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3167" ID="3167" Position="801.59082,-0.683799982,643.571899" Forward="0.255499989,0,-0.966799974" Right="-0.966799974,0,-0.255499989" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3169" ID="3169" Position="796.388794,-0.683799982,651.828613" Forward="0.931999981,0,0.362399995" Right="0.362399995,0,-0.931999981" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3171" ID="3171" Position="578.341003,-1.81799996,200.174393" Forward="-0.564599991,0,0.825299978" Right="0.825299978,0,0.564599991" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3175" ID="3175" Position="481.745514,-0.683799982,196.1931" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3191" ID="3191" Position="167.901794,-0.983200014,322.892303" Forward="0.841499984,0,0.540300012" Right="0.540300012,0,-0.841499984" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3195" ID="3195" Position="191.631897,-0.700999975,668.793518" Forward="-0.999599993,0,-0.0292000007" Right="-0.0292000007,0,0.999599993" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3197" ID="3197" Position="730.048584,-0.26699999,857.759094" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+		<Object IsSquad="false" Player="0" TintValue="1" EditorName="sys_marker_crate3C_01_3203" ID="3203" Position="608.391174,-0.692200005,827.887817" Forward="-0.985400021,0,0.170000002" Right="0.170000002,0,0.985400021" Group="-1" VisualVariationIndex="0">sys_marker_crate3C_01</Object>
+
+
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="PHXscn15triggers" Type="Scenario" NextTriggerVarID="11310" NextTriggerID="740" NextConditionID="0" NextEffectID="1699" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+<!--Light Wall-->
+			<TriggerVar ID="0" Type="Trigger" Name="TriggerVar1" IsNull="false">1</TriggerVar>
+
+			<TriggerVar ID="2026" Type="Squad" Name="" IsNull="false">12007</TriggerVar>
+            <TriggerVar ID="2027" Type="Squad" Name="" IsNull="false">12009</TriggerVar>
+
+<!--End of Light Wall-->
+			<TriggerVar ID="20169" Type="Trigger" Name="TriggerVar2293" IsNull="false">1</TriggerVar>
+			<TriggerVar ID="20170" Type="Trigger" Name="TriggerVar2294" IsNull="false">2</TriggerVar>
+			<TriggerVar ID="20171" Type="Trigger" Name="TriggerVar2295" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="20172" Type="Trigger" Name="TriggerVar2296" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="20173" Type="Trigger" Name="TriggerVar2297" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="20174" Type="Trigger" Name="TriggerVar2298" IsNull="false">6</TriggerVar>
+			<TriggerVar ID="5351" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="5352" Type="Time" Name="" IsNull="false">500</TriggerVar>
+			<TriggerVar ID="11268" Type="Bool" Name="" IsNull="false">False</TriggerVar>
+			<TriggerVar ID="5284" Type="Vector" Name="" IsNull="false">637.619873,-0.683799982,357.962189</TriggerVar>
+			<TriggerVar ID="5285" Type="Vector" Name="" IsNull="false">0.820900023,0,0.571099997</TriggerVar>
+			<TriggerVar ID="5286" Type="Float" Name="" IsNull="false">47</TriggerVar>
+			<TriggerVar ID="5287" Type="Float" Name="" IsNull="false">7</TriggerVar>
+			<TriggerVar ID="5288" Type="Float" Name="" IsNull="false">81</TriggerVar>
+			<TriggerVar ID="5289" Type="Bool" Name="ClearExistingVar21" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5290" Type="Unit" Name="UnitVar2" IsNull="true" />
+			<TriggerVar ID="5291" Type="UnitList" Name="AddToUnitListVar1" IsNull="true" />
+			<TriggerVar ID="5292" Type="Vector" Name="" IsNull="false">600.116882,0.00899999961,409.609711</TriggerVar>
+			<TriggerVar ID="5293" Type="Vector" Name="" IsNull="false">0.824699998,0,0.565500021</TriggerVar>
+			<TriggerVar ID="5294" Type="Float" Name="" IsNull="false">34</TriggerVar>
+			<TriggerVar ID="5295" Type="Float" Name="" IsNull="false">13</TriggerVar>
+			<TriggerVar ID="5296" Type="Float" Name="" IsNull="false">34</TriggerVar>
+			<TriggerVar ID="5297" Type="Bool" Name="ClearExistingVar22" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5298" Type="Unit" Name="UnitVar3" IsNull="true" />
+			<TriggerVar ID="5299" Type="UnitList" Name="AddToUnitListVar2" IsNull="true" />
+			<TriggerVar ID="5300" Type="Vector" Name="" IsNull="false">652.336182,0.0807999969,428.660187</TriggerVar>
+			<TriggerVar ID="5301" Type="Vector" Name="" IsNull="false">0.898800015,0,-0.4384</TriggerVar>
+			<TriggerVar ID="5302" Type="Float" Name="" IsNull="false">25</TriggerVar>
+			<TriggerVar ID="5303" Type="Float" Name="" IsNull="false">10</TriggerVar>
+			<TriggerVar ID="5304" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="5305" Type="Bool" Name="ClearExistingVar23" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5306" Type="Unit" Name="UnitVar4" IsNull="true" />
+			<TriggerVar ID="5307" Type="UnitList" Name="AddToUnitListVar3" IsNull="true" />
+			<TriggerVar ID="5308" Type="Vector" Name="" IsNull="false">565.781372,0.00899999961,369.071594</TriggerVar>
+			<TriggerVar ID="5309" Type="Vector" Name="" IsNull="false">-0.0997999981,0,0.995000005</TriggerVar>
+			<TriggerVar ID="5310" Type="Float" Name="" IsNull="false">22</TriggerVar>
+			<TriggerVar ID="5311" Type="Float" Name="" IsNull="false">9</TriggerVar>
+			<TriggerVar ID="5312" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="5313" Type="Bool" Name="ClearExistingVar24" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5314" Type="Unit" Name="UnitVar5" IsNull="true" />
+			<TriggerVar ID="5315" Type="UnitList" Name="AddToUnitListVar4" IsNull="true" />
+			<TriggerVar ID="11275" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+			<TriggerVar ID="11285" Type="Vector" Name="" IsNull="false">524.81073,-3.68379998,306.472198</TriggerVar>
+			<TriggerVar ID="11286" Type="Vector" Name="" IsNull="false">710.81073,2.31620002,468.472198</TriggerVar>
+			<TriggerVar ID="5353" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="5354" Type="Time" Name="" IsNull="false">500</TriggerVar>
+			<TriggerVar ID="11276" Type="Bool" Name="" IsNull="false">False</TriggerVar>
+			<TriggerVar ID="5355" Type="Vector" Name="" IsNull="false">409.406006,-0.683799982,686.936279</TriggerVar>
+			<TriggerVar ID="5356" Type="Vector" Name="" IsNull="false">-0.808499992,0,-0.588500023</TriggerVar>
+			<TriggerVar ID="5357" Type="Float" Name="" IsNull="false">29</TriggerVar>
+			<TriggerVar ID="5358" Type="Float" Name="" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="5359" Type="Float" Name="" IsNull="false">107</TriggerVar>
+			<TriggerVar ID="5360" Type="Bool" Name="ClearExistingVar25" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5361" Type="Unit" Name="UnitVar6" IsNull="true" />
+			<TriggerVar ID="5362" Type="UnitList" Name="AddToUnitListVar5" IsNull="true" />
+			<TriggerVar ID="5363" Type="Vector" Name="" IsNull="false">405.118011,0.0179999992,601.339478</TriggerVar>
+			<TriggerVar ID="5364" Type="Vector" Name="" IsNull="false">0.907199979,0,-0.420599997</TriggerVar>
+			<TriggerVar ID="5365" Type="Float" Name="" IsNull="false">24</TriggerVar>
+			<TriggerVar ID="5366" Type="Float" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="5367" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="5368" Type="Bool" Name="ClearExistingVar26" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5369" Type="Unit" Name="UnitVar7" IsNull="true" />
+			<TriggerVar ID="5370" Type="UnitList" Name="AddToUnitListVar6" IsNull="true" />
+			<TriggerVar ID="5371" Type="Vector" Name="" IsNull="false">490.893585,0.0179999992,661.510986</TriggerVar>
+			<TriggerVar ID="5372" Type="Vector" Name="" IsNull="false">0.0874999985,0,-0.996200025</TriggerVar>
+			<TriggerVar ID="5373" Type="Float" Name="" IsNull="false">25</TriggerVar>
+			<TriggerVar ID="5374" Type="Float" Name="" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="5375" Type="Float" Name="" IsNull="false">107</TriggerVar>
+			<TriggerVar ID="5376" Type="Bool" Name="ClearExistingVar27" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5377" Type="Unit" Name="UnitVar8" IsNull="true" />
+			<TriggerVar ID="5378" Type="UnitList" Name="AddToUnitListVar7" IsNull="true" />
+			<TriggerVar ID="5379" Type="Vector" Name="" IsNull="false">450.097595,-0.683799982,634.324829</TriggerVar>
+			<TriggerVar ID="5380" Type="Vector" Name="" IsNull="false">0.598999977,0,-0.800800025</TriggerVar>
+			<TriggerVar ID="5381" Type="Float" Name="" IsNull="false">51</TriggerVar>
+			<TriggerVar ID="5382" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="5383" Type="Float" Name="" IsNull="false">44</TriggerVar>
+			<TriggerVar ID="5384" Type="Bool" Name="ClearExistingVar28" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5385" Type="Unit" Name="UnitVar9" IsNull="true" />
+			<TriggerVar ID="5386" Type="UnitList" Name="AddToUnitListVar8" IsNull="true" />
+			<TriggerVar ID="11269" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+			<TriggerVar ID="11283" Type="Vector" Name="" IsNull="false">350.05069,-3.68379998,543.12738</TriggerVar>
+			<TriggerVar ID="11284" Type="Vector" Name="" IsNull="false">550.05072,2.31620002,729.12738</TriggerVar>
+			<TriggerVar ID="5958" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="5959" Type="Time" Name="" IsNull="false">500</TriggerVar>
+			<TriggerVar ID="11270" Type="Bool" Name="" IsNull="false">False</TriggerVar>
+			<TriggerVar ID="5960" Type="Vector" Name="" IsNull="false">726.298218,0.0296,532.256592</TriggerVar>
+			<TriggerVar ID="5961" Type="Vector" Name="" IsNull="false">-0.998399973,0,-0.0560000017</TriggerVar>
+			<TriggerVar ID="5962" Type="Float" Name="" IsNull="false">76</TriggerVar>
+			<TriggerVar ID="5963" Type="Float" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="5964" Type="Float" Name="" IsNull="false">39</TriggerVar>
+			<TriggerVar ID="5965" Type="Bool" Name="ClearExistingVar1" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5966" Type="Unit" Name="UnitVar10" IsNull="true" />
+			<TriggerVar ID="5967" Type="UnitList" Name="AddToUnitListVar9" IsNull="true" />
+			<TriggerVar ID="5968" Type="Vector" Name="" IsNull="false">673.322571,0.0182000007,473.772888</TriggerVar>
+			<TriggerVar ID="5969" Type="Vector" Name="" IsNull="false">-0.931999981,0,0.362399995</TriggerVar>
+			<TriggerVar ID="5970" Type="Float" Name="" IsNull="false">27</TriggerVar>
+			<TriggerVar ID="5971" Type="Float" Name="" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="5972" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="5973" Type="Bool" Name="ClearExistingVar2" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5974" Type="Unit" Name="UnitVar11" IsNull="true" />
+			<TriggerVar ID="5975" Type="UnitList" Name="AddToUnitListVar10" IsNull="true" />
+			<TriggerVar ID="5976" Type="Vector" Name="" IsNull="false">663.053101,0.0214000009,577.879211</TriggerVar>
+			<TriggerVar ID="5977" Type="Vector" Name="" IsNull="false">-0.83130002,0,-0.555800021</TriggerVar>
+			<TriggerVar ID="5978" Type="Float" Name="" IsNull="false">27</TriggerVar>
+			<TriggerVar ID="5979" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="5980" Type="Float" Name="" IsNull="false">122</TriggerVar>
+			<TriggerVar ID="5981" Type="Bool" Name="ClearExistingVar3" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5982" Type="Unit" Name="UnitVar12" IsNull="true" />
+			<TriggerVar ID="5983" Type="UnitList" Name="AddToUnitListVar11" IsNull="true" />
+			<TriggerVar ID="5984" Type="Vector" Name="" IsNull="false">665.868103,0.0449000001,525.602478</TriggerVar>
+			<TriggerVar ID="5985" Type="Vector" Name="" IsNull="false">-0.997200012,0,-0.0741999969</TriggerVar>
+			<TriggerVar ID="5986" Type="Float" Name="" IsNull="false">44</TriggerVar>
+			<TriggerVar ID="5987" Type="Float" Name="" IsNull="false">4</TriggerVar>
+			<TriggerVar ID="5988" Type="Float" Name="" IsNull="false">47</TriggerVar>
+			<TriggerVar ID="5989" Type="Bool" Name="ClearExistingVar4" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="5990" Type="Unit" Name="UnitVar13" IsNull="true" />
+			<TriggerVar ID="5991" Type="UnitList" Name="AddToUnitListVar12" IsNull="true" />
+			<TriggerVar ID="11277" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+			<TriggerVar ID="11287" Type="Vector" Name="" IsNull="false">586.014771,-3.68379998,434.843506</TriggerVar>
+			<TriggerVar ID="11288" Type="Vector" Name="" IsNull="false">772.014771,2.31620002,620.843506</TriggerVar>
+			<TriggerVar ID="5992" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="5993" Type="Time" Name="" IsNull="false">500</TriggerVar>
+			<TriggerVar ID="11278" Type="Bool" Name="" IsNull="false">False</TriggerVar>
+			<TriggerVar ID="5994" Type="Vector" Name="" IsNull="false">333.405914,0.0278999992,500.891388</TriggerVar>
+			<TriggerVar ID="5995" Type="Vector" Name="" IsNull="false">0.997600019,0,0.0698999986</TriggerVar>
+			<TriggerVar ID="5996" Type="Float" Name="" IsNull="false">81</TriggerVar>
+			<TriggerVar ID="5997" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="5998" Type="Float" Name="" IsNull="false">39</TriggerVar>
+			<TriggerVar ID="5999" Type="Bool" Name="ClearExistingVar6" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6000" Type="Unit" Name="UnitVar14" IsNull="true" />
+			<TriggerVar ID="6001" Type="UnitList" Name="AddToUnitListVar13" IsNull="true" />
+			<TriggerVar ID="6002" Type="Vector" Name="" IsNull="false">384.787109,0.0215000007,556.23407</TriggerVar>
+			<TriggerVar ID="6003" Type="Vector" Name="" IsNull="false">0.904299974,0,-0.426899999</TriggerVar>
+			<TriggerVar ID="6004" Type="Float" Name="" IsNull="false">25</TriggerVar>
+			<TriggerVar ID="6005" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6006" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="6007" Type="Bool" Name="ClearExistingVar7" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6008" Type="Unit" Name="UnitVar15" IsNull="true" />
+			<TriggerVar ID="6009" Type="UnitList" Name="AddToUnitListVar14" IsNull="true" />
+			<TriggerVar ID="6010" Type="Vector" Name="" IsNull="false">391.086395,0.204999998,453.573486</TriggerVar>
+			<TriggerVar ID="6011" Type="Vector" Name="" IsNull="false">0.828499973,0,0.560000002</TriggerVar>
+			<TriggerVar ID="6012" Type="Float" Name="" IsNull="false">24</TriggerVar>
+			<TriggerVar ID="6013" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6014" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="6015" Type="Bool" Name="ClearExistingVar10" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6016" Type="Unit" Name="UnitVar16" IsNull="true" />
+			<TriggerVar ID="6017" Type="UnitList" Name="AddToUnitListVar15" IsNull="true" />
+			<TriggerVar ID="6018" Type="Vector" Name="" IsNull="false">389.914398,0.0449000001,504.895508</TriggerVar>
+			<TriggerVar ID="6019" Type="Vector" Name="" IsNull="false">0.997900009,0,0.064199999</TriggerVar>
+			<TriggerVar ID="6020" Type="Float" Name="" IsNull="false">44</TriggerVar>
+			<TriggerVar ID="6021" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6022" Type="Float" Name="" IsNull="false">44</TriggerVar>
+			<TriggerVar ID="6023" Type="Bool" Name="ClearExistingVar11" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6024" Type="Unit" Name="UnitVar17" IsNull="true" />
+			<TriggerVar ID="6025" Type="UnitList" Name="AddToUnitListVar16" IsNull="true" />
+			<TriggerVar ID="11271" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+			<TriggerVar ID="11289" Type="Vector" Name="" IsNull="false">290.147308,-3.68379998,405.56189</TriggerVar>
+			<TriggerVar ID="11290" Type="Vector" Name="" IsNull="false">476.147308,2.31620002,605.56189</TriggerVar>
+			<TriggerVar ID="6026" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="6027" Type="Time" Name="" IsNull="false">500</TriggerVar>
+			<TriggerVar ID="11272" Type="Bool" Name="" IsNull="false">False</TriggerVar>
+			<TriggerVar ID="6028" Type="Vector" Name="" IsNull="false">612.894897,0.0165999997,697.980286</TriggerVar>
+			<TriggerVar ID="6029" Type="Vector" Name="" IsNull="false">-0.427399993,0,-0.904100001</TriggerVar>
+			<TriggerVar ID="6030" Type="Float" Name="" IsNull="false">71</TriggerVar>
+			<TriggerVar ID="6031" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6032" Type="Float" Name="" IsNull="false">44</TriggerVar>
+			<TriggerVar ID="6033" Type="Bool" Name="ClearExistingVar13" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6034" Type="Unit" Name="UnitVar18" IsNull="true" />
+			<TriggerVar ID="6035" Type="UnitList" Name="AddToUnitListVar17" IsNull="true" />
+			<TriggerVar ID="6036" Type="Vector" Name="" IsNull="false">627.768616,0.0217000004,620.218628</TriggerVar>
+			<TriggerVar ID="6037" Type="Vector" Name="" IsNull="false">-0.824899971,0,-0.565199971</TriggerVar>
+			<TriggerVar ID="6038" Type="Float" Name="" IsNull="false">27</TriggerVar>
+			<TriggerVar ID="6039" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="604" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="6040" Type="Float" Name="" IsNull="false">118</TriggerVar>
+			<TriggerVar ID="6041" Type="Bool" Name="ClearExistingVar14" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6042" Type="Unit" Name="UnitVar19" IsNull="true" />
+			<TriggerVar ID="6043" Type="UnitList" Name="AddToUnitListVar18" IsNull="true" />
+			<TriggerVar ID="6044" Type="Vector" Name="" IsNull="false">544.438293,0.687300026,666.870483</TriggerVar>
+			<TriggerVar ID="6045" Type="Vector" Name="" IsNull="false">0.0658000037,0,-0.997799993</TriggerVar>
+			<TriggerVar ID="6046" Type="Float" Name="" IsNull="false">25</TriggerVar>
+			<TriggerVar ID="6047" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6048" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="6049" Type="Bool" Name="ClearExistingVar16" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="605" Type="Time" Name="" IsNull="false">1000</TriggerVar>
+			<TriggerVar ID="6050" Type="Unit" Name="UnitVar20" IsNull="true" />
+			<TriggerVar ID="6051" Type="UnitList" Name="AddToUnitListVar19" IsNull="true" />
+			<TriggerVar ID="6052" Type="Vector" Name="" IsNull="false">587.395325,0.0359000005,643.823303</TriggerVar>
+			<TriggerVar ID="6053" Type="Vector" Name="" IsNull="false">-0.427399993,0,-0.904100001</TriggerVar>
+			<TriggerVar ID="6054" Type="Float" Name="" IsNull="false">34</TriggerVar>
+			<TriggerVar ID="6055" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6056" Type="Float" Name="" IsNull="false">39</TriggerVar>
+			<TriggerVar ID="6057" Type="Bool" Name="ClearExistingVar17" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6058" Type="Unit" Name="UnitVar21" IsNull="true" />
+			<TriggerVar ID="6059" Type="UnitList" Name="AddToUnitListVar20" IsNull="true" />
+			<TriggerVar ID="11279" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+			<TriggerVar ID="11291" Type="Vector" Name="" IsNull="false">500.610291,-3.68379998,559.31427</TriggerVar>
+			<TriggerVar ID="11292" Type="Vector" Name="" IsNull="false">686.610291,2.31620002,745.31427</TriggerVar>
+			<TriggerVar ID="6060" Type="Operator" Name="" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+			<TriggerVar ID="6061" Type="Time" Name="" IsNull="false">500</TriggerVar>
+			<TriggerVar ID="11280" Type="Bool" Name="" IsNull="false">False</TriggerVar>
+			<TriggerVar ID="6062" Type="Vector" Name="" IsNull="false">443.548492,0.0245999992,334.034607</TriggerVar>
+			<TriggerVar ID="6063" Type="Vector" Name="" IsNull="false">0.430400014,0,0.90259999</TriggerVar>
+			<TriggerVar ID="6064" Type="Float" Name="" IsNull="false">87</TriggerVar>
+			<TriggerVar ID="6065" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6066" Type="Float" Name="" IsNull="false">36</TriggerVar>
+			<TriggerVar ID="6067" Type="Bool" Name="ClearExistingVar19" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6068" Type="Unit" Name="UnitVar22" IsNull="true" />
+			<TriggerVar ID="6069" Type="UnitList" Name="AddToUnitListVar21" IsNull="true" />
+			<TriggerVar ID="6070" Type="Vector" Name="" IsNull="false">422.00531,0.649600029,406.344788</TriggerVar>
+			<TriggerVar ID="6071" Type="Vector" Name="" IsNull="false">0.801699996,0,0.5977</TriggerVar>
+			<TriggerVar ID="6072" Type="Float" Name="" IsNull="false">25</TriggerVar>
+			<TriggerVar ID="6073" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6074" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="6075" Type="Bool" Name="ClearExistingVar20" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6076" Type="Unit" Name="UnitVar23" IsNull="true" />
+			<TriggerVar ID="6077" Type="UnitList" Name="AddToUnitListVar22" IsNull="true" />
+			<TriggerVar ID="6078" Type="Vector" Name="" IsNull="false">513.858215,0.852900028,364.248993</TriggerVar>
+			<TriggerVar ID="6079" Type="Vector" Name="" IsNull="false">-0.0697999969,0,0.997600019</TriggerVar>
+			<TriggerVar ID="6080" Type="Float" Name="" IsNull="false">25</TriggerVar>
+			<TriggerVar ID="6081" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6082" Type="Float" Name="" IsNull="false">114</TriggerVar>
+			<TriggerVar ID="6083" Type="Bool" Name="ClearExistingVar29" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6084" Type="Unit" Name="UnitVar24" IsNull="true" />
+			<TriggerVar ID="6085" Type="UnitList" Name="AddToUnitListVar23" IsNull="true" />
+			<TriggerVar ID="6086" Type="Vector" Name="" IsNull="false">469.445892,0.0449000001,387.027802</TriggerVar>
+			<TriggerVar ID="6087" Type="Vector" Name="" IsNull="false">0.42719999,0,0.904200017</TriggerVar>
+			<TriggerVar ID="6088" Type="Float" Name="" IsNull="false">47</TriggerVar>
+			<TriggerVar ID="6089" Type="Float" Name="" IsNull="false">3</TriggerVar>
+			<TriggerVar ID="6090" Type="Float" Name="" IsNull="false">41</TriggerVar>
+			<TriggerVar ID="6091" Type="Bool" Name="ClearExistingVar30" IsNull="true">False</TriggerVar>
+			<TriggerVar ID="6092" Type="Unit" Name="UnitVar25" IsNull="true" />
+			<TriggerVar ID="6093" Type="UnitList" Name="AddToUnitListVar24" IsNull="true" />
+			<TriggerVar ID="11273" Type="Bool" Name="" IsNull="false">True</TriggerVar>
+			<TriggerVar ID="11293" Type="Vector" Name="" IsNull="false">374.199097,-3.68379998,292.467896</TriggerVar>
+			<TriggerVar ID="11294" Type="Vector" Name="" IsNull="false">560.199097,2.31620002,478.467896</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+<!--Light Wall-->
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="1" Y="219" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">0</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+
+			<Trigger ID="177" Name="newTrigger174" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="592" Y="381" GroupID="-1" TemplateID="-1">
+                <TriggerConditions>
+                    <And />
+                </TriggerConditions>
+                <TriggerEffectsOnTrue>
+                    <Effect ID="165" Type="SetTowerWallDestination" DBID="1001" Version="1" CommentOut="false">
+                        <Input Name="SourceTower" SigID="1" Optional="false">2026</Input>
+                        <Input Name="DestTower" SigID="2" Optional="false">2027</Input>
+                    </Effect>
+                </TriggerEffectsOnTrue>
+                <TriggerEffectsOnFalse />
+            </Trigger>
+<!--End of Light Wall-->
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="334" Y="11" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">20169</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="1" Name="SET A1 obstruct and fall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2821" Y="4586" GroupID="0" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="0" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">5351</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">5352</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="1" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11268</Input>
+					</Effect>
+					<Effect ID="2" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5284</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5285</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5286</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5287</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5288</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5289</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5290</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5291</Output>
+					</Effect>
+					<Effect ID="3" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5292</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5293</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5294</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5295</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5296</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5297</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5298</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5299</Output>
+					</Effect>
+					<Effect ID="4" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5300</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5301</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5302</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5303</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5304</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5305</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5306</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5307</Output>
+					</Effect>
+					<Effect ID="5" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5308</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5309</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5310</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5311</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5312</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5313</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5314</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5315</Output>
+					</Effect>
+					<Effect ID="6" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11275</Input>
+					</Effect>
+					<Effect ID="7" Type="PatherObstructionRebuild" DBID="1069" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="false">11285</Input>
+						<Input Name="Max" SigID="2" Optional="false">11286</Input>
+					</Effect>
+					<Effect ID="8" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">20170</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="2" Name="SET A2 obstruct and fall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2823" Y="5262" GroupID="0" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">5353</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">5354</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="9" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11276</Input>
+					</Effect>
+					<Effect ID="10" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5355</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5356</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5357</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5358</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5359</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5360</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5361</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5362</Output>
+					</Effect>
+					<Effect ID="11" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5363</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5364</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5365</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5366</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5367</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5368</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5369</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5370</Output>
+					</Effect>
+					<Effect ID="12" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5371</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5372</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5373</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5374</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5375</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5376</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5377</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5378</Output>
+					</Effect>
+					<Effect ID="13" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5379</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5380</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5381</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5382</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5383</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5384</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5385</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5386</Output>
+					</Effect>
+					<Effect ID="14" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11269</Input>
+					</Effect>
+					<Effect ID="15" Type="PatherObstructionRebuild" DBID="1069" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="false">11283</Input>
+						<Input Name="Max" SigID="2" Optional="false">11284</Input>
+					</Effect>
+					<Effect ID="16" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">20171</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="3" Name="SET B1 obstruct and fall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3874" Y="4435" GroupID="0" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="2" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">5958</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">5959</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="17" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11270</Input>
+					</Effect>
+					<Effect ID="18" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5960</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5961</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5962</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5963</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5964</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5965</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5966</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5967</Output>
+					</Effect>
+					<Effect ID="19" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5968</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5969</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5970</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5971</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5972</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5973</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5974</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5975</Output>
+					</Effect>
+					<Effect ID="20" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5976</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5977</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5978</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5979</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5980</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5981</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5982</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5983</Output>
+					</Effect>
+					<Effect ID="21" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5984</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5985</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5986</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5987</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5988</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5989</Input>
+						<Output Name="Unit" SigID="7" Optional="true">5990</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">5991</Output>
+					</Effect>
+					<Effect ID="22" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11277</Input>
+					</Effect>
+					<Effect ID="23" Type="PatherObstructionRebuild" DBID="1069" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="false">11287</Input>
+						<Input Name="Max" SigID="2" Optional="false">11288</Input>
+					</Effect>
+					<Effect ID="24" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">20172</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="4" Name="SET B2 obstruct and fall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="3881" Y="5085" GroupID="0" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="3" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">5992</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">5993</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="25" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11278</Input>
+					</Effect>
+					<Effect ID="26" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">5994</Input>
+						<Input Name="Direction" SigID="2" Optional="false">5995</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">5996</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">5997</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">5998</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">5999</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6000</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6001</Output>
+					</Effect>
+					<Effect ID="27" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6002</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6003</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6004</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6005</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6006</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6007</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6008</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6009</Output>
+					</Effect>
+					<Effect ID="28" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6010</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6011</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6012</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6013</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6014</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6015</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6016</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6017</Output>
+					</Effect>
+					<Effect ID="29" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6018</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6019</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6020</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6021</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6022</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6023</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6024</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6025</Output>
+					</Effect>
+					<Effect ID="30" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11271</Input>
+					</Effect>
+					<Effect ID="31" Type="PatherObstructionRebuild" DBID="1069" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="false">11289</Input>
+						<Input Name="Max" SigID="2" Optional="false">11290</Input>
+					</Effect>
+					<Effect ID="32" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">20173</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="5" Name="SET C1 obstruct and fall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4977" Y="4494" GroupID="0" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="4" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">6026</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">6027</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="33" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11272</Input>
+					</Effect>
+					<Effect ID="34" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6028</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6029</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6030</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6031</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6032</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6033</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6034</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6035</Output>
+					</Effect>
+					<Effect ID="35" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6036</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6037</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6038</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6039</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6040</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6041</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6042</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6043</Output>
+					</Effect>
+					<Effect ID="36" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6044</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6045</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6046</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6047</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6048</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6049</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6050</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6051</Output>
+					</Effect>
+					<Effect ID="37" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6052</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6053</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6054</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6055</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6056</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6057</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6058</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6059</Output>
+					</Effect>
+					<Effect ID="38" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11279</Input>
+					</Effect>
+					<Effect ID="39" Type="PatherObstructionRebuild" DBID="1069" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="false">11291</Input>
+						<Input Name="Max" SigID="2" Optional="false">11292</Input>
+					</Effect>
+					<Effect ID="40" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+						<Input Name="Trigger" SigID="1" Optional="false">20174</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="6" Name="SET C2 obstruct and fall" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="4984" Y="5172" GroupID="0" TemplateID="-1">
+				<TriggerConditions>
+					<And>
+						<Condition ID="5" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+							<Input Name="CompareType" SigID="1" Optional="false">6060</Input>
+							<Input Name="CompareTime" SigID="2" Optional="false">6061</Input>
+						</Condition>
+					</And>
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="41" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11280</Input>
+					</Effect>
+					<Effect ID="42" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6062</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6063</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6064</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6065</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6066</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6067</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6068</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6069</Output>
+					</Effect>
+					<Effect ID="43" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6070</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6071</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6072</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6073</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6074</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6075</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6076</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6077</Output>
+					</Effect>
+					<Effect ID="44" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6078</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6079</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6080</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6081</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6082</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6083</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6084</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6085</Output>
+					</Effect>
+					<Effect ID="45" Type="CreateObstructionUnit" DBID="833" Version="1" CommentOut="false">
+						<Input Name="Position" SigID="1" Optional="false">6086</Input>
+						<Input Name="Direction" SigID="2" Optional="false">6087</Input>
+						<Input Name="HalfLengthX" SigID="3" Optional="false">6088</Input>
+						<Input Name="HalfLengthY" SigID="4" Optional="false">6089</Input>
+						<Input Name="HalfLengthZ" SigID="5" Optional="false">6090</Input>
+						<Input Name="ClearExisting" SigID="6" Optional="true">6091</Input>
+						<Output Name="Unit" SigID="7" Optional="true">6092</Output>
+						<Output Name="AddToUnitList" SigID="8" Optional="true">6093</Output>
+					</Effect>
+					<Effect ID="46" Type="PatherObstructionUpdates" DBID="1068" Version="1" CommentOut="false">
+						<Input Name="EnablePatherUpdates" SigID="1" Optional="false">11273</Input>
+					</Effect>
+					<Effect ID="47" Type="PatherObstructionRebuild" DBID="1069" Version="1" CommentOut="false">
+						<Input Name="Min" SigID="1" Optional="false">11293</Input>
+						<Input Name="Max" SigID="2" Optional="false">11294</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+	</TriggerSystem>
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="69" NextTriggerID="68" NextConditionID="0" NextEffectID="68" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="361" Y="219" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+	</TriggerSystem>
+	<EditorOnlyData>
+		<HelperAreas>
+			<HelperAreaObject>
+				<Name>Area267</Name>
+				<ID>267</ID>
+				<Group />
+				<Radius>150</Radius>
+				<Position>528.880127,-149.561905,515.590027</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area268</Name>
+				<ID>268</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>978.463623,51.1007004,980.420227</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area269</Name>
+				<ID>269</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>29.3005009,52.6237984,1007.07098</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area27</Name>
+				<ID>27</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>688.778198,0,284.296387</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area270</Name>
+				<ID>270</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>36.5788002,81.2845001,47.898201</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area271</Name>
+				<ID>271</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>973.31958,54.5471001,39.8084984</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area277</Name>
+				<ID>277</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>272.991089,0.779399991,908.508179</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area278</Name>
+				<ID>278</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>474.642395,43.2971001,1002.58398</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area279</Name>
+				<ID>279</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>514.718323,4.09770012,847.63147</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area28</Name>
+				<ID>28</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>370.6315,-2.48219991,749.218384</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area280</Name>
+				<ID>280</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>561.430725,0,861.712585</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area281</Name>
+				<ID>281</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>807.256287,31.3894005,1003.02899</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area282</Name>
+				<ID>282</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>943.466614,53.4107018,1007.35999</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area283</Name>
+				<ID>283</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>63.955101,49.7029991,1007.28497</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area284</Name>
+				<ID>284</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>20.6693001,44.5381012,870.952576</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area285</Name>
+				<ID>285</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>8.87539959,38.4785004,797.157288</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2856</Name>
+				<ID>2856</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>625.491577,0,143.453003</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2857</Name>
+				<ID>2857</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>839.937073,0.0176999997,263.637512</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2862</Name>
+				<ID>2862</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>226.836502,0.890799999,180.431793</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2865</Name>
+				<ID>2865</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>535.147217,0,316.91861</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2866</Name>
+				<ID>2866</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>534.536316,0,329.968994</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2867</Name>
+				<ID>2867</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>531.90863,0,345.866913</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2868</Name>
+				<ID>2868</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>530.366028,0,359.638611</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2869</Name>
+				<ID>2869</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>529.422913,0,376.286499</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area287</Name>
+				<ID>287</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>429.048798,0,316.547089</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2870</Name>
+				<ID>2870</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>527.846924,0,390.950409</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2871</Name>
+				<ID>2871</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>693.054016,0,427.727997</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2872</Name>
+				<ID>2872</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>683.776978,0,432.316895</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2873</Name>
+				<ID>2873</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>674.23822,0,437.672913</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2874</Name>
+				<ID>2874</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>664.075989,0,443.597504</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2875</Name>
+				<ID>2875</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>653.53418,0,449.253387</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2876</Name>
+				<ID>2876</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>642.8974,0,454.796295</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2877</Name>
+				<ID>2877</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>420.919312,0,557.522888</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2878</Name>
+				<ID>2878</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>406.539398,0,564.520386</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2879</Name>
+				<ID>2879</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>395.121307,0,571.131287</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area288</Name>
+				<ID>288</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>297.558807,0,499.554504</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2880</Name>
+				<ID>2880</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>381.297913,0,581.792175</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2881</Name>
+				<ID>2881</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>363.750305,0,592.691772</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2882</Name>
+				<ID>2882</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>351.300201,0,600.9505</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2883</Name>
+				<ID>2883</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>504.694794,0,633.506287</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2884</Name>
+				<ID>2884</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>504.074585,0,642.930603</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2885</Name>
+				<ID>2885</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>504.688507,0,657.109192</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2886</Name>
+				<ID>2886</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>502.5914,0,675.641174</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2887</Name>
+				<ID>2887</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>501.394196,0,691.86322</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2888</Name>
+				<ID>2888</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>497.453613,0,711.8573</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area289</Name>
+				<ID>289</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>452.351593,0.0449000001,633.830078</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2890</Name>
+				<ID>2890</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>737.909912,-0.683799982,236.236404</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area290</Name>
+				<ID>290</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>606.587585,0,720.929871</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2901</Name>
+				<ID>2901</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>362.553192,0.33039999,460.93399</Position>
+				<Direction>-0.389400005,0,0.92110002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area291</Name>
+				<ID>291</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>703.797607,0.0449000001,523.492493</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2915</Name>
+				<ID>2915</ID>
+				<Group />
+				<Radius>100</Radius>
+				<Position>601.866516,0,839.367615</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2916</Name>
+				<ID>2916</ID>
+				<Group />
+				<Radius>106</Radius>
+				<Position>800.954895,-0.678200006,238.890594</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2917</Name>
+				<ID>2917</ID>
+				<Group />
+				<Radius>106</Radius>
+				<Position>408.180786,0,317.079407</Position>
+				<Direction>-0.0037,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area292</Name>
+				<ID>292</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>646.71582,0,328.803101</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2926</Name>
+				<ID>2926</ID>
+				<Group />
+				<Radius>7</Radius>
+				<Position>687.758972,0,283.945007</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2927</Name>
+				<ID>2927</ID>
+				<Group />
+				<Radius>7</Radius>
+				<Position>410.38031,0,251.863098</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2928</Name>
+				<ID>2928</ID>
+				<Group />
+				<Radius>8</Radius>
+				<Position>241.098999,0,528.969421</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2929</Name>
+				<ID>2929</ID>
+				<Group />
+				<Radius>8</Radius>
+				<Position>354.552887,-0.327399999,734.806824</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2930</Name>
+				<ID>2930</ID>
+				<Group />
+				<Radius>9</Radius>
+				<Position>639.108582,0,783.276672</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2931</Name>
+				<ID>2931</ID>
+				<Group />
+				<Radius>8</Radius>
+				<Position>801.93689,0,564.49292</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area294</Name>
+				<ID>294</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>115.8265,42.9614983,90.115303</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area295</Name>
+				<ID>295</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>168.956604,48.9445,61.4462013</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area2953</Name>
+				<ID>2953</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>673.559082,-0.772599995,257.84729</Position>
+				<Direction>-0.479400009,0,0.877600014</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area296</Name>
+				<ID>296</ID>
+				<Group />
+				<Radius>33</Radius>
+				<Position>481.575409,-2.92280006,117.991203</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area297</Name>
+				<ID>297</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>353.660706,25.2723999,60.1811981</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area298</Name>
+				<ID>298</ID>
+				<Group />
+				<Radius>25</Radius>
+				<Position>766.051025,-1.69599998,119.055702</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area299</Name>
+				<ID>299</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>732.556396,49.7178001,57.7663002</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area300</Name>
+				<ID>300</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>918.92572,41.953701,68.216301</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area301</Name>
+				<ID>301</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>340.854004,2.85719991,885.73877</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area302</Name>
+				<ID>302</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>788.776611,1.45280004,152.831802</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3207</Name>
+				<ID>3207</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>756.849182,-0.683799982,271.313293</Position>
+				<Direction>-0.644200027,0,0.764900029</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3208</Name>
+				<ID>3208</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>715.616089,0,280.338287</Position>
+				<Direction>-0.479400009,0,0.877600014</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3209</Name>
+				<ID>3209</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>798.343628,50.6002007,60.7212982</Position>
+				<Direction>-0.389400005,0,0.92110002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3224</Name>
+				<ID>3224</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>190.954697,0,482.519287</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3240</Name>
+				<ID>3240</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>121.001198,0,394.567993</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3333</Name>
+				<ID>3333</ID>
+				<Group />
+				<Radius>70</Radius>
+				<Position>429.527588,28.6054993,296.073212</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3334</Name>
+				<ID>3334</ID>
+				<Group />
+				<Radius>70</Radius>
+				<Position>671.178223,26.7616997,308.24231</Position>
+				<Direction>-0.841499984,0,0.540300012</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3335</Name>
+				<ID>3335</ID>
+				<Group />
+				<Radius>70</Radius>
+				<Position>777.402222,-0.683799982,530.777222</Position>
+				<Direction>-0.985400021,0,0.170000002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3336</Name>
+				<ID>3336</ID>
+				<Group />
+				<Radius>70</Radius>
+				<Position>647.335571,17.9011002,751.919678</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3337</Name>
+				<ID>3337</ID>
+				<Group />
+				<Radius>70</Radius>
+				<Position>390.457001,24.6182995,728.481873</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3338</Name>
+				<ID>3338</ID>
+				<Group />
+				<Radius>70</Radius>
+				<Position>286.649994,26.6742001,489.755096</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3383</Name>
+				<ID>3383</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>700.260376,-0.683799982,254.215897</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3384</Name>
+				<ID>3384</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>728.764526,0,265.580505</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3389</Name>
+				<ID>3389</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>487.718811,-0.411199987,933.003418</Position>
+				<Direction>0.808499992,0,-0.588500023</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3417</Name>
+				<ID>3417</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>424.439087,0.0179999992,668.143127</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3418</Name>
+				<ID>3418</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>357.184204,0.0179999992,496.976501</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3419</Name>
+				<ID>3419</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>447.843811,0.0179999992,357.037689</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3420</Name>
+				<ID>3420</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>634.454529,0.00899999961,364.029602</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3421</Name>
+				<ID>3421</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>715.267029,0.0179999992,533.627625</Position>
+				<Direction>-0.564599991,0,0.825299978</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3422</Name>
+				<ID>3422</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>613.598206,0.00899999961,681.758728</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3423</Name>
+				<ID>3423</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>509.271393,2.7973001,725.574524</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3424</Name>
+				<ID>3424</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>697.555786,8.03489971,632.396973</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3425</Name>
+				<ID>3425</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>721.206726,8.65040016,423.783813</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3426</Name>
+				<ID>3426</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>548.274475,8.31890011,311.493896</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3427</Name>
+				<ID>3427</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>361.578705,0,398.81131</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3428</Name>
+				<ID>3428</ID>
+				<Group />
+				<Radius>112</Radius>
+				<Position>343.468689,0,604.820374</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3447</Name>
+				<ID>3447</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>689.840576,-0.87529999,281.944489</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3451</Name>
+				<ID>3451</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>827.001221,0,681.429321</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3564</Name>
+				<ID>3564</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>27.9379997,23.4927006,430.217102</Position>
+				<Direction>0.999599993,0,-0.0292000007</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3565</Name>
+				<ID>3565</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>232.748901,-0.684099972,456.041687</Position>
+				<Direction>0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3569</Name>
+				<ID>3569</ID>
+				<Group />
+				<Radius>19</Radius>
+				<Position>381.631897,-0.683799982,175.673401</Position>
+				<Direction>0.29550001,0,0.955299973</Direction>
+				<Color>251,255,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3571</Name>
+				<ID>3571</ID>
+				<Group />
+				<Radius>25</Radius>
+				<Position>841.440125,-0.683799982,665.549072</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3572</Name>
+				<ID>3572</ID>
+				<Group />
+				<Radius>30</Radius>
+				<Position>204.581604,-0.698000014,713.987122</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3573</Name>
+				<ID>3573</ID>
+				<Group />
+				<Radius>26</Radius>
+				<Position>168.940598,-0.683799982,451.954315</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,246,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3580</Name>
+				<ID>3580</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>148.349701,-0.683700025,482.885406</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3594</Name>
+				<ID>3594</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>721.723328,-0.683799982,242.316803</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3595</Name>
+				<ID>3595</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>744.071777,-0.683799982,278.693787</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3624</Name>
+				<ID>3624</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>619.968018,-0.683799982,387.138</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>245,189,179</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3625</Name>
+				<ID>3625</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>687.556519,-0.683799982,390.961212</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,189,179</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3626</Name>
+				<ID>3626</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>587.2547,-0.683799982,324.177399</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,189,179</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3627</Name>
+				<ID>3627</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>574.133606,-0.683799982,448.352203</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,189,179</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3628</Name>
+				<ID>3628</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>687.495117,-0.683799982,528.214172</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,144,128</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3629</Name>
+				<ID>3629</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>712.963623,-0.683799982,589.005371</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,151,128</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3630</Name>
+				<ID>3630</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>723.285889,-0.683799982,471.740204</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,145,130</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3631</Name>
+				<ID>3631</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>619.755493,-0.683799982,521.624207</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,148,138</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3632</Name>
+				<ID>3632</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>597.383911,-0.683799982,658.691895</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,139,133</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3633</Name>
+				<ID>3633</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>664.614075,-0.683799982,661.248779</Position>
+				<Direction>0,0,1</Direction>
+				<Color>240,144,129</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3634</Name>
+				<ID>3634</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>558.44043,-1.02310002,713.520386</Position>
+				<Direction>0,0,1</Direction>
+				<Color>240,152,144</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3635</Name>
+				<ID>3635</ID>
+				<Group />
+				<Radius>47</Radius>
+				<Position>568.205627,-0.683799982,595.620178</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,138,138</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3636</Name>
+				<ID>3636</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>442.468903,-0.683799982,646.454285</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,150,147</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3637</Name>
+				<ID>3637</ID>
+				<Group />
+				<Radius>47</Radius>
+				<Position>480.801788,-0.683799982,589.537903</Position>
+				<Direction>0,0,1</Direction>
+				<Color>240,150,127</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3638</Name>
+				<ID>3638</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>471.14151,-0.836099982,704.68512</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,144,144</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3639</Name>
+				<ID>3639</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>374.456085,-0.683799982,637.987427</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,143,143</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3640</Name>
+				<ID>3640</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>374.342499,-0.683799982,503.263306</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,147,147</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3641</Name>
+				<ID>3641</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>335.578186,-0.683799982,561.922913</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,170,162</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3642</Name>
+				<ID>3642</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>346.003906,-0.683799982,443.655396</Position>
+				<Direction>0,0,1</Direction>
+				<Color>247,161,146</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3643</Name>
+				<ID>3643</ID>
+				<Group />
+				<Radius>47</Radius>
+				<Position>438.381897,-0.683799982,509.375</Position>
+				<Direction>0,0,1</Direction>
+				<Color>247,153,148</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3644</Name>
+				<ID>3644</ID>
+				<Group />
+				<Radius>79</Radius>
+				<Position>463.0578,-0.683799982,372.900604</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>240,141,141</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3645</Name>
+				<ID>3645</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>395.105194,-0.683799982,371.712585</Position>
+				<Direction>0,0,1</Direction>
+				<Color>240,140,120</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3646</Name>
+				<ID>3646</ID>
+				<Group />
+				<Radius>44</Radius>
+				<Position>501.665802,-0.683799982,321.820801</Position>
+				<Direction>0,0,1</Direction>
+				<Color>242,150,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area3647</Name>
+				<ID>3647</ID>
+				<Group />
+				<Radius>47</Radius>
+				<Position>491.011292,-0.683799982,432.269104</Position>
+				<Direction>0,0,1</Direction>
+				<Color>245,148,137</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area42</Name>
+				<ID>42</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>381.868988,22.9211006,727.950623</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area53</Name>
+				<ID>53</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>652.811584,-1.97259998,771.240173</Position>
+				<Direction>0.644200027,0,0.764800012</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area54</Name>
+				<ID>54</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>810.083313,-2.02519989,536.682983</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area55</Name>
+				<ID>55</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>409.653412,-1.87460005,261.900787</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area56</Name>
+				<ID>56</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>249.8237,-2.26670003,492.115692</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area58</Name>
+				<ID>58</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>463.474792,0,382.206207</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area59</Name>
+				<ID>59</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>361.129791,0,512.449829</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area60</Name>
+				<ID>60</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>439.730286,0,641.80011</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area61</Name>
+				<ID>61</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>589.603088,0,669.635925</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area62</Name>
+				<ID>62</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>680.935425,0,525.469788</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area63</Name>
+				<ID>63</ID>
+				<Group />
+				<Radius>3</Radius>
+				<Position>620.458191,0,383.89859</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+		</HelperAreas>
+		<HelperAreaBoxes>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3290</Name>
+				<ID>3290</ID>
+				<Group />
+				<HalfLengthX>25</HalfLengthX>
+				<HalfLengthY>10</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>50</LengthX>
+				<LengthY>20</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>652.336182,0.0807999969,428.660187</Position>
+				<Direction>0.898800015,0,-0.4384</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3291</Name>
+				<ID>3291</ID>
+				<Group />
+				<HalfLengthX>22</HalfLengthX>
+				<HalfLengthY>9</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>44</LengthX>
+				<LengthY>18</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>565.781372,0.00899999961,369.071594</Position>
+				<Direction>-0.0997999981,0,0.995000005</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3292</Name>
+				<ID>3292</ID>
+				<Group />
+				<HalfLengthX>47</HalfLengthX>
+				<HalfLengthY>7</HalfLengthY>
+				<HalfLengthZ>81</HalfLengthZ>
+				<LengthX>94</LengthX>
+				<LengthY>14</LengthY>
+				<LengthZ>162</LengthZ>
+				<Position>637.619873,-0.683799982,357.962189</Position>
+				<Direction>0.820900023,0,0.571099997</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3293</Name>
+				<ID>3293</ID>
+				<Group />
+				<HalfLengthX>34</HalfLengthX>
+				<HalfLengthY>13</HalfLengthY>
+				<HalfLengthZ>34</HalfLengthZ>
+				<LengthX>68</LengthX>
+				<LengthY>26</LengthY>
+				<LengthZ>68</LengthZ>
+				<Position>600.116882,0.00899999961,409.609711</Position>
+				<Direction>0.824699998,0,0.565500021</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3300</Name>
+				<ID>3300</ID>
+				<Group />
+				<HalfLengthX>29</HalfLengthX>
+				<HalfLengthY>5</HalfLengthY>
+				<HalfLengthZ>107</HalfLengthZ>
+				<LengthX>58</LengthX>
+				<LengthY>10</LengthY>
+				<LengthZ>214</LengthZ>
+				<Position>409.406006,-0.683799982,686.936279</Position>
+				<Direction>-0.808499992,0,-0.588500023</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3301</Name>
+				<ID>3301</ID>
+				<Group />
+				<HalfLengthX>25</HalfLengthX>
+				<HalfLengthY>5</HalfLengthY>
+				<HalfLengthZ>107</HalfLengthZ>
+				<LengthX>50</LengthX>
+				<LengthY>10</LengthY>
+				<LengthZ>214</LengthZ>
+				<Position>490.893585,0.0179999992,661.510986</Position>
+				<Direction>0.0874999985,0,-0.996200025</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3302</Name>
+				<ID>3302</ID>
+				<Group />
+				<HalfLengthX>24</HalfLengthX>
+				<HalfLengthY>4</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>48</LengthX>
+				<LengthY>8</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>405.118011,0.0179999992,601.339478</Position>
+				<Direction>0.907199979,0,-0.420599997</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3303</Name>
+				<ID>3303</ID>
+				<Group />
+				<HalfLengthX>51</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>44</HalfLengthZ>
+				<LengthX>102</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>88</LengthZ>
+				<Position>450.097595,-0.683799982,634.324829</Position>
+				<Direction>0.598999977,0,-0.800800025</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3314</Name>
+				<ID>3314</ID>
+				<Group />
+				<HalfLengthX>27</HalfLengthX>
+				<HalfLengthY>5</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>54</LengthX>
+				<LengthY>10</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>673.322571,0.0182000007,473.772888</Position>
+				<Direction>-0.931999981,0,0.362399995</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3315</Name>
+				<ID>3315</ID>
+				<Group />
+				<HalfLengthX>27</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>122</HalfLengthZ>
+				<LengthX>54</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>244</LengthZ>
+				<Position>663.053101,0.0214000009,577.879211</Position>
+				<Direction>-0.83130002,0,-0.555800021</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3316</Name>
+				<ID>3316</ID>
+				<Group />
+				<HalfLengthX>76</HalfLengthX>
+				<HalfLengthY>4</HalfLengthY>
+				<HalfLengthZ>39</HalfLengthZ>
+				<LengthX>152</LengthX>
+				<LengthY>8</LengthY>
+				<LengthZ>78</LengthZ>
+				<Position>726.298218,0.0296,532.256592</Position>
+				<Direction>-0.998399973,0,-0.0560000017</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3317</Name>
+				<ID>3317</ID>
+				<Group />
+				<HalfLengthX>44</HalfLengthX>
+				<HalfLengthY>4</HalfLengthY>
+				<HalfLengthZ>47</HalfLengthZ>
+				<LengthX>88</LengthX>
+				<LengthY>8</LengthY>
+				<LengthZ>94</LengthZ>
+				<Position>665.868103,0.0449000001,525.602478</Position>
+				<Direction>-0.997200012,0,-0.0741999969</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3318</Name>
+				<ID>3318</ID>
+				<Group />
+				<HalfLengthX>81</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>39</HalfLengthZ>
+				<LengthX>162</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>78</LengthZ>
+				<Position>333.405914,0.0278999992,500.891388</Position>
+				<Direction>0.997600019,0,0.0698999986</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3319</Name>
+				<ID>3319</ID>
+				<Group />
+				<HalfLengthX>25</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>50</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>384.787109,0.0215000007,556.23407</Position>
+				<Direction>0.904299974,0,-0.426899999</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3320</Name>
+				<ID>3320</ID>
+				<Group />
+				<HalfLengthX>24</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>48</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>391.086395,0.204999998,453.573486</Position>
+				<Direction>0.828499973,0,0.560000002</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3321</Name>
+				<ID>3321</ID>
+				<Group />
+				<HalfLengthX>44</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>44</HalfLengthZ>
+				<LengthX>88</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>88</LengthZ>
+				<Position>389.914398,0.0449000001,504.895508</Position>
+				<Direction>0.997900009,0,0.064199999</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3322</Name>
+				<ID>3322</ID>
+				<Group />
+				<HalfLengthX>87</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>36</HalfLengthZ>
+				<LengthX>174</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>72</LengthZ>
+				<Position>443.548492,0.0245999992,334.034607</Position>
+				<Direction>0.430400014,0,0.90259999</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3323</Name>
+				<ID>3323</ID>
+				<Group />
+				<HalfLengthX>25</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>50</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>422.00531,0.649600029,406.344788</Position>
+				<Direction>0.801699996,0,0.5977</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3324</Name>
+				<ID>3324</ID>
+				<Group />
+				<HalfLengthX>25</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>50</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>513.858215,0.852900028,364.248993</Position>
+				<Direction>-0.0697999969,0,0.997600019</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3325</Name>
+				<ID>3325</ID>
+				<Group />
+				<HalfLengthX>47</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>41</HalfLengthZ>
+				<LengthX>94</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>82</LengthZ>
+				<Position>469.445892,0.0449000001,387.027802</Position>
+				<Direction>0.42719999,0,0.904200017</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3326</Name>
+				<ID>3326</ID>
+				<Group />
+				<HalfLengthX>34</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>39</HalfLengthZ>
+				<LengthX>68</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>78</LengthZ>
+				<Position>587.395325,0.0359000005,643.823303</Position>
+				<Direction>-0.427399993,0,-0.904100001</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3327</Name>
+				<ID>3327</ID>
+				<Group />
+				<HalfLengthX>71</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>44</HalfLengthZ>
+				<LengthX>142</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>88</LengthZ>
+				<Position>612.894897,0.0165999997,697.980286</Position>
+				<Direction>-0.427399993,0,-0.904100001</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3328</Name>
+				<ID>3328</ID>
+				<Group />
+				<HalfLengthX>27</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>118</HalfLengthZ>
+				<LengthX>54</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>236</LengthZ>
+				<Position>627.768616,0.0217000004,620.218628</Position>
+				<Direction>-0.824899971,0,-0.565199971</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3329</Name>
+				<ID>3329</ID>
+				<Group />
+				<HalfLengthX>25</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>114</HalfLengthZ>
+				<LengthX>50</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>228</LengthZ>
+				<Position>544.438293,0.687300026,666.870483</Position>
+				<Direction>0.0658000037,0,-0.997799993</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3657</Name>
+				<ID>3657</ID>
+				<Group />
+				<HalfLengthX>93</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>81</HalfLengthZ>
+				<LengthX>186</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>162</LengthZ>
+				<Position>617.81073,-0.683799982,387.472198</Position>
+				<Direction>-0.578400016,0,0.815699995</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3658</Name>
+				<ID>3658</ID>
+				<Group />
+				<HalfLengthX>100</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>93</HalfLengthZ>
+				<LengthX>200</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>186</LengthZ>
+				<Position>450.05069,-0.683799982,636.12738</Position>
+				<Direction>-0.564599991,0,0.825299978</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3659</Name>
+				<ID>3659</ID>
+				<Group />
+				<HalfLengthX>93</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>93</HalfLengthZ>
+				<LengthX>186</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>186</LengthZ>
+				<Position>679.014771,-0.683799982,527.843506</Position>
+				<Direction>-0.998899996,0,-0.0460000001</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3660</Name>
+				<ID>3660</ID>
+				<Group />
+				<HalfLengthX>93</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>100</HalfLengthZ>
+				<LengthX>186</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>200</LengthZ>
+				<Position>383.147308,-0.683799982,505.56189</Position>
+				<Direction>-0.0167999994,0,0.999899983</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3661</Name>
+				<ID>3661</ID>
+				<Group />
+				<HalfLengthX>93</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>93</HalfLengthZ>
+				<LengthX>186</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>186</LengthZ>
+				<Position>593.610291,-0.683799982,652.31427</Position>
+				<Direction>0.871599972,0,-0.4903</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>AreaBox3662</Name>
+				<ID>3662</ID>
+				<Group />
+				<HalfLengthX>93</HalfLengthX>
+				<HalfLengthY>3</HalfLengthY>
+				<HalfLengthZ>93</HalfLengthZ>
+				<LengthX>186</LengthX>
+				<LengthY>6</LengthY>
+				<LengthZ>186</LengthZ>
+				<Position>467.199097,-0.683799982,385.467896</Position>
+				<Direction>0.389400005,0,0.92110002</Direction>
+				<Color>67,0,0</Color>
+			</HelperAreaBoxObject>
+		</HelperAreaBoxes>
+		<HelpePositions />
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<SoundBank>scenario_15.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+	<ScenarioWorld>SWI</ScenarioWorld>
+	<AllowVeterancy>true</AllowVeterancy>
+</Scenario>

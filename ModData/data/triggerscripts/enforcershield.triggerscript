@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="New Triggerscript.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger9498210Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Trigger" Name="Check Shield StrengthVar" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="2" Type="Trigger" Name="Wait a bit before loopingVar" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="3" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="4" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="5" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="6" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="7" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="8" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="9" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="10" Type="Float" Name="newFloatVar1" IsNull="false" />
+    <TriggerVar ID="11" Type="Player" Name="nullPlayerVar" IsNull="true" />
+    <TriggerVar ID="12" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="13" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="14" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="15" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="16" Type="Cost" Name="nullCostVar" IsNull="true" />
+    <TriggerVar ID="17" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="18" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="19" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="20" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">for_air_enforcer_shield_01</TriggerVar>
+    <TriggerVar ID="21" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="22" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="23" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="24" Type="ProtoObject" Name="newProtoObjectVar1" IsNull="false">for_air_enforcer_shield_01</TriggerVar>
+    <TriggerVar ID="25" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThan</TriggerVar>
+    <TriggerVar ID="26" Type="Float" Name="newFloatVar1" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="27" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    <TriggerVar ID="28" Type="Time" Name="newTimeVar1" IsNull="false">2500</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger9498210" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-692.8" Y="-200.8" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">11</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">12</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">13</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">14</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">3</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">15</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">16</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetHealth" DBID="174" Version="3" CommentOut="false">
+          <Input Name="Unit" SigID="7" Optional="true">3</Input>
+          <Input Name="UnitList" SigID="8" Optional="true">4</Input>
+          <Input Name="Squad" SigID="1" Optional="true">5</Input>
+          <Input Name="SquadList" SigID="2" Optional="true">6</Input>
+          <Output Name="Hitpoints" SigID="3" Optional="true">7</Output>
+          <Output Name="HitpointsPercent" SigID="4" Optional="true">8</Output>
+          <Output Name="Shieldpoints" SigID="5" Optional="true">9</Output>
+          <Output Name="ShieldpointsPercent" SigID="6" Optional="true">10</Output>
+        </Effect>
+        <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">1</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="2" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger Name="Check Shield Strength" ID="2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="740.2001" Y="-192.4" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="CompareFloat" DBID="453" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="FirstFloat" SigID="1" Optional="false">10</Input>
+            <Input Name="CompareType" SigID="2" Optional="false">25</Input>
+            <Input Name="SecondFloat" SigID="3" Optional="false">26</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="AttachmentAddType" DBID="74" Version="5" CommentOut="false">
+          <Input Name="ReceivingUnit" SigID="5" Optional="true">3</Input>
+          <Input Name="ReceivingUnitList" SigID="3" Optional="true">17</Input>
+          <Input Name="ReceivingSquad" SigID="6" Optional="true">18</Input>
+          <Input Name="ReceivingSquadList" SigID="4" Optional="true">19</Input>
+          <Input Name="AddProtoObject" SigID="2" Optional="false">20</Input>
+        </Effect>
+        <Effect ID="4" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">2</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse>
+        <Effect ID="5" Type="AttachmentRemoveType" DBID="83" Version="3" CommentOut="false">
+          <Input Name="Unit" SigID="5" Optional="true">3</Input>
+          <Input Name="UnitList" SigID="3" Optional="true">21</Input>
+          <Input Name="Squad" SigID="6" Optional="true">22</Input>
+          <Input Name="SquadList" SigID="4" Optional="true">23</Input>
+          <Input Name="AttachmentType" SigID="2" Optional="false">24</Input>
+        </Effect>
+        <Effect ID="6" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">2</Input>
+        </Effect>
+      </TriggerEffectsOnFalse>
+    </Trigger>
+    <Trigger Name="Wait a bit before looping" ID="3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="2207.801" Y="-133.8" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">27</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">28</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">0</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="New Triggerscript.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger3336756Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="TeamList" Name="allteams" IsNull="false" />
+    <TriggerVar ID="2" Type="Team" Name="playerteam" IsNull="false" />
+    <TriggerVar ID="3" Type="TeamList" Name="nullTeamListVar" IsNull="true" />
+    <TriggerVar ID="4" Type="Bool" Name="newBoolVar1" IsNull="false">false</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger3336756" ID="1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="-636" Y="-140" GroupID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetTeams" DBID="122" Version="1" CommentOut="false">
+          <Output Name="TeamList" SigID="1" Optional="false">1</Output>
+        </Effect>
+        <Effect ID="1" Type="TeamListRemove" DBID="127" Version="2" CommentOut="false">
+          <Input Name="SourceList" SigID="1" Optional="false">1</Input>
+          <Input Name="RemoveTeam" SigID="2" Optional="true">2</Input>
+          <Input Name="RemoveTeamList" SigID="3" Optional="true">3</Input>
+          <Input Name="RemoveAll" SigID="4" Optional="false">4</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

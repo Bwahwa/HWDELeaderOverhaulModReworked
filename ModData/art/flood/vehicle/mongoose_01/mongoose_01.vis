@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>flood\vehicle\mongoose_01\mongoose_01</file>
+				<damagefile>flood\vehicle\mongoose_01\mongoose_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="PassengerTop" tobone="Bip01" frombone="Bip01" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="PassengerLegs" tobone="Bip01" frombone="Bip01" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Wheel" tobone="bone_wheel_01" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Wheel" tobone="bone_wheel_02" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Wheel" tobone="bone_wheel_03" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+			<attach type="ModelRef" name="Wheel" tobone="bone_wheel_04" frombone="GrannyRootBone" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AssaultRifleAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="RocketAttack" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\train_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Work" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Fatality_MarkIWarthog_01" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanWarthogJack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="PassengerTop">
+		<component>
+			<logic type="Tech">
+				<logicdata value="Unsc_mongoose_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mongoose_01\mongoose_p_rl_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="Unsc_mongoose_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mongoose_01\mongoose_p_ar_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="Unsc_mongoose_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mongoose_01\mongoose_p_ar_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mongoose_01\mongoose_p_ar_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="0" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>90</weight>
+			</asset>
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="0" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>90</weight>
+			</asset>
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="0" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>90</weight>
+			</asset>
+		</anim>
+		<anim type="AssaultRifleAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="AssaultRifleAttack">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.08" end="1" name="play_unsc_marine_mg_test_3shot" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.08" end="1" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.08" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Sound" start="0" position="0.16" end="1" name="play_unsc_marine_mg_test_3shot" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.16" end="1" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.16" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Sound" start="0" position="0.24" end="1" name="play_unsc_marine_mg_test_3shot" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.24" end="1" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.24" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Sound" start="0" position="0.32" end="1" name="play_unsc_marine_mg_test_3shot" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.32" end="1" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.32" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Sound" start="0" position="0.40" end="1" name="play_unsc_marine_mg_test_3shot" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.40" end="1" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.40" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+
+				<tag type="Sound" start="0" position="0.48" end="1" name="play_unsc_marine_mg_test_3shot" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.48" end="1" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.48" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="bone_launchpoint_ar" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="RocketAttack" exitAction="Transition" tweenTime="5" tweenToAnimation="RocketAttack">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.08" end="1" name="play_unsc_odst_rocket_launcher" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.08" end="1" tobone="bone_launchpoint_rl" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.08" end="1" name="effects\Unit_FX\unsc\odst\missilelaunch_01" tobone="bone_launchpoint_rl" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="Train" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Gather" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Work" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="SpartanWarthogJack" exitAction="Transition" tweenTime="10" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\scorpion_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="PassengerLegs">
+		<component>
+			<logic type="Tech">
+				<logicdata value="Unsc_mongoose_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mongoose_01\Mongoose_p_legs_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="Unsc_mongoose_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mongoose_01\Mongoose_p_legs_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="Unsc_mongoose_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\vehicle\mongoose_01\Mongoose_p_legs_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mongoose_01\Mongoose_p_legs_01</file>
+			</asset>
+		</component>
+	</model>
+	<model name="Wheel">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\vehicle\mongoose_01\wheel_01</file>
+			</asset>
+			<point pointType="Pickup" bone="GrannyRootBone" pointData="Metal" />
+		</component>
+	</model>
+</visual>

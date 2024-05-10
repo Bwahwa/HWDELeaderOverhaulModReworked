@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="sampleScriptProject.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger1Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="2" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="3" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="4" Type="Float" Name="nullFloatVar" IsNull="true" />
+    <TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="6" Type="ObjectType" Name="nullObjectTypeVar" IsNull="true" />
+    <TriggerVar ID="7" Type="SquadList" Name="newSquadListVar1" IsNull="false">for_air_enforcer_01</TriggerVar>
+    <TriggerVar ID="8" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="9" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="10" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="11" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="12" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="13" Type="ObjectList" Name="nullObjectListVar" IsNull="true" />
+    <TriggerVar ID="14" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="15" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="16" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="17" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="18" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="19" Type="Cost" Name="nullCostVar" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger1" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-243" Y="-1.5" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">1</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">14</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">15</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">16</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">17</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">18</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">19</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetSquads" DBID="113" Version="4" CommentOut="false">
+          <Input Name="FilterPlayer" SigID="1" Optional="true">1</Input>
+          <Input Name="FilterProtoSquad" SigID="2" Optional="true">2</Input>
+          <Input Name="FilterLocation" SigID="3" Optional="true">3</Input>
+          <Input Name="FilterDistance" SigID="4" Optional="true">4</Input>
+          <Input Name="FilterSquadList" SigID="7" Optional="true">5</Input>
+          <Input Name="FilterObjectType" SigID="8" Optional="true">6</Input>
+          <Output Name="FoundSquads" SigID="5" Optional="true">7</Output>
+          <Output Name="FoundSquadCount" SigID="6" Optional="true">8</Output>
+        </Effect>
+        <Effect ID="1" Type="Kill" DBID="37" Version="4" CommentOut="false">
+          <Input Name="KillUnit" SigID="3" Optional="true">9</Input>
+          <Input Name="KillUnitList" SigID="4" Optional="true">10</Input>
+          <Input Name="KillSquad" SigID="5" Optional="true">11</Input>
+          <Input Name="KillSquadList" SigID="6" Optional="true">7</Input>
+          <Input Name="Object" SigID="7" Optional="true">12</Input>
+          <Input Name="ObjectList" SigID="8" Optional="true">13</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\building\socket_01\socket_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\socket_01\idleNoLights_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\socket_01\idleNoLights_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Heretic">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>covenant\building\socket_01\socket_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\socket_01\idleNoLights_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="5" tweenToAnimation="">
+			<asset type="Anim">
+				<file>covenant\building\socket_01\idleNoLights_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="FloodisSpooky">
+		<component>
+			<asset type="Model">
+				<file>environment\wasteland\floodbait_01\floodbait_01</file>
+			</asset>
+			<attach type="ParticleFile" name="system\marker\rally_01\rally_01" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>system\marker\rally_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="0" tweenToAnimation="">
+			<asset type="Anim">
+				<file>system\marker\rally_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<logic type="Tech">
+		<logicdata value="cov_prophetofpudding" modelref="Default" weight="1" />
+		<logicdata value="covenant_LeaderArbiter" modelref="Default" weight="1" />
+		<logicdata value="covenant_LeaderBrute" modelref="Default" weight="1" />
+		<logicdata value="covenant_LeaderProphet" modelref="Default" weight="1" />
+		<logicdata value="covenant_LeaderYapYap" modelref="Default" weight="1" />
+		<logicdata value="covenant_LeaderHeretic" modelref="Heretic" weight="1" />
+		<logicdata value="flood_leader_gravemind" modelref="FloodisSpooky" weight="1" />
+	</logic>
+</visual>

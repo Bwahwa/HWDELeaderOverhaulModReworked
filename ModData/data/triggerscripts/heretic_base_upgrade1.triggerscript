@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="heretic_base_upgrade1.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="StartVar" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Trigger" Name="StartTechVar" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="2" Type="Trigger" Name="IsAI?Var" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="3" Type="Unit" Name="newUnitVar1" IsNull="false" />
+    <TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="5" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="6" Type="Time" Name="newTimeVar1" IsNull="false">60000</TriggerVar>
+    <TriggerVar ID="7" Type="Time" Name="newTimeVar1" IsNull="false">180000</TriggerVar>
+    <TriggerVar ID="8" Type="Time" Name="newTimeVar1" IsNull="false" />
+    <TriggerVar ID="9" Type="Player" Name="nullPlayerVar" IsNull="true" />
+    <TriggerVar ID="10" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="11" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="12" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="13" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="14" Type="Cost" Name="nullCostVar" IsNull="true" />
+    <TriggerVar ID="15" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+    <TriggerVar ID="16" Type="Tech" Name="newTechVar1" IsNull="false">heretic_base_upgrade1</TriggerVar>
+    <TriggerVar ID="17" Type="Integer" Name="nullIntegerVar" IsNull="true" />
+    <TriggerVar ID="18" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+    <TriggerVar ID="19" Type="ProtoObject" Name="nullProtoObjectVar" IsNull="true" />
+    <TriggerVar ID="20" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+    <TriggerVar ID="21" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="Start" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-1086,4" Y="-401,2" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">9</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">10</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">11</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">12</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">3</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">13</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">14</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetOwner" DBID="193" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">3</Input>
+          <Input Name="Squad" SigID="2" Optional="true">4</Input>
+          <Output Name="Owner" SigID="3" Optional="false">5</Output>
+        </Effect>
+        <Effect ID="1" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
+          <Input Name="Min" SigID="1" Optional="true">6</Input>
+          <Input Name="Max" SigID="2" Optional="true">7</Input>
+          <Output Name="Random" SigID="3" Optional="false">8</Output>
+        </Effect>
+        <Effect ID="2" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">2</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="StartTech" ID="2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="807,6" Y="-346,2" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="1" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="CompareType" SigID="1" Optional="false">21</Input>
+            <Input Name="CompareTime" SigID="2" Optional="false">8</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="3" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="false">3</Input>
+          <Input Name="ProtoSquad" SigID="2" Optional="true">15</Input>
+          <Input Name="Tech" SigID="6" Optional="true">16</Input>
+          <Input Name="Count" SigID="3" Optional="true">17</Input>
+          <Input Name="NoCost" SigID="4" Optional="true">18</Input>
+          <Input Name="ProtoBuilding" SigID="7" Optional="true">19</Input>
+          <Input Name="Player" SigID="8" Optional="true">5</Input>
+          <Output Name="BuildingCommandState" SigID="5" Optional="true">20</Output>
+        </Effect>
+        <Effect ID="4" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="IsAI?" ID="3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="369,0001" Y="-634" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="Player" SigID="1" Optional="false">5</Input>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="5" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">1</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

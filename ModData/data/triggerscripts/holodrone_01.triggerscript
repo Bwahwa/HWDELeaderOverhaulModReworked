@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TriggerSystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Explode_01.triggerscript" Type="TriggerScript" NextTriggerVarID="812" NextTriggerID="95" NextConditionID="78" NextEffectID="291" External="false">
+	<TriggerGroups />
+	<TriggerVars>
+		<TriggerVar ID="3" Type="Unit" Name="ExplodeingUnit" IsNull="false" />
+		<TriggerVar ID="638" Type="Player" Name="ExternPlayerVar2" IsNull="true" />
+		<TriggerVar ID="639" Type="Power" Name="ExternPowerVar2" IsNull="true" />
+		<TriggerVar ID="640" Type="Squad" Name="ExternSquadVar2" IsNull="true" />
+		<TriggerVar ID="641" Type="SquadList" Name="ExternSquadListVar1" IsNull="true" />
+		<TriggerVar ID="643" Type="UnitList" Name="ExternUnitListVar1" IsNull="true" />
+		<TriggerVar ID="644" Type="Cost" Name="ExternCostVar2" IsNull="true" />
+		<TriggerVar ID="774" Type="Trigger" Name="TriggerVar3" IsNull="false">92</TriggerVar>
+		<TriggerVar ID="776" Type="UnitList" Name="TestUnitListVar2" IsNull="true" />
+		<TriggerVar ID="777" Type="Squad" Name="TestSquadVar2" IsNull="true" />
+		<TriggerVar ID="778" Type="SquadList" Name="TestSquadListVar2" IsNull="true" />
+		<TriggerVar ID="780" Type="Squad" Name="SquadVar2" IsNull="true" />
+		<TriggerVar ID="781" Type="Object" Name="ObjectVar2" IsNull="true" />
+		<TriggerVar ID="782" Type="Vector" Name="Loc" IsNull="false" />
+		<TriggerVar ID="784" Type="Float" Name="AdjustXVar1" IsNull="true" />
+		<TriggerVar ID="785" Type="Float" Name="" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="786" Type="Float" Name="AdjustZVar1" IsNull="true" />
+		<TriggerVar ID="787" Type="Vector" Name="AdjustVectorVar1" IsNull="true" />
+		<TriggerVar ID="788" Type="Vector" Name="LaunchLoc" IsNull="false" />
+		<TriggerVar ID="790" Type="ProtoObject" Name="" IsNull="false">pow_cp_explode_01</TriggerVar>
+		<TriggerVar ID="793" Type="Unit" Name="TargetUnitVar1" IsNull="true" />
+		<TriggerVar ID="795" Type="Squad" Name="SquadVar10" IsNull="true" />
+		<TriggerVar ID="796" Type="Player" Name="Owner" IsNull="false" />
+		<TriggerVar ID="804" Type="Bool" Name="UseMultiplyVar1" IsNull="true">False</TriggerVar>
+		<TriggerVar ID="811" Type="Float" Name="DamageOverrideVar1" IsNull="true" />
+	    <TriggerVar ID="821" Type="Trigger" Name="TriggerVar3" IsNull="false">92</TriggerVar>
+    	<TriggerVar ID="822" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+    	<TriggerVar ID="823" Type="Time" Name="newTimeVar1" IsNull="false" />
+    	<!--This is the Inner Radius for the possible Drop Location-->
+    	<TriggerVar ID="824" Type="Float" Name="InnerRadius" IsNull="false">5</TriggerVar>
+    	<!--This is the Outer Radius for the possible Drop Location-->
+	    <TriggerVar ID="825" Type="Float" Name="OuterRadius" IsNull="false">20</TriggerVar>
+	    <TriggerVar ID="826" Type="Bool" Name="TestObstructions" IsNull="false">True</TriggerVar>
+	    <TriggerVar ID="827" Type="Bool" Name="TestPathing" IsNull="false">False</TriggerVar>
+	    <TriggerVar ID="828" Type="ProtoObject" Name="nullProtoObjectVar" IsNull="true" />
+	    <TriggerVar ID="829" Type="ProtoSquad" Name="TestProtoSquad" IsNull="false">fld_droptestsquad_01</TriggerVar>
+	    <TriggerVar ID="830" Type="Vector" Name="DropLocation" IsNull="false" />
+		<TriggerVar ID="831" Type="Integer" Name="newIntegerVar1" IsNull="false">0</TriggerVar>
+	    <TriggerVar ID="832" Type="Integer" Name="newIntegerVar1" IsNull="false">100</TriggerVar>
+	    <TriggerVar ID="833" Type="Integer" Name="newIntegerVar1" IsNull="false" />
+	    <TriggerVar ID="834" Type="Trigger" Name="TriggerVar3" IsNull="false">93</TriggerVar>
+	    <TriggerVar ID="835" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+	    <TriggerVar ID="836" Type="Integer" Name="newIntegerVar1" IsNull="false">75</TriggerVar>
+        <!--This script calls another script to activate the drop once it collected all the required data-->
+        <TriggerVar ID="837" Type="String" Name="DropScript" IsNull="false">holodrone_02.triggerscript</TriggerVar>
+        <!---->
+        <TriggerVar ID="838" Type="Unit" Name="nullUnitVar" IsNull="true" />
+        <TriggerVar ID="839" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+        <TriggerVar ID="840" Type="Squad" Name="nullSquadVar" IsNull="true" />
+        <TriggerVar ID="841" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+        <TriggerVar ID="842" Type="Power" Name="nullPowerVar" IsNull="true" />
+        <TriggerVar ID="843" Type="Cost" Name="nullCostVar" IsNull="true" />
+        <TriggerVar ID="844" Type="VectorList" Name="nullVectorListVar" IsNull="true" />
+        <TriggerVar ID="845" Type="Float" Name="nullFloatVar" IsNull="true" />
+        <TriggerVar ID="846" Type="Trigger" Name="TriggerVar3" IsNull="false">92</TriggerVar>
+        <TriggerVar ID="847" Type="Trigger" Name="TriggerVar3" IsNull="false">94</TriggerVar>
+	    <TriggerVar ID="848" Type="Operator" Name="newOperatorVar1" IsNull="false">LessThan</TriggerVar>
+        <TriggerVar ID="849" Type="Trigger" Name="TriggerVar3" IsNull="false">95</TriggerVar>
+        <!--The min Time for the random time effect, this is the lowest the script will wait before dropping a base-->
+	    <TriggerVar ID="850" Type="Time" Name="MinTime" IsNull="false">80000</TriggerVar>
+        <!--The max Time for the random time effect, this is the largest time the script will wait before dropping a base-->
+	    <TriggerVar ID="851" Type="Time" Name="MaxTime" IsNull="false">200000</TriggerVar>
+	    <TriggerVar ID="139" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+        <TriggerVar ID="140" Type="Squad" Name="nullSquadVar" IsNull="true" />
+        <TriggerVar ID="141" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+        <TriggerVar ID="142" Type="Trigger" Name="NoBasePresentVar" IsNull="false">107</TriggerVar>
+        <TriggerVar ID="200" Type="ProtoSquad" Name="newProtoSquadVar1" IsNull="false">heretic_inf_leaderhologram_01</TriggerVar>
+	    <TriggerVar ID="201" Type="Tech" Name="nullTechVar" IsNull="true" />
+	    <TriggerVar ID="202" Type="Bool" Name="newBoolVar1" IsNull="false">True</TriggerVar>
+	    <TriggerVar ID="203" Type="ProtoObject" Name="nullProtoObjectVar" IsNull="true" />
+	    <TriggerVar ID="204" Type="BuildingCommandState" Name="nullBuildingCommandStateVar" IsNull="true" />
+	    <TriggerVar ID="205" Type="Integer" Name="newIntegerVar1" IsNull="false" />
+	    <TriggerVar ID="206" Type="Integer" Name="newIntegerVar1" IsNull="false">0</TriggerVar>
+	    <TriggerVar ID="207" Type="MathOperator" Name="newMathOperatorVar1" IsNull="false">Add</TriggerVar>
+	    <TriggerVar ID="208" Type="Integer" Name="newIntegerVar1" IsNull="false">1</TriggerVar>
+	    <TriggerVar ID="209" Type="Integer" Name="newIntegerVar1" IsNull="false" />
+	    <TriggerVar ID="210" Type="Tech" Name="newTechVar1" IsNull="false">heretic_holodrone_upgrade3</TriggerVar>
+	    <TriggerVar ID="211" Type="TechStatus" Name="newTechStatusVar1" IsNull="false">Active</TriggerVar>
+	    <TriggerVar ID="212" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="213" Type="Tech" Name="newTechVar1" IsNull="false">heretic_holodrone_upgrade1</TriggerVar>
+	    <TriggerVar ID="214" Type="TechStatus" Name="newTechStatusVar1" IsNull="false">Active</TriggerVar>
+	    <TriggerVar ID="215" Type="Unit" Name="nullUnitVar" IsNull="true" />
+	    <TriggerVar ID="216" Type="Integer" Name="newIntegerVar1" IsNull="false" />
+	    <TriggerVar ID="217" Type="Integer" Name="newIntegerVar1" IsNull="false" />
+	    <TriggerVar ID="218" Type="Trigger" Name="StartVar" IsNull="false">200</TriggerVar>
+	    <TriggerVar ID="219" Type="Trigger" Name="CheckTechStatusVar" IsNull="false">201</TriggerVar>
+	    <TriggerVar ID="220" Type="Trigger" Name="FailedTechUSeDefaultDropVar" IsNull="false">203</TriggerVar>
+	    <TriggerVar ID="221" Type="Operator" Name="newOperatorVar1" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+	    <TriggerVar ID="222" Type="Time" Name="newTimeVar1" IsNull="false">10000</TriggerVar>
+	    <TriggerVar ID="223" Type="Trigger" Name="FailedTechUSeDefaultDropVar" IsNull="false">202</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="0" Name="Set spartan unit" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="33" Y="99" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">638</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">639</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">640</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">641</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">3</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">643</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">644</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="3" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+			        <Input Name="FirstInt" SigID="1" Optional="false">206</Input>
+			        <Input Name="MathOperator" SigID="2" Optional="false">207</Input>
+			        <Input Name="SecondInt" SigID="3" Optional="false">208</Input>
+			        <Output Name="ResultInt" SigID="4" Optional="false">209</Output>
+		        </Effect>
+		        <Effect ID="4" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
+			        <Input Name="IntSource" SigID="1" Optional="false">209</Input>
+			        <Output Name="IntCopy" SigID="2" Optional="false">205</Output>
+		        </Effect>
+				<Effect ID="0" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">774</Input>
+				</Effect>
+				<Effect ID="1" Type="GetOwner" DBID="193" Version="2" CommentOut="false">
+					<Input Name="Unit" SigID="1" Optional="true">3</Input>
+					<Input Name="Squad" SigID="2" Optional="true">795</Input>
+					<Output Name="Owner" SigID="3" Optional="false">796</Output>
+				</Effect>
+				<Effect ID="50" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">218</Input>
+				</Effect>
+				<Effect ID="59" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">223</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="92" Name="newTrigger92" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="PlayerIsComputerAI" DBID="740" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="Player" SigID="1" Optional="false">796</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="36" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">142</Input>
+                </Effect>
+				<Effect ID="2" Type="BuildingCommand" DBID="559" Version="4" CommentOut="false">
+		            <Input Name="Unit" SigID="1" Optional="false">3</Input>
+		            <Input Name="ProtoSquad" SigID="2" Optional="true">200</Input>
+		            <Input Name="Tech" SigID="6" Optional="true">201</Input>
+		            <Input Name="Count" SigID="3" Optional="true">205</Input>
+		            <Input Name="NoCost" SigID="4" Optional="true">202</Input>
+		            <Input Name="ProtoBuilding" SigID="7" Optional="true">203</Input>
+		            <Input Name="Player" SigID="8" Optional="true">796</Input>
+		            <Output Name="BuildingCommandState" SigID="5" Optional="true">204</Output>
+		        </Effect>
+				<Effect ID="5" Type="RandomInt" DBID="178" Version="1" CommentOut="false">
+		            <Input Name="Min" SigID="1" Optional="true">831</Input>
+		            <Input Name="Max" SigID="2" Optional="true">832</Input>
+		            <Output Name="Random" SigID="3" Optional="false">833</Output>
+		        </Effect>
+		        <Effect ID="6" Type="RandomTime" DBID="516" Version="1" CommentOut="false">
+		            <Input Name="Min" SigID="1" Optional="true">850</Input>
+		            <Input Name="Max" SigID="2" Optional="true">851</Input>
+		            <Output Name="Random" SigID="3" Optional="false">823</Output>
+		        </Effect>
+				<Effect ID="7" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">849</Input>
+                </Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="95" Name="newTrigger93" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="2" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+			            <Input Name="CompareType" SigID="1" Optional="false">822</Input>
+			          	<Input Name="CompareTime" SigID="2" Optional="false">823</Input>
+			        </Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+                <Effect ID="9" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">846</Input>
+                </Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="107" Name="IsTheUnitDead?" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+		    <TriggerConditions>
+		        <And>
+		            <Condition ID="13" Type="IsDead" DBID="81" Version="3" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+		                <Input Name="TestUnit" SigID="3" Optional="true">3</Input>
+		                <Input Name="TestUnitList" SigID="4" Optional="true">139</Input>
+		                <Input Name="TestSquad" SigID="5" Optional="true">140</Input>
+		                <Input Name="TestSquadList" SigID="6" Optional="true">141</Input>
+		            </Condition>
+		        </And>
+		    </TriggerConditions>
+		    <TriggerEffectsOnTrue>
+		        <Effect ID="38" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+		    </TriggerEffectsOnTrue>
+		    <TriggerEffectsOnFalse />
+	    </Trigger>
+	    <Trigger ID="200" Name="newTrigger93" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="50" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+			            <Input Name="CompareType" SigID="1" Optional="false">221</Input>
+			          	<Input Name="CompareTime" SigID="2" Optional="false">222</Input>
+			        </Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+                <Effect ID="51" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">219</Input>
+                </Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="201" Name="newTrigger93" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+			<TriggerConditions>
+				<And>
+			        <Condition ID="51" Type="TechStatus" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+			            <Input Name="Player" SigID="1" Optional="false">796</Input>
+			            <Input Name="Tech" SigID="2" Optional="false">210</Input>
+			            <Input Name="TechStatus" SigID="3" Optional="false">211</Input>
+			            <Input Name="UniqueUnit" SigID="4" Optional="true">212</Input>
+			        </Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+                <Effect ID="53" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+		          	<Input Name="FirstInt" SigID="1" Optional="false">205</Input>
+		          	<Input Name="MathOperator" SigID="2" Optional="false">207</Input>
+		          	<Input Name="SecondInt" SigID="3" Optional="false">208</Input>
+		          	<Output Name="ResultInt" SigID="4" Optional="false">216</Output>
+		        </Effect>
+		        <Effect ID="54" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
+		          	<Input Name="IntSource" SigID="1" Optional="false">216</Input>
+		          	<Output Name="IntCopy" SigID="2" Optional="false">205</Output>
+		        </Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+                <Effect ID="55" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">218</Input>
+                </Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="202" Name="newTrigger93" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="50" Type="TriggerActiveTime" DBID="7" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+			            <Input Name="CompareType" SigID="1" Optional="false">221</Input>
+			          	<Input Name="CompareTime" SigID="2" Optional="false">222</Input>
+			        </Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+                <Effect ID="52" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">220</Input>
+                </Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse />
+		</Trigger>
+		<Trigger ID="203" Name="newTrigger93" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="456" Y="100" GroupID="-1">
+			<TriggerConditions>
+				<And>
+			        <Condition ID="52" Type="TechStatus" DBID="5" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+			            <Input Name="Player" SigID="1" Optional="false">796</Input>
+			            <Input Name="Tech" SigID="2" Optional="false">213</Input>
+			            <Input Name="TechStatus" SigID="3" Optional="false">214</Input>
+			            <Input Name="UniqueUnit" SigID="4" Optional="true">215</Input>
+			        </Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+                <Effect ID="56" Type="MathInt" DBID="179" Version="1" CommentOut="false">
+		          	<Input Name="FirstInt" SigID="1" Optional="false">205</Input>
+		          	<Input Name="MathOperator" SigID="2" Optional="false">207</Input>
+		          	<Input Name="SecondInt" SigID="3" Optional="false">208</Input>
+		          	<Output Name="ResultInt" SigID="4" Optional="false">217</Output>
+		        </Effect>
+		        <Effect ID="57" Type="CopyInt" DBID="98" Version="1" CommentOut="false">
+		          	<Input Name="IntSource" SigID="1" Optional="false">217</Input>
+		          	<Output Name="IntCopy" SigID="2" Optional="false">205</Output>
+		        </Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+                <Effect ID="58" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+                    <Input Name="Trigger" SigID="1" Optional="false">223</Input>
+                </Effect>
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

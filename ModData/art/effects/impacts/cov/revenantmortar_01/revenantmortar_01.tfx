@@ -1,0 +1,7 @@
+<TerrainEffect>
+
+   <default>
+      <particlefile>effects\impacts\cov\revenantmortar_01\revenantmortar_01</particlefile>
+   </default>
+
+</TerrainEffect>

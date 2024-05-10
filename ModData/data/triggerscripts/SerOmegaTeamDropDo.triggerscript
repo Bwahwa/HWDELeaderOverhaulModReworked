@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="New Triggerscript.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="SetupVar" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Trigger" Name="GetFirstSpartanVar" IsNull="false">2</TriggerVar>
+    <TriggerVar ID="2" Type="Trigger" Name="GetSecondSpartanVar" IsNull="false">3</TriggerVar>
+    <TriggerVar ID="3" Type="Trigger" Name="GetThirdSpartanVar" IsNull="false">4</TriggerVar>
+    <TriggerVar ID="4" Type="Trigger" Name="SpawnUnitsVar" IsNull="false">5</TriggerVar>
+    <TriggerVar ID="5" Type="Vector" Name="newVectorVar1" IsNull="false" />
+    <TriggerVar ID="6" Type="Float" Name="newFloatVar1" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="7" Type="Float" Name="newFloatVar1" IsNull="false">20</TriggerVar>
+    <TriggerVar ID="8" Type="Float" Name="newFloatVar1" IsNull="false">0</TriggerVar>
+    <TriggerVar ID="9" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="10" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="11" Type="Vector" Name="SpawnLocation" IsNull="false" />
+    <TriggerVar ID="12" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="13" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="14" Type="Squad" Name="nullSquadVar" IsNull="true" />
+    <TriggerVar ID="15" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="16" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="17" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="18" Type="Cost" Name="nullCostVar" IsNull="true" />
+    <TriggerVar ID="19" Type="ProtoSquad" Name="FirstSpartan" IsNull="false" />
+    <TriggerVar ID="20" Type="ProtoSquadList" Name="FullSpartanList" IsNull="false">unsc_inf_spartanOmega_02,unsc_inf_spartanOmega_03,unsc_inf_spartanOmega_04,unsc_inf_spartanOmega_05,unsc_inf_spartanOmega_06,unsc_inf_spartanOmega_07</TriggerVar>
+    <TriggerVar ID="21" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="22" Type="ProtoSquadList" Name="OmegaTeamMinusOne" IsNull="false" />
+    <TriggerVar ID="23" Type="ProtoSquadList" Name="Empty" IsNull="false" />
+    <TriggerVar ID="24" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="25" Type="ProtoSquadList" Name="OneSpartan" IsNull="false" />
+    <TriggerVar ID="26" Type="ListPosition" Name="ChooseOneAtRandom" IsNull="false">Random</TriggerVar>
+    <TriggerVar ID="27" Type="ProtoSquad" Name="SecondSpartan" IsNull="false" />
+    <TriggerVar ID="28" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="29" Type="ProtoSquadList" Name="OmegaTeamMinusTwo" IsNull="false" />
+    <TriggerVar ID="30" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="31" Type="ProtoSquadList" Name="TwoSpartans" IsNull="false" />
+    <TriggerVar ID="32" Type="ProtoSquad" Name="ThirdSpartan" IsNull="false" />
+    <TriggerVar ID="33" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="34" Type="ProtoSquadList" Name="OmegaTeamMinusThree" IsNull="false" />
+    <TriggerVar ID="35" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="36" Type="ProtoSquadList" Name="ThreeSpartans" IsNull="false" />
+    <TriggerVar ID="37" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="38" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="39" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="40" Type="Vector" Name="nullVectorVar" IsNull="true" />
+    <TriggerVar ID="41" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="42" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="43" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="44" Type="Bool" Name="nullBoolVar" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="Setup" ID="1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-473" Y="-39" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">12</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">13</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">14</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">15</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">16</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">17</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">18</Output>
+          </Condition>
+          <Condition ID="1" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="Location" SigID="1" Optional="false">5</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="LocationAdjust" DBID="59" Version="3" CommentOut="false">
+          <Input Name="SourceLoc" SigID="1" Optional="false">5</Input>
+          <Input Name="AdjustX" SigID="2" Optional="true">6</Input>
+          <Input Name="AdjustY" SigID="4" Optional="true">7</Input>
+          <Input Name="AdjustZ" SigID="5" Optional="true">8</Input>
+          <Input Name="AdjustVector" SigID="6" Optional="true">9</Input>
+          <Input Name="UseMultiply" SigID="7" Optional="true">10</Input>
+          <Output Name="ResultLoc" SigID="3" Optional="false">11</Output>
+        </Effect>
+        <Effect ID="1" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">1</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="GetFirstSpartan" ID="2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="926.6" Y="73.60005" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="2" Type="CanRemoveOneProtoSquad" DBID="584" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="ProtoSquadList" SigID="1" Optional="false">20</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">26</Input>
+            <Output Name="RemovedProtoSquad" SigID="3" Optional="false">19</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="2" Type="ProtoSquadListRemove" DBID="572" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">19</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">20</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">21</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">22</Output>
+        </Effect>
+        <Effect ID="3" Type="ProtoSquadListAdd" DBID="571" Version="1" CommentOut="false">
+          <Input Name="AddProtoSquad" SigID="1" Optional="true">19</Input>
+          <Input Name="AddProtoSquadList" SigID="2" Optional="true">23</Input>
+          <Input Name="ClearExisting" SigID="3" Optional="true">24</Input>
+          <Output Name="DestList" SigID="4" Optional="false">25</Output>
+        </Effect>
+        <Effect ID="4" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">2</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="GetSecondSpartan" ID="3" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="2583.2" Y="59.99992" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="3" Type="CanRemoveOneProtoSquad" DBID="584" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="ProtoSquadList" SigID="1" Optional="false">22</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">26</Input>
+            <Output Name="RemovedProtoSquad" SigID="3" Optional="false">27</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="5" Type="ProtoSquadListRemove" DBID="572" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">27</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">22</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">28</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">29</Output>
+        </Effect>
+        <Effect ID="6" Type="ProtoSquadListAdd" DBID="571" Version="1" CommentOut="false">
+          <Input Name="AddProtoSquad" SigID="1" Optional="true">27</Input>
+          <Input Name="AddProtoSquadList" SigID="2" Optional="true">25</Input>
+          <Input Name="ClearExisting" SigID="3" Optional="true">30</Input>
+          <Output Name="DestList" SigID="4" Optional="false">31</Output>
+        </Effect>
+        <Effect ID="7" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">3</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="GetThirdSpartan" ID="4" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4183.8" Y="73.19993" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="4" Type="CanRemoveOneProtoSquad" DBID="584" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Input Name="ProtoSquadList" SigID="1" Optional="false">29</Input>
+            <Input Name="ListPosition" SigID="2" Optional="false">26</Input>
+            <Output Name="RemovedProtoSquad" SigID="3" Optional="false">32</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="8" Type="ProtoSquadListRemove" DBID="572" Version="1" CommentOut="false">
+          <Input Name="RemoveOne" SigID="1" Optional="true">32</Input>
+          <Input Name="RemoveList" SigID="2" Optional="true">29</Input>
+          <Input Name="RemoveAll" SigID="3" Optional="true">33</Input>
+          <Output Name="ModifyList" SigID="4" Optional="false">34</Output>
+        </Effect>
+        <Effect ID="9" Type="ProtoSquadListAdd" DBID="571" Version="1" CommentOut="false">
+          <Input Name="AddProtoSquad" SigID="1" Optional="true">32</Input>
+          <Input Name="AddProtoSquadList" SigID="2" Optional="true">31</Input>
+          <Input Name="ClearExisting" SigID="3" Optional="true">35</Input>
+          <Output Name="DestList" SigID="4" Optional="false">36</Output>
+        </Effect>
+        <Effect ID="10" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+          <Input Name="Trigger" SigID="1" Optional="false">4</Input>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+    <Trigger Name="SpawnUnits" ID="5" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="5692.2" Y="202.5999" GroupID="-1">
+      <TriggerConditions>
+        <And />
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="11" Type="CreateSquads" DBID="875" Version="1" CommentOut="false">
+          <Input Name="FlyInSquads" SigID="1" Optional="false">36</Input>
+          <Input Name="Player" SigID="2" Optional="false">12</Input>
+          <Input Name="CreatePosition" SigID="3" Optional="false">11</Input>
+          <Input Name="Facing" SigID="4" Optional="true">37</Input>
+          <Input Name="FlyInStart" SigID="5" Optional="true">38</Input>
+          <Input Name="FlyInEnd" SigID="6" Optional="true">39</Input>
+          <Input Name="RallyPoint" SigID="7" Optional="true">40</Input>
+          <Input Name="AttackMoveRallyPoint" SigID="8" Optional="true">41</Input>
+          <Output Name="CreatedSquads" SigID="9" Optional="true">42</Output>
+          <Output Name="AddToList" SigID="10" Optional="true">43</Output>
+          <Output Name="ClearExisting" SigID="11" Optional="true">44</Output>
+        </Effect>
+        <Effect ID="12" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

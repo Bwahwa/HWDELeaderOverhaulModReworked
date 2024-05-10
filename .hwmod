@@ -1,0 +1,12 @@
+﻿<HWMod ManifestVersion="1" ModID="F9FB65C95317D726244179B83292B798EE790DF7869EACE44B43A527B328054A">
+  <RequiredData Title="Leader Overhaul Mod" Author="ladywoodgrill" Version="1.7.1" />
+  <OptionalData>
+    <BannerArt>ModData\LeaderOverhaulBanner.png</BannerArt>
+    <Icon></Icon>
+    <Description>Leader Overhaul Mod v1.7:
+- Completely overhauls the Rebel leader
+- Adds unit drops for all leaders
+- Makes significant changes to all leaders
+- Drastically alters the balance of the mod.</Description>
+  </OptionalData>
+</HWMod>

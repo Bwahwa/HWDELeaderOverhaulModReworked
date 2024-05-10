@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\falcon_01</file>
+				<damagefile>unsc\air\falcon_01\falcon_01</damagefile>
+			</asset>
+			<attach type="ModelRef" name="Turbine L" tobone="turbine_l" frombone="turbine_l" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Turbine R" tobone="turbine_r" frombone="turbine_r" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="GunArm L" tobone="falcon" frombone="falcon" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Gunner L" tobone="falcon" frombone="falcon" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="GunArm R" tobone="falcon" frombone="falcon" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="Gunner R" tobone="falcon" frombone="falcon" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="ChingunPost" tobone="chingun_yaw" frombone="chingun_yaw" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_01" tobone="FX_engineexhaust_l" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_01" tobone="FX_engineexhaust_r" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/vehicle_fx/unsc/pelican/headlight_02" tobone="FX_light_l" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects/vehicle_fx/unsc/pelican/headlight_01" tobone="FX_light_r" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_04</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_05</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_06</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Transition" tweenTime="20" tweenToAnimation="Walk">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_04</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_05</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_06</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_big_01" tobone="FX_engineexhaust_l" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_big_01" tobone="FX_engineexhaust_r" syncanims="false" disregardorient="false" />
+		</anim>		
+		<anim type="Jog" exitAction="Transition" tweenTime="20" tweenToAnimation="Jog">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_04</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_05</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_06</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_big_01" tobone="FX_engineexhaust_l" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_big_01" tobone="FX_engineexhaust_r" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Run" exitAction="Transition" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_01</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_02</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_03</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_04</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_05</file>
+				<weight>1</weight>
+			</asset>
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_idle_06</file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_big_01" tobone="FX_engineexhaust_l" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrustrear_big_01" tobone="FX_engineexhaust_r" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="MGAttack" exitAction="Loop" tweenTime="20" tweenToAnimation="MGAttack">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MGAttackL" exitAction="Loop" tweenTime="20" tweenToAnimation="MGAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="MGAttackR" exitAction="Loop" tweenTime="20" tweenToAnimation="MGAttackR">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackL" exitAction="Loop" tweenTime="20" tweenToAnimation="GLAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackR" exitAction="Loop" tweenTime="20" tweenToAnimation="GLAttackR">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+
+	<model name="Turbine L">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\turbineL_01</file>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_rotors_01" tobone="rotor_l" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_01" tobone="FX_turbineexhaust_l" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_big_01" tobone="FX_turbineexhaust_l" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_big_01" tobone="FX_turbineexhaust_l" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_big_01" tobone="FX_turbineexhaust_l" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+	<model name="Turbine R">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\turbineR_01</file>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_rotors_01" tobone="rotor_r" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_01" tobone="FX_turbineexhaust_r" syncanims="false" disregardorient="false" />
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_big_01" tobone="FX_turbineexhaust_r" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Jog" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_big_01" tobone="FX_turbineexhaust_r" syncanims="false" disregardorient="false" />
+		</anim>
+		<anim type="Run" exitAction="Loop" tweenTime="20" tweenToAnimation="Run">
+			<asset type="Anim">
+				<file></file>
+				<weight>1</weight>
+			</asset>
+			<attach type="ParticleFile" name="unsc\air\falcon_01\falcon_thrust_big_01" tobone="FX_turbineexhaust_r" syncanims="false" disregardorient="false" />
+		</anim>
+	</model>
+
+	<model name="Gunner L">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunner_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunner_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gunner_l</file>
+			</asset>
+		</component>
+		<anim type="MGAttackL" exitAction="Transition" tweenTime="20" tweenToAnimation="MGAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackL" exitAction="Transition" tweenTime="20" tweenToAnimation="GLAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="GunArm L">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunarm_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunarm_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gunarm_l</file>
+			</asset>
+			<attach type="ModelRef" name="GunPost L" tobone="mgun_yaw_l" frombone="mgun_yaw_l" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="MGAttackL" exitAction="Transition" tweenTime="20" tweenToAnimation="MGAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackL" exitAction="Transition" tweenTime="20" tweenToAnimation="GLAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="GunPost L">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunpost_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunpost_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gunpost_l</file>
+			</asset>
+			<attach type="ModelRef" name="Gun L" tobone="mgun_pitch_l" frombone="mgun_pitch_l" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="MGAttackL" exitAction="Transition" tweenTime="20" tweenToAnimation="MGAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackL" exitAction="Transition" tweenTime="20" tweenToAnimation="GLAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Gun L">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gun_gl_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gun_l</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gun_l</file>
+			</asset>
+		</component>
+		<anim type="MGAttackL" exitAction="Loop" tweenTime="20" tweenToAnimation="MGAttackL">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			<tag type="Sound" start="0" position="0.05" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.15" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.15" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.15" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.25" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.25" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.35" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.35" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.35" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.45" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.45" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.45" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.55" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.55" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.55" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.65" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.65" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.65" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.75" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.75" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.75" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.85" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.85" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.85" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.95" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.95" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.95" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GLAttackL" exitAction="Loop" tweenTime="20" tweenToAnimation="GLAttackL">
+			<asset type="Anim">
+				<file>unsc\vehicle\warthog_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_weap_unsc_grenade_launcher" tobone="mgun_launchpoint_l" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.12" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_l" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="Gunner R">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunner_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunner_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gunner_r</file>
+			</asset>
+		</component>
+		<anim type="MGAttackR" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackR" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="GunArm R">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunarm_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunarm_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gunarm_r</file>
+			</asset>
+			<attach type="ModelRef" name="GunPost R" tobone="mgun_yaw_r" frombone="mgun_yaw_r" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="MGAttackR" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackR" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="GunPost R">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunpost_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gunpost_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gunpost_r</file>
+			</asset>
+			<attach type="ModelRef" name="Gun R" tobone="mgun_pitch_r" frombone="mgun_pitch_r" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="MGAttackR" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="GLAttackR" exitAction="Transition" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Gun R">
+		<component>
+			<logic type="Tech">
+				<logicdata value="unsc_falcon_upgrade3" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gun_gl_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade2" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\air\falcon_01\gun_r</file>
+					</asset>
+				</logicdata>
+				<logicdata value="unsc_falcon_upgrade1" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+				<logicdata value="" modelref="" weight="1">
+					<asset type="Model">
+						<uvOffset channel="0" uOfs="0" vOfs="0" />
+						<uvOffset channel="1" uOfs="0" vOfs="0" />
+						<uvOffset channel="2" uOfs="0" vOfs="0" />
+						<file>unsc\infantry\marine_01\nothing_01</file>
+					</asset>
+				</logicdata>
+			</logic>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\gun_r</file>
+			</asset>
+		</component>
+		<anim type="MGAttackR" exitAction="Loop" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			<tag type="Sound" start="0" position="0.05" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.15" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.15" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.15" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.25" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.25" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.25" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.35" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.35" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.35" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.45" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.45" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.45" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.55" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.55" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.55" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.65" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.65" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.65" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.75" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.75" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.75" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.85" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.85" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.85" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			<tag type="Sound" start="0" position="0.95" end="1" name="play_weapon_unsc_hornet_minigun" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.95" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.95" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+		<anim type="GLAttackR" exitAction="Loop" tweenTime="20" tweenToAnimation="Idle">
+			<asset type="Anim">
+				<file>unsc\vehicle\warthog_01\CannonAttack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.1" end="1" name="play_weap_unsc_grenade_launcher" tobone="mgun_launchpoint_r" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.119" end="1" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.12" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="mgun_launchpoint_r" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="2.5" loop="false" checkSelected="false" checkFOW="true" />
+			</asset>
+		</anim>
+	</model>
+	<model name="ChingunPost">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\chingunpost</file>
+			</asset>
+			<attach type="ModelRef" name="Chingun" tobone="chingun_pitch" frombone="chingun_pitch" syncanims="true" disregardorient="false" />
+		</component>
+		<anim type="MGAttack" exitAction="Transition" tweenTime="20" tweenToAnimation="MGAttack">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="Chingun">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>unsc\air\falcon_01\chingun</file>
+			</asset>
+		</component>
+		<anim type="MGAttack" exitAction="Transition" tweenTime="20" tweenToAnimation="MGAttack">
+			<asset type="Anim">
+				<file>unsc\air\falcon_01\falcon_rig_mgattack_01</file>
+				<weight>1</weight>
+				<tag type="Sound" start="0" position="0.05" end="1" name="play_turret_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.05" end="1" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.05" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			
+				<tag type="Sound" start="0" position="0.16" end="1" name="play_turret_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.16" end="1" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.16" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			
+				<tag type="Sound" start="0" position="0.27" end="1" name="play_turret_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.27" end="1" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.27" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			
+				<tag type="Sound" start="0" position="0.38" end="1" name="play_turret_cannon" tobone="GrannyRootBone" checkvisible="true" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Attack" start="0" position="0.38" end="1" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.25" loop="false" checkSelected="false" checkFOW="true" />
+				<tag type="Particle" start="0" position="0.38" end="1" name="effects\unit_fx\unsc\marine\muzzleblast" tobone="chingun_launchpoint" checkvisible="false" lockToGround="false" attach="false" disregardorient="false" force="0" force2="0" lifespan="0.400000006" loop="false" checkSelected="false" checkFOW="true" />
+			
+			</asset>
+		</anim>
+	
+	</model>
+
+
+</visual>

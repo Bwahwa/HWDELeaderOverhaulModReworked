@@ -1,0 +1,514 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<visual xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" defaultmodel="Default">
+	<model name="Default">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_destroyed_01</file>
+			</asset>
+			<attach type="ModelRef" name="TreadFL" tobone="bone_tread_FL" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="TreadFR" tobone="bone_tread_FR" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="TreadML" tobone="bone_tread_ML" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="TreadMR" tobone="bone_tread_MR" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="TreadRL" tobone="bone_tread_RL" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ModelRef" name="TreadRR" tobone="bone_tread_RR" frombone="GrannyRootBone" syncanims="true" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_body" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\fire\rollingfireball_01" tobone="bone_tread_FR" syncanims="false" disregardorient="false" />
+			<attach type="ParticleFile" name="effects\fire\flaming_debris_01" tobone="bone_tread_RR" syncanims="false" disregardorient="false" />
+		</component>
+	</model>
+	<model name="TreadFL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadFL_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ArtilleryAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\artilleryAttack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LightningAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\LockdownArtilleryAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="TreadFR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadFR_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ArtilleryAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\artilleryAttack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LightningAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\LockdownArtilleryAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="TreadML">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadML_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ArtilleryAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\artilleryAttack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LightningAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\LockdownArtilleryAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="TreadMR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadMR_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ArtilleryAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\artilleryAttack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LightningAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\LockdownArtilleryAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="TreadRL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadRL_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ArtilleryAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\artilleryAttack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="TreadRR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadRR_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="ArtilleryAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\artilleryAttack_02</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="LockdownTreadRL">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadRL_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LightningAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\LockdownArtilleryAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<model name="LockdownTreadRR">
+		<component>
+			<asset type="Model">
+				<uvOffset channel="0" uOfs="0" vOfs="0" />
+				<uvOffset channel="1" uOfs="0" vOfs="0" />
+				<uvOffset channel="2" uOfs="0" vOfs="0" />
+				<file>creep\insurrectionists\solenodon_01\solenodon_treadRR_01</file>
+			</asset>
+		</component>
+		<anim type="Idle" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorDown" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_down_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Death" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\death_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="AnchorUp" exitAction="Freeze" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_up_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Repair" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Cinematic" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="LightningAttack" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\LockdownArtilleryAttack_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+		<anim type="Walk" exitAction="Loop" tweenTime="8" tweenToAnimation="">
+			<asset type="Anim">
+				<file>unsc\vehicle\rhino_01\anchor_idle_01</file>
+				<weight>1</weight>
+			</asset>
+		</anim>
+	</model>
+	<logic type="SquadMode">
+		<logicdata value="Lockdown" modelref="Lockdown" weight="1" />
+		<logicdata value="" modelref="Default" weight="1" />
+	</logic>
+</visual>

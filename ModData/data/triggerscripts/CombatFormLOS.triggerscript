@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="New Triggerscript.triggerscript" Type="Triggerscript" NextTriggerVarID="0" NextTriggerID="0" NextConditionID="0" NextEffectID="0">
+  <TriggerVars>
+    <TriggerVar ID="0" Type="Trigger" Name="newTrigger1162136Var" IsNull="false">1</TriggerVar>
+    <TriggerVar ID="1" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="2" Type="Squad" Name="newSquadVar1" IsNull="false" />
+    <TriggerVar ID="3" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="4" Type="Vector" Name="newVectorVar1" IsNull="false">Loc</TriggerVar>
+    <TriggerVar ID="5" Type="Player" Name="newPlayerVar1" IsNull="false" />
+    <TriggerVar ID="6" Type="VectorList" Name="nullVectorListVar" IsNull="true" />
+    <TriggerVar ID="7" Type="Float" Name="newFloatVar1" IsNull="false">55</TriggerVar>
+    <TriggerVar ID="8" Type="Time" Name="nullTimeVar" IsNull="true" />
+    <TriggerVar ID="9" Type="Object" Name="nullObjectVar" IsNull="true" />
+    <TriggerVar ID="10" Type="ObjectList" Name="nullObjectListVar" IsNull="true" />
+    <TriggerVar ID="11" Type="Bool" Name="nullBoolVar" IsNull="true" />
+    <TriggerVar ID="12" Type="Power" Name="nullPowerVar" IsNull="true" />
+    <TriggerVar ID="13" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+    <TriggerVar ID="14" Type="Unit" Name="nullUnitVar" IsNull="true" />
+    <TriggerVar ID="15" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+    <TriggerVar ID="16" Type="Cost" Name="nullCostVar" IsNull="true" />
+  </TriggerVars>
+  <Triggers>
+    <Trigger Name="newTrigger1162136" ID="1" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="-514" Y="-350" GroupID="-1">
+      <TriggerConditions>
+        <And>
+          <Condition ID="0" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+            <Output Name="ExternPlayer" SigID="1" Optional="true">5</Output>
+            <Output Name="ExternPower" SigID="2" Optional="true">12</Output>
+            <Output Name="ExternSquad" SigID="3" Optional="true">2</Output>
+            <Output Name="ExternSquadList" SigID="7" Optional="true">13</Output>
+            <Output Name="ExternUnit" SigID="4" Optional="true">14</Output>
+            <Output Name="ExternUnitList" SigID="6" Optional="true">15</Output>
+            <Output Name="ExternCost" SigID="5" Optional="true">16</Output>
+          </Condition>
+        </And>
+      </TriggerConditions>
+      <TriggerEffectsOnTrue>
+        <Effect ID="0" Type="GetLocation" DBID="189" Version="2" CommentOut="false">
+          <Input Name="Unit" SigID="1" Optional="true">1</Input>
+          <Input Name="Squad" SigID="2" Optional="true">2</Input>
+          <Input Name="Object" SigID="4" Optional="true">3</Input>
+          <Output Name="OutputLocation" SigID="3" Optional="false">4</Output>
+        </Effect>
+        <Effect ID="1" Type="Revealer" DBID="285" Version="3" CommentOut="false">
+          <Input Name="Owner" SigID="1" Optional="false">5</Input>
+          <Input Name="Location" SigID="2" Optional="true">4</Input>
+          <Input Name="LocationList" SigID="8" Optional="true">6</Input>
+          <Input Name="LOS" SigID="4" Optional="false">7</Input>
+          <Input Name="Lifespan" SigID="3" Optional="true">8</Input>
+          <Output Name="CreatedRevealer" SigID="5" Optional="true">9</Output>
+          <Output Name="AddToObjectList" SigID="6" Optional="true">10</Output>
+          <Output Name="ClearExisting" SigID="7" Optional="true">11</Output>
+        </Effect>
+      </TriggerEffectsOnTrue>
+      <TriggerEffectsOnFalse />
+    </Trigger>
+  </Triggers>
+</TriggerSystem>

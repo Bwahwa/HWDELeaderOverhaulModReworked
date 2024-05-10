@@ -1,0 +1,2634 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<Scenario xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Terrain LoadVisRep="true">PHXscn13</Terrain>
+	<Sky />
+	<TerrainEnv>environment\sky\cloudy_sky_dome_en.ddx</TerrainEnv>
+	<Lightset>PHXscn13</Lightset>
+	<Pathing>PHXscn13</Pathing>
+	<Cinematics>
+		<Cinematic ID="0">cinematic\cutscenes\Scenario_13\S13_Scene_01_Arbiter\S13_Scene_01_Arbiter</Cinematic>
+		<Cinematic ID="1">cinematic\cutscenes\Scenario_13\S13_Scene_02_Flood\S13_Scene_02_Flood</Cinematic>
+		<Cinematic ID="2">cinematic\cutscenes\Scenario_13\S13_Scene_03_Outro\S13_Scene_03_Outro</Cinematic>
+	</Cinematics>
+	<Lightsets />
+	<TalkingHeads>
+		<TalkingHead ID="131">scn_13_spartan_01</TalkingHead>
+		<TalkingHead ID="132">scn_13_anders_01</TalkingHead>
+		<TalkingHead ID="133">scn_13_anders_02</TalkingHead>
+		<TalkingHead ID="134">scn_13_anders_03</TalkingHead>
+		<TalkingHead ID="135">scn_13_anders_04</TalkingHead>
+		<TalkingHead ID="136">scn_13_anders_05</TalkingHead>
+		<TalkingHead ID="137">scn_13_anders_06</TalkingHead>
+		<TalkingHead ID="138">scn_13_cutter_01</TalkingHead>
+		<TalkingHead ID="139">scn_13_cutter_02</TalkingHead>
+		<TalkingHead ID="140">scn_13_forge_01</TalkingHead>
+		<TalkingHead ID="141">scn_13_forge_02</TalkingHead>
+		<TalkingHead ID="142">scn_13_forge_03</TalkingHead>
+		<TalkingHead ID="143">scn_13_forge_04</TalkingHead>
+		<TalkingHead ID="144">scn_13_forge_05</TalkingHead>
+		<TalkingHead ID="145">scn_13_forge_06</TalkingHead>
+		<TalkingHead ID="146">scn_13_forge_07</TalkingHead>
+		<TalkingHead ID="147">scn_13_forge_08</TalkingHead>
+		<TalkingHead ID="148">scn_13_forge_09</TalkingHead>
+		<TalkingHead ID="149">scn_13_forge_10</TalkingHead>
+		<TalkingHead ID="150">scn_13_pilot_01</TalkingHead>
+	</TalkingHeads>
+	<Diplomacies>
+		<Diplomacy Team="1">
+			<Team ID="1">Ally</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="2">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Ally</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="3">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Ally</Team>
+			<Team ID="4">Enemy</Team>
+		</Diplomacy>
+		<Diplomacy Team="4">
+			<Team ID="1">Enemy</Team>
+			<Team ID="2">Enemy</Team>
+			<Team ID="3">Enemy</Team>
+			<Team ID="4">Ally</Team>
+		</Diplomacy>
+	</Diplomacies>
+	<PlayerPlacement Type="Fixed" Spacing="0" />
+	<Positions>
+		<Position Player="-1" Number="1" Position="355.25769,7.71750021,162.3405" Forward="0,0,1" DefaultCamera="true" CameraYaw="317.200012" CameraPitch="42" CameraZoom="85" UnitStartObject1="-1" UnitStartObject2="-1" UnitStartObject3="-1" UnitStartObject4="-1" RallyStartObject="-1" />
+	</Positions>
+	<Players>
+		<Player Name="Player" LocalisedDisplayName="25532,Player1" UseStartingUnits="false" Controllable="true" UsePlayerSettings="false" Civ="UNSC" Leader1="Major Vanilla" Color="1" Team="1" DefaultResources="false" Supplies="2000" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads>
+				<Squad>cov_air_banshee_01</Squad>
+				<Squad>cov_air_monitor_01</Squad>
+				<Squad>cov_air_monitor_02</Squad>
+				<Squad>cov_air_spirit_01</Squad>
+				<Squad>cov_air_vampire_01</Squad>
+				<Squad>cov_inf_arbiter_01</Squad>
+				<Squad>cov_inf_brute_01</Squad>
+				<Squad>cov_inf_bruteChief_01</Squad>
+				<Squad>cov_inf_bruteGrunt_01</Squad>
+				<Squad>cov_inf_bruteGrunt_02</Squad>
+				<Squad>cov_inf_bruteGrunt_03</Squad>
+				<Squad>cov_inf_eliteCommando_01</Squad>
+				<Squad>cov_inf_engineer_01</Squad>
+				<Squad>cov_inf_grunt_01</Squad>
+				<Squad>cov_inf_grunt_02</Squad>
+				<Squad>cov_inf_grunt_03</Squad>
+				<Squad>cov_inf_gruntHorde_01</Squad>
+				<Squad>cov_inf_gruntHorde_02</Squad>
+				<Squad>cov_inf_hunter_01</Squad>
+				<Squad>cov_inf_jackal_01</Squad>
+				<Squad>cov_inf_needlerGrunt_01</Squad>
+				<Squad>cov_inf_prophet_01</Squad>
+				<Squad>cov_inf_suicideGrunt_01</Squad>
+				<Squad>cov_veh_bruteChopper_01</Squad>
+				<Squad>cov_veh_ghost_01</Squad>
+				<Squad>cov_veh_locust_01</Squad>
+				<Squad>cov_veh_scarab_01</Squad>
+				<Squad>cov_veh_wraith_01</Squad>
+				<Squad>creep_heretic_banshee_01</Squad>
+				<Squad>creep_heretic_brute_01</Squad>
+				<Squad>creep_heretic_elite_01</Squad>
+				<Squad>creep_heretic_flyingElite_01</Squad>
+				<Squad>creep_heretic_ghost_01</Squad>
+				<Squad>creep_heretic_grunt_01</Squad>
+				<Squad>creep_heretic_hunter_01</Squad>
+				<Squad>creep_heretic_jackalSniper_01</Squad>
+				<Squad>creep_heretic_wraith_01</Squad>
+				<Squad>creep_inf_jackal_01</Squad>
+				<Squad>creep_inf_needlerJackal_01</Squad>
+				<Squad>creep_inf_rebelGrunt_01</Squad>
+				<Squad>creep_inf_RebelMixedGrunts_01</Squad>
+				<Squad>creep_inf_RebelNeedlerGrunt_01</Squad>
+				<Squad>creep_inf_sniperJackal_01</Squad>
+				<Squad>creep_rebel_flameInfantry_01</Squad>
+				<Squad>creep_rebel_gaussWarthog_01</Squad>
+				<Squad>creep_rebel_infantry_01</Squad>
+				<Squad>creep_rebel_sciTrooper_01</Squad>
+				<Squad>creep_rebel_sniper_01</Squad>
+				<Squad>creep_rebel_warthog_01</Squad>
+				<Squad>creep_rebel_wolverine_01</Squad>
+				<Squad>env_creatures_bird_01</Squad>
+				<Squad>env_creatures_cattle_01</Squad>
+				<Squad>env_creatures_oxyaenaswi_01</Squad>
+				<Squad>env_creatures_snowbeast_01</Squad>
+				<Squad>env_creatures_thornbeast_01</Squad>
+				<Squad>fld_air_bomber_01</Squad>
+				<Squad>fld_air_sporecloud_01</Squad>
+				<Squad>fld_air_swarm_01</Squad>
+				<Squad>fld_egg_infectionForm_01</Squad>
+				<Squad>fld_egg_stalkBase_01</Squad>
+				<Squad>fld_inf_flameMarine_01</Squad>
+				<Squad>fld_inf_flameMarineSingle_01</Squad>
+				<Squad>fld_inf_infectedBrute_01</Squad>
+				<Squad>fld_inf_infectedBruteSingle_01</Squad>
+				<Squad>fld_inf_infectedCarrier_01</Squad>
+				<Squad>fld_inf_infectedElite_01</Squad>
+				<Squad>fld_inf_infectedEliteSingle_01</Squad>
+				<Squad>fld_inf_infectedGrunt_01</Squad>
+				<Squad>fld_inf_infectedGruntSingle_01</Squad>
+				<Squad>fld_inf_infectedJackal_01</Squad>
+				<Squad>fld_inf_infectedJackalSingle_01</Squad>
+				<Squad>fld_inf_infectedMarine_01</Squad>
+				<Squad>fld_inf_infectedMarineSingle_01</Squad>
+				<Squad>fld_inf_infectionForm_01</Squad>
+				<Squad>fld_inf_infectionForm_02</Squad>
+				<Squad>fld_inf_infectionForm_03</Squad>
+				<Squad>fld_inf_rhinodillo_01</Squad>
+				<Squad>fld_inf_tentacle_01</Squad>
+				<Squad>fld_inf_tentacleDormant_01</Squad>
+				<Squad>Flood</Squad>
+				<Squad>FlyingFlood</Squad>
+				<Squad>for_air_drone_01</Squad>
+				<Squad>for_air_enforcer_01</Squad>
+				<Squad>for_air_monitor_01</Squad>
+				<Squad>for_air_monitor_02</Squad>
+				<Squad>for_air_monitor_04</Squad>
+				<Squad>for_air_sentinel_01</Squad>
+				<Squad>for_air_sentinel_02</Squad>
+				<Squad>for_air_sentinel_03</Squad>
+				<Squad>Forerunner</Squad>
+				<Squad>Rebel</Squad>
+			</ForbidSquads>
+			<ForbidTechs>
+				<Tech>ai_cov_cleansing_downgrade1</Tech>
+				<Tech>ai_cov_cleansing_downgrade2</Tech>
+				<Tech>ai_e3_easyNeverDie</Tech>
+				<Tech>cov_arbiter_upgrade1</Tech>
+				<Tech>cov_arbiter_upgrade2</Tech>
+				<Tech>cov_arbiter_upgrade3</Tech>
+				<Tech>cov_banshee_upgrade1</Tech>
+				<Tech>cov_banshee_upgrade2</Tech>
+				<Tech>cov_banshee_upgrade3</Tech>
+				<Tech>cov_base_upgrade1</Tech>
+				<Tech>cov_base_upgrade2</Tech>
+				<Tech>cov_brute_upgrade2</Tech>
+				<Tech>cov_brute_upgrade3</Tech>
+				<Tech>cov_bruteChief_upgrade1</Tech>
+				<Tech>cov_bruteChief_upgrade2</Tech>
+				<Tech>cov_bruteChief_upgrade3</Tech>
+				<Tech>cov_bruteChopper_upgrade1</Tech>
+				<Tech>cov_bruteChopper_upgrade2</Tech>
+				<Tech>cov_bruteChopper_upgrade3</Tech>
+				<Tech>cov_cleansing_upgrade1</Tech>
+				<Tech>cov_cleansing_upgrade2</Tech>
+				<Tech>cov_cleansing_upgrade3</Tech>
+				<Tech>cov_eliteCommando_upgrade2</Tech>
+				<Tech>cov_eliteCommando_upgrade3</Tech>
+				<Tech>cov_engineer_upgrade1</Tech>
+				<Tech>cov_engineer_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade1</Tech>
+				<Tech>cov_ghost_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade3</Tech>
+				<Tech>cov_gravityWave_upgrade1</Tech>
+				<Tech>cov_gravityWave_upgrade2</Tech>
+				<Tech>cov_gravityWave_upgrade3</Tech>
+				<Tech>cov_grunt_upgrade1</Tech>
+				<Tech>cov_grunt_upgrade2</Tech>
+				<Tech>cov_grunt_upgrade3</Tech>
+				<Tech>cov_hunter_upgrade1</Tech>
+				<Tech>cov_hunter_upgrade2</Tech>
+				<Tech>cov_hunter_upgrade3</Tech>
+				<Tech>cov_jackal_upgrade1</Tech>
+				<Tech>cov_jackal_upgrade2</Tech>
+				<Tech>cov_jackal_upgrade3</Tech>
+				<Tech>cov_locust_upgrade2</Tech>
+				<Tech>cov_locust_upgrade3</Tech>
+				<Tech>cov_prophet_upgrade1</Tech>
+				<Tech>cov_prophet_upgrade2</Tech>
+				<Tech>cov_prophet_upgrade3</Tech>
+				<Tech>cov_rage_upgrade1</Tech>
+				<Tech>cov_rage_upgrade2</Tech>
+				<Tech>cov_rage_upgrade3</Tech>
+				<Tech>cov_shield_downgrade</Tech>
+				<Tech>cov_shield_upgrade</Tech>
+				<Tech>cov_suicideGrunt_upgrade2</Tech>
+				<Tech>cov_suicideGrunt_upgrade3</Tech>
+				<Tech>cov_supplyDepot_upgrade1</Tech>
+				<Tech>cov_tech_followers</Tech>
+				<Tech>cov_tech_shieldRecharge</Tech>
+				<Tech>cov_temple_upgrade1</Tech>
+				<Tech>cov_temple_upgrade2</Tech>
+				<Tech>cov_turret_upgrade1</Tech>
+				<Tech>cov_turret_upgrade2</Tech>
+				<Tech>cov_turret_upgradeAA</Tech>
+				<Tech>cov_turret_upgradeAI</Tech>
+				<Tech>cov_turret_upgradeAV</Tech>
+				<Tech>cov_vampire_upgrade2</Tech>
+				<Tech>cov_vampire_upgrade3</Tech>
+				<Tech>cov_wraith_upgrade1</Tech>
+				<Tech>cov_wraith_upgrade2</Tech>
+				<Tech>cov_wraith_upgrade3</Tech>
+				<Tech>tutorial_part1</Tech>
+				<Tech>tutorial_part2</Tech>
+				<Tech>tutorial_part3</Tech>
+			</ForbidTechs>
+		</Player>
+		<Player Name="Co-Op" LocalisedDisplayName="25533,Player2" UseStartingUnits="false" Controllable="true" UsePlayerSettings="false" Civ="UNSC" Leader1="Major Vanilla" Color="2" Team="1" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads>
+				<Squad>cov_air_banshee_01</Squad>
+				<Squad>cov_air_monitor_01</Squad>
+				<Squad>cov_air_monitor_02</Squad>
+				<Squad>cov_air_spirit_01</Squad>
+				<Squad>cov_air_vampire_01</Squad>
+				<Squad>cov_inf_arbiter_01</Squad>
+				<Squad>cov_inf_brute_01</Squad>
+				<Squad>cov_inf_bruteChief_01</Squad>
+				<Squad>cov_inf_bruteGrunt_01</Squad>
+				<Squad>cov_inf_bruteGrunt_02</Squad>
+				<Squad>cov_inf_bruteGrunt_03</Squad>
+				<Squad>cov_inf_eliteCommando_01</Squad>
+				<Squad>cov_inf_engineer_01</Squad>
+				<Squad>cov_inf_grunt_01</Squad>
+				<Squad>cov_inf_grunt_02</Squad>
+				<Squad>cov_inf_grunt_03</Squad>
+				<Squad>cov_inf_gruntHorde_01</Squad>
+				<Squad>cov_inf_gruntHorde_02</Squad>
+				<Squad>cov_inf_hunter_01</Squad>
+				<Squad>cov_inf_jackal_01</Squad>
+				<Squad>cov_inf_needlerGrunt_01</Squad>
+				<Squad>cov_inf_prophet_01</Squad>
+				<Squad>cov_inf_suicideGrunt_01</Squad>
+				<Squad>cov_veh_bruteChopper_01</Squad>
+				<Squad>cov_veh_ghost_01</Squad>
+				<Squad>cov_veh_locust_01</Squad>
+				<Squad>cov_veh_scarab_01</Squad>
+				<Squad>cov_veh_wraith_01</Squad>
+				<Squad>creep_heretic_banshee_01</Squad>
+				<Squad>creep_heretic_brute_01</Squad>
+				<Squad>creep_heretic_elite_01</Squad>
+				<Squad>creep_heretic_flyingElite_01</Squad>
+				<Squad>creep_heretic_ghost_01</Squad>
+				<Squad>creep_heretic_grunt_01</Squad>
+				<Squad>creep_heretic_hunter_01</Squad>
+				<Squad>creep_heretic_jackalSniper_01</Squad>
+				<Squad>creep_heretic_wraith_01</Squad>
+				<Squad>creep_inf_jackal_01</Squad>
+				<Squad>creep_inf_needlerJackal_01</Squad>
+				<Squad>creep_inf_rebelGrunt_01</Squad>
+				<Squad>creep_inf_RebelMixedGrunts_01</Squad>
+				<Squad>creep_inf_RebelNeedlerGrunt_01</Squad>
+				<Squad>creep_inf_sniperJackal_01</Squad>
+				<Squad>creep_rebel_flameInfantry_01</Squad>
+				<Squad>creep_rebel_gaussWarthog_01</Squad>
+				<Squad>creep_rebel_infantry_01</Squad>
+				<Squad>creep_rebel_sciTrooper_01</Squad>
+				<Squad>creep_rebel_sniper_01</Squad>
+				<Squad>creep_rebel_warthog_01</Squad>
+				<Squad>creep_rebel_wolverine_01</Squad>
+				<Squad>env_creatures_bird_01</Squad>
+				<Squad>env_creatures_cattle_01</Squad>
+				<Squad>env_creatures_oxyaenaswi_01</Squad>
+				<Squad>env_creatures_snowbeast_01</Squad>
+				<Squad>env_creatures_thornbeast_01</Squad>
+				<Squad>fld_air_bomber_01</Squad>
+				<Squad>fld_air_sporecloud_01</Squad>
+				<Squad>fld_air_swarm_01</Squad>
+				<Squad>fld_egg_infectionForm_01</Squad>
+				<Squad>fld_egg_stalkBase_01</Squad>
+				<Squad>fld_inf_flameMarine_01</Squad>
+				<Squad>fld_inf_flameMarineSingle_01</Squad>
+				<Squad>fld_inf_infectedBrute_01</Squad>
+				<Squad>fld_inf_infectedBruteSingle_01</Squad>
+				<Squad>fld_inf_infectedCarrier_01</Squad>
+				<Squad>fld_inf_infectedElite_01</Squad>
+				<Squad>fld_inf_infectedEliteSingle_01</Squad>
+				<Squad>fld_inf_infectedGrunt_01</Squad>
+				<Squad>fld_inf_infectedGruntSingle_01</Squad>
+				<Squad>fld_inf_infectedJackal_01</Squad>
+				<Squad>fld_inf_infectedJackalSingle_01</Squad>
+				<Squad>fld_inf_infectedMarine_01</Squad>
+				<Squad>fld_inf_infectedMarineSingle_01</Squad>
+				<Squad>fld_inf_infectionForm_01</Squad>
+				<Squad>fld_inf_infectionForm_02</Squad>
+				<Squad>fld_inf_infectionForm_03</Squad>
+				<Squad>fld_inf_rhinodillo_01</Squad>
+				<Squad>fld_inf_tentacle_01</Squad>
+				<Squad>fld_inf_tentacleDormant_01</Squad>
+				<Squad>Flood</Squad>
+				<Squad>FlyingFlood</Squad>
+				<Squad>for_air_drone_01</Squad>
+				<Squad>for_air_enforcer_01</Squad>
+				<Squad>for_air_monitor_01</Squad>
+				<Squad>for_air_monitor_02</Squad>
+				<Squad>for_air_monitor_04</Squad>
+				<Squad>for_air_sentinel_01</Squad>
+				<Squad>for_air_sentinel_02</Squad>
+				<Squad>for_air_sentinel_03</Squad>
+				<Squad>Forerunner</Squad>
+				<Squad>Rebel</Squad>
+				<Squad>rsrc_supplies_crate_01</Squad>
+				<Squad>sys_bubbleshield_large_01</Squad>
+				<Squad>sys_bubbleshield_med_01</Squad>
+				<Squad>sys_bubbleshield_small_01</Squad>
+			</ForbidSquads>
+			<ForbidTechs>
+				<Tech>ai_cov_cleansing_downgrade1</Tech>
+				<Tech>ai_cov_cleansing_downgrade2</Tech>
+				<Tech>ai_e3_easyNeverDie</Tech>
+				<Tech>cov_arbiter_upgrade1</Tech>
+				<Tech>cov_arbiter_upgrade2</Tech>
+				<Tech>cov_arbiter_upgrade3</Tech>
+				<Tech>cov_banshee_upgrade1</Tech>
+				<Tech>cov_banshee_upgrade2</Tech>
+				<Tech>cov_banshee_upgrade3</Tech>
+				<Tech>cov_base_upgrade1</Tech>
+				<Tech>cov_base_upgrade2</Tech>
+				<Tech>cov_brute_upgrade2</Tech>
+				<Tech>cov_brute_upgrade3</Tech>
+				<Tech>cov_bruteChief_upgrade1</Tech>
+				<Tech>cov_bruteChief_upgrade2</Tech>
+				<Tech>cov_bruteChief_upgrade3</Tech>
+				<Tech>cov_bruteChopper_upgrade1</Tech>
+				<Tech>cov_bruteChopper_upgrade2</Tech>
+				<Tech>cov_bruteChopper_upgrade3</Tech>
+				<Tech>cov_cleansing_upgrade1</Tech>
+				<Tech>cov_cleansing_upgrade2</Tech>
+				<Tech>cov_cleansing_upgrade3</Tech>
+				<Tech>cov_eliteCommando_upgrade2</Tech>
+				<Tech>cov_eliteCommando_upgrade3</Tech>
+				<Tech>cov_engineer_upgrade1</Tech>
+				<Tech>cov_engineer_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade1</Tech>
+				<Tech>cov_ghost_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade3</Tech>
+				<Tech>cov_gravityWave_upgrade1</Tech>
+				<Tech>cov_gravityWave_upgrade2</Tech>
+				<Tech>cov_gravityWave_upgrade3</Tech>
+				<Tech>cov_grunt_upgrade1</Tech>
+				<Tech>cov_grunt_upgrade2</Tech>
+				<Tech>cov_grunt_upgrade3</Tech>
+				<Tech>cov_hunter_upgrade1</Tech>
+				<Tech>cov_hunter_upgrade2</Tech>
+				<Tech>cov_hunter_upgrade3</Tech>
+				<Tech>cov_jackal_upgrade1</Tech>
+				<Tech>cov_jackal_upgrade2</Tech>
+				<Tech>cov_jackal_upgrade3</Tech>
+				<Tech>cov_locust_upgrade2</Tech>
+				<Tech>cov_locust_upgrade3</Tech>
+				<Tech>cov_prophet_upgrade1</Tech>
+				<Tech>cov_prophet_upgrade2</Tech>
+				<Tech>cov_prophet_upgrade3</Tech>
+				<Tech>cov_rage_upgrade1</Tech>
+				<Tech>cov_rage_upgrade2</Tech>
+				<Tech>cov_rage_upgrade3</Tech>
+				<Tech>cov_shield_downgrade</Tech>
+				<Tech>cov_shield_upgrade</Tech>
+				<Tech>cov_suicideGrunt_upgrade2</Tech>
+				<Tech>cov_suicideGrunt_upgrade3</Tech>
+				<Tech>cov_supplyDepot_upgrade1</Tech>
+				<Tech>cov_tech_followers</Tech>
+				<Tech>cov_tech_shieldRecharge</Tech>
+				<Tech>cov_temple_upgrade1</Tech>
+				<Tech>cov_temple_upgrade2</Tech>
+				<Tech>cov_turret_upgrade1</Tech>
+				<Tech>cov_turret_upgrade2</Tech>
+				<Tech>cov_turret_upgradeAA</Tech>
+				<Tech>cov_turret_upgradeAI</Tech>
+				<Tech>cov_turret_upgradeAV</Tech>
+				<Tech>cov_vampire_upgrade2</Tech>
+				<Tech>cov_vampire_upgrade3</Tech>
+				<Tech>cov_wraith_upgrade1</Tech>
+				<Tech>cov_wraith_upgrade2</Tech>
+				<Tech>cov_wraith_upgrade3</Tech>
+				<Tech>tutorial_part1</Tech>
+				<Tech>tutorial_part2</Tech>
+				<Tech>tutorial_part3</Tech>
+			</ForbidTechs>
+		</Player>
+		<Player Name="Covenant" LocalisedDisplayName="25542,Covenant" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Leader1="Prophet of Pudding" Color="7" Team="2" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops>
+				<Pop type="Unit" max="40">40</Pop>
+			</Pops>
+			<ForbidObjects />
+			<ForbidSquads>
+				<Squad>cpgn_air_hawk_01</Squad>
+				<Squad>cpgn_air_pelican_01</Squad>
+				<Squad>cpgn_inf_bombGrunt_01</Squad>
+				<Squad>cpgn_inf_jackalSniper_01</Squad>
+				<Squad>cpgn_inf_needlerElite_01</Squad>
+				<Squad>cpgn_inf_odst_01</Squad>
+				<Squad>cpgn_inf_spartanMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaRocket_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaSniper_01</Squad>
+				<Squad>cpgn_inf_spartanRocket_01</Squad>
+				<Squad>cpgn_inf_spartanSniper_01</Squad>
+				<Squad>cpgn_npc_anders_01</Squad>
+				<Squad>cpgn_npc_arcadiaPolice_01</Squad>
+				<Squad>cpgn_npc_civilian_01</Squad>
+				<Squad>cpgn_npc_forge_01</Squad>
+				<Squad>cpgn_npc_ForgeAndAnders_01</Squad>
+				<Squad>cpgn_npc_forgeWarthog_01</Squad>
+				<Squad>cpgn_scn02_rocketWarthog_01</Squad>
+				<Squad>cpgn_scn04_ship_01</Squad>
+				<Squad>cpgn_scn04_ship_02</Squad>
+				<Squad>cpgn_scn07_scarabBoss_02</Squad>
+				<Squad>cpgn_scn11_supersentinel_01</Squad>
+				<Squad>cpgn_scn14_reactor_01</Squad>
+				<Squad>cpgn_unit_scarabBoss_01</Squad>
+				<Squad>cpgn_veh_AAwraith_01</Squad>
+				<Squad>cpgn_veh_grizzly_01</Squad>
+				<Squad>cpgn_veh_scn06Rhino_01</Squad>
+				<Squad>creep_heretic_banshee_01</Squad>
+				<Squad>creep_heretic_brute_01</Squad>
+				<Squad>creep_heretic_elite_01</Squad>
+				<Squad>creep_heretic_flyingElite_01</Squad>
+				<Squad>creep_heretic_ghost_01</Squad>
+				<Squad>creep_heretic_grunt_01</Squad>
+				<Squad>creep_heretic_hunter_01</Squad>
+				<Squad>creep_heretic_jackalSniper_01</Squad>
+				<Squad>creep_heretic_wraith_01</Squad>
+				<Squad>creep_inf_jackal_01</Squad>
+				<Squad>creep_inf_needlerJackal_01</Squad>
+				<Squad>creep_inf_rebelGrunt_01</Squad>
+				<Squad>creep_inf_RebelMixedGrunts_01</Squad>
+				<Squad>creep_inf_RebelNeedlerGrunt_01</Squad>
+				<Squad>creep_inf_sniperJackal_01</Squad>
+				<Squad>creep_rebel_flameInfantry_01</Squad>
+				<Squad>creep_rebel_gaussWarthog_01</Squad>
+				<Squad>creep_rebel_infantry_01</Squad>
+				<Squad>creep_rebel_sciTrooper_01</Squad>
+				<Squad>creep_rebel_sniper_01</Squad>
+				<Squad>creep_rebel_warthog_01</Squad>
+				<Squad>creep_rebel_wolverine_01</Squad>
+				<Squad>env_creatures_bird_01</Squad>
+				<Squad>env_creatures_cattle_01</Squad>
+				<Squad>env_creatures_oxyaenaswi_01</Squad>
+				<Squad>env_creatures_snowbeast_01</Squad>
+				<Squad>env_creatures_thornbeast_01</Squad>
+				<Squad>fld_air_bomber_01</Squad>
+				<Squad>fld_air_sporecloud_01</Squad>
+				<Squad>fld_air_swarm_01</Squad>
+				<Squad>fld_egg_infectionForm_01</Squad>
+				<Squad>fld_egg_stalkBase_01</Squad>
+				<Squad>fld_inf_flameMarine_01</Squad>
+				<Squad>fld_inf_flameMarineSingle_01</Squad>
+				<Squad>fld_inf_infectedBrute_01</Squad>
+				<Squad>fld_inf_infectedBruteSingle_01</Squad>
+				<Squad>fld_inf_infectedCarrier_01</Squad>
+				<Squad>fld_inf_infectedElite_01</Squad>
+				<Squad>fld_inf_infectedEliteSingle_01</Squad>
+				<Squad>fld_inf_infectedGrunt_01</Squad>
+				<Squad>fld_inf_infectedGruntSingle_01</Squad>
+				<Squad>fld_inf_infectedJackal_01</Squad>
+				<Squad>fld_inf_infectedJackalSingle_01</Squad>
+				<Squad>fld_inf_infectedMarine_01</Squad>
+				<Squad>fld_inf_infectedMarineSingle_01</Squad>
+				<Squad>fld_inf_infectionForm_01</Squad>
+				<Squad>fld_inf_infectionForm_02</Squad>
+				<Squad>fld_inf_infectionForm_03</Squad>
+				<Squad>fld_inf_rhinodillo_01</Squad>
+				<Squad>fld_inf_tentacle_01</Squad>
+				<Squad>fld_inf_tentacleDormant_01</Squad>
+				<Squad>Flood</Squad>
+				<Squad>FlyingFlood</Squad>
+				<Squad>for_air_drone_01</Squad>
+				<Squad>for_air_enforcer_01</Squad>
+				<Squad>for_air_monitor_01</Squad>
+				<Squad>for_air_monitor_02</Squad>
+				<Squad>for_air_monitor_04</Squad>
+				<Squad>for_air_sentinel_01</Squad>
+				<Squad>for_air_sentinel_02</Squad>
+				<Squad>for_air_sentinel_03</Squad>
+				<Squad>Forerunner</Squad>
+				<Squad>Rebel</Squad>
+				<Squad>rsrc_supplies_crate_01</Squad>
+				<Squad>sys_bubbleshield_large_01</Squad>
+				<Squad>sys_bubbleshield_med_01</Squad>
+				<Squad>sys_bubbleshield_small_01</Squad>
+				<Squad>unsc_air_hawk_01</Squad>
+				<Squad>unsc_air_hornet_01</Squad>
+				<Squad>unsc_air_pelican_01</Squad>
+				<Squad>unsc_air_vulture_01</Squad>
+				<Squad>unsc_inf_cyclops_01</Squad>
+				<Squad>unsc_inf_flameMarine_01</Squad>
+				<Squad>unsc_inf_marine_01</Squad>
+				<Squad>unsc_inf_marine_02</Squad>
+				<Squad>unsc_inf_marine_03</Squad>
+				<Squad>unsc_inf_odst_01</Squad>
+				<Squad>unsc_inf_spartan_01</Squad>
+				<Squad>unsc_veh_cobra_01</Squad>
+				<Squad>unsc_veh_elephant_01</Squad>
+				<Squad>unsc_veh_gremlin_01</Squad>
+				<Squad>unsc_veh_grizzly_01</Squad>
+				<Squad>unsc_veh_scorpion_01</Squad>
+				<Squad>unsc_veh_warthog_01</Squad>
+				<Squad>unsc_veh_wolverine_01</Squad>
+			</ForbidSquads>
+			<ForbidTechs>
+				<Tech>cpgn_cutters_baseSizeBonus</Tech>
+				<Tech>cpgn_flood_upgrade1</Tech>
+				<Tech>cpgn_flood_upgrade2</Tech>
+				<Tech>cpgn_flood_upgrade3</Tech>
+				<Tech>cpgn_grant_cyclops</Tech>
+				<Tech>cpgn_grant_elephant</Tech>
+				<Tech>cpgn_grant_gremlin</Tech>
+				<Tech>cpgn_grant_rhino</Tech>
+				<Tech>cpgn_marine_snowupgrade</Tech>
+				<Tech>cpgn_odst_upgrade</Tech>
+				<Tech>cpgn_scorpion_cannonOnly</Tech>
+				<Tech>cpgn_warthog_canCapture</Tech>
+				<Tech>cpgn_warthog_canRam</Tech>
+				<Tech>tutorial_part1</Tech>
+				<Tech>tutorial_part2</Tech>
+				<Tech>tutorial_part3</Tech>
+				<Tech>unsc_base_upgrade1</Tech>
+				<Tech>unsc_base_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade1</Tech>
+				<Tech>unsc_carpetBomb_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade3</Tech>
+				<Tech>unsc_cobra_upgrade2</Tech>
+				<Tech>unsc_cobra_upgrade3</Tech>
+				<Tech>unsc_cryo_upgrade1</Tech>
+				<Tech>unsc_cryo_upgrade2</Tech>
+				<Tech>unsc_cryo_upgrade3</Tech>
+				<Tech>unsc_cyclops_upgrade2</Tech>
+				<Tech>unsc_cyclops_upgrade3</Tech>
+				<Tech>unsc_elephant_upgrade1</Tech>
+				<Tech>unsc_elephant_upgrade2</Tech>
+				<Tech>unsc_elephant_upgrade3</Tech>
+				<Tech>unsc_flameMarine_upgrade1</Tech>
+				<Tech>unsc_flameMarine_upgrade2</Tech>
+				<Tech>unsc_flameMarine_upgrade3</Tech>
+				<Tech>unsc_gremlin_upgrade2</Tech>
+				<Tech>unsc_gremlin_upgrade3</Tech>
+				<Tech>unsc_grizzly_upgrade1</Tech>
+				<Tech>unsc_hawk_upgrade1</Tech>
+				<Tech>unsc_hornet_upgrade2</Tech>
+				<Tech>unsc_hornet_upgrade3</Tech>
+				<Tech>unsc_MAC_upgrade1</Tech>
+				<Tech>unsc_MAC_upgrade2</Tech>
+				<Tech>unsc_MAC_upgrade3</Tech>
+				<Tech>unsc_marine_upgrade1</Tech>
+				<Tech>unsc_marine_upgrade2</Tech>
+				<Tech>unsc_marine_upgrade3</Tech>
+				<Tech>unsc_odst_upgrade1</Tech>
+				<Tech>unsc_reactor_upgrade1</Tech>
+				<Tech>unsc_scorpion_upgrade2</Tech>
+				<Tech>unsc_scorpion_upgrade3</Tech>
+				<Tech>unsc_spartan_upgrade1</Tech>
+				<Tech>unsc_spartan_upgrade2</Tech>
+				<Tech>unsc_spartan_upgrade3</Tech>
+				<Tech>unsc_supplypad_upgrade1</Tech>
+				<Tech>unsc_tech_adrenaline</Tech>
+				<Tech>unsc_tech_oniSpies</Tech>
+				<Tech>unsc_tech_recruitTraining</Tech>
+				<Tech>unsc_tech_reinforcements</Tech>
+				<Tech>unsc_turret_upgrade1</Tech>
+				<Tech>unsc_turret_upgrade2</Tech>
+				<Tech>unsc_turret_upgradeAA</Tech>
+				<Tech>unsc_turret_upgradeAI</Tech>
+				<Tech>unsc_turret_upgradeAV</Tech>
+				<Tech>unsc_vulture_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade2</Tech>
+				<Tech>unsc_warthog_upgrade3</Tech>
+				<Tech>unsc_wolverine_upgrade2</Tech>
+				<Tech>unsc_wolverine_upgrade3</Tech>
+			</ForbidTechs>
+		</Player>
+		<Player Name="Arbiter's Guard" LocalisedDisplayName="25542,Covenant" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="Covenant" Leader1="Prophet of Mercy" Color="7" Team="2" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops>
+				<Pop type="Unit" max="40">40</Pop>
+			</Pops>
+			<ForbidObjects />
+			<ForbidSquads>
+				<Squad>cpgn_air_hawk_01</Squad>
+				<Squad>cpgn_air_pelican_01</Squad>
+				<Squad>cpgn_inf_bombGrunt_01</Squad>
+				<Squad>cpgn_inf_jackalSniper_01</Squad>
+				<Squad>cpgn_inf_needlerElite_01</Squad>
+				<Squad>cpgn_inf_odst_01</Squad>
+				<Squad>cpgn_inf_spartanMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaRocket_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaSniper_01</Squad>
+				<Squad>cpgn_inf_spartanRocket_01</Squad>
+				<Squad>cpgn_inf_spartanSniper_01</Squad>
+				<Squad>cpgn_npc_anders_01</Squad>
+				<Squad>cpgn_npc_arcadiaPolice_01</Squad>
+				<Squad>cpgn_npc_civilian_01</Squad>
+				<Squad>cpgn_npc_forge_01</Squad>
+				<Squad>cpgn_npc_ForgeAndAnders_01</Squad>
+				<Squad>cpgn_npc_forgeWarthog_01</Squad>
+				<Squad>cpgn_scn02_rocketWarthog_01</Squad>
+				<Squad>cpgn_scn04_ship_01</Squad>
+				<Squad>cpgn_scn04_ship_02</Squad>
+				<Squad>cpgn_scn07_scarabBoss_02</Squad>
+				<Squad>cpgn_scn11_supersentinel_01</Squad>
+				<Squad>cpgn_scn13_scarab_01</Squad>
+				<Squad>cpgn_scn14_reactor_01</Squad>
+				<Squad>cpgn_unit_scarabBoss_01</Squad>
+				<Squad>cpgn_veh_AAwraith_01</Squad>
+				<Squad>cpgn_veh_grizzly_01</Squad>
+				<Squad>cpgn_veh_scn06Rhino_01</Squad>
+				<Squad>creep_inf_jackal_01</Squad>
+				<Squad>creep_inf_needlerJackal_01</Squad>
+				<Squad>creep_inf_rebelGrunt_01</Squad>
+				<Squad>creep_inf_RebelMixedGrunts_01</Squad>
+				<Squad>creep_inf_RebelNeedlerGrunt_01</Squad>
+				<Squad>creep_inf_sniperJackal_01</Squad>
+				<Squad>creep_rebel_flameInfantry_01</Squad>
+				<Squad>creep_rebel_gaussWarthog_01</Squad>
+				<Squad>creep_rebel_infantry_01</Squad>
+				<Squad>creep_rebel_sciTrooper_01</Squad>
+				<Squad>creep_rebel_sniper_01</Squad>
+				<Squad>creep_rebel_warthog_01</Squad>
+				<Squad>creep_rebel_wolverine_01</Squad>
+				<Squad>env_creatures_bird_01</Squad>
+				<Squad>env_creatures_cattle_01</Squad>
+				<Squad>env_creatures_oxyaenaswi_01</Squad>
+				<Squad>env_creatures_snowbeast_01</Squad>
+				<Squad>env_creatures_thornbeast_01</Squad>
+				<Squad>fld_air_bomber_01</Squad>
+				<Squad>fld_air_sporecloud_01</Squad>
+				<Squad>fld_air_swarm_01</Squad>
+				<Squad>fld_egg_infectionForm_01</Squad>
+				<Squad>fld_egg_stalkBase_01</Squad>
+				<Squad>fld_inf_flameMarine_01</Squad>
+				<Squad>fld_inf_flameMarineSingle_01</Squad>
+				<Squad>fld_inf_infectedBrute_01</Squad>
+				<Squad>fld_inf_infectedBruteSingle_01</Squad>
+				<Squad>fld_inf_infectedCarrier_01</Squad>
+				<Squad>fld_inf_infectedElite_01</Squad>
+				<Squad>fld_inf_infectedEliteSingle_01</Squad>
+				<Squad>fld_inf_infectedGrunt_01</Squad>
+				<Squad>fld_inf_infectedGruntSingle_01</Squad>
+				<Squad>fld_inf_infectedJackal_01</Squad>
+				<Squad>fld_inf_infectedJackalSingle_01</Squad>
+				<Squad>fld_inf_infectedMarine_01</Squad>
+				<Squad>fld_inf_infectedMarineSingle_01</Squad>
+				<Squad>fld_inf_infectionForm_01</Squad>
+				<Squad>fld_inf_infectionForm_02</Squad>
+				<Squad>fld_inf_infectionForm_03</Squad>
+				<Squad>fld_inf_rhinodillo_01</Squad>
+				<Squad>fld_inf_tentacle_01</Squad>
+				<Squad>fld_inf_tentacleDormant_01</Squad>
+				<Squad>Flood</Squad>
+				<Squad>FlyingFlood</Squad>
+				<Squad>for_air_drone_01</Squad>
+				<Squad>for_air_enforcer_01</Squad>
+				<Squad>for_air_monitor_01</Squad>
+				<Squad>for_air_monitor_02</Squad>
+				<Squad>for_air_monitor_04</Squad>
+				<Squad>for_air_sentinel_01</Squad>
+				<Squad>for_air_sentinel_02</Squad>
+				<Squad>for_air_sentinel_03</Squad>
+				<Squad>Forerunner</Squad>
+				<Squad>Rebel</Squad>
+				<Squad>rsrc_supplies_crate_01</Squad>
+				<Squad>sys_bubbleshield_large_01</Squad>
+				<Squad>sys_bubbleshield_med_01</Squad>
+				<Squad>sys_bubbleshield_small_01</Squad>
+				<Squad>unsc_air_hawk_01</Squad>
+				<Squad>unsc_air_hornet_01</Squad>
+				<Squad>unsc_air_pelican_01</Squad>
+				<Squad>unsc_air_vulture_01</Squad>
+				<Squad>unsc_inf_cyclops_01</Squad>
+				<Squad>unsc_inf_flameMarine_01</Squad>
+				<Squad>unsc_inf_marine_01</Squad>
+				<Squad>unsc_inf_marine_02</Squad>
+				<Squad>unsc_inf_marine_03</Squad>
+				<Squad>unsc_inf_odst_01</Squad>
+				<Squad>unsc_inf_spartan_01</Squad>
+				<Squad>unsc_veh_cobra_01</Squad>
+				<Squad>unsc_veh_elephant_01</Squad>
+				<Squad>unsc_veh_gremlin_01</Squad>
+				<Squad>unsc_veh_grizzly_01</Squad>
+				<Squad>unsc_veh_scorpion_01</Squad>
+				<Squad>unsc_veh_warthog_01</Squad>
+				<Squad>unsc_veh_wolverine_01</Squad>
+			</ForbidSquads>
+			<ForbidTechs>
+				<Tech>cpgn_cutters_baseSizeBonus</Tech>
+				<Tech>cpgn_flood_upgrade1</Tech>
+				<Tech>cpgn_flood_upgrade2</Tech>
+				<Tech>cpgn_flood_upgrade3</Tech>
+				<Tech>cpgn_grant_cyclops</Tech>
+				<Tech>cpgn_grant_elephant</Tech>
+				<Tech>cpgn_grant_gremlin</Tech>
+				<Tech>cpgn_grant_rhino</Tech>
+				<Tech>cpgn_marine_snowupgrade</Tech>
+				<Tech>cpgn_odst_upgrade</Tech>
+				<Tech>cpgn_scorpion_cannonOnly</Tech>
+				<Tech>cpgn_warthog_canCapture</Tech>
+				<Tech>cpgn_warthog_canRam</Tech>
+				<Tech>tutorial_part1</Tech>
+				<Tech>tutorial_part2</Tech>
+				<Tech>tutorial_part3</Tech>
+				<Tech>unsc_base_upgrade1</Tech>
+				<Tech>unsc_base_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade1</Tech>
+				<Tech>unsc_carpetBomb_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade3</Tech>
+				<Tech>unsc_cobra_upgrade2</Tech>
+				<Tech>unsc_cobra_upgrade3</Tech>
+				<Tech>unsc_cryo_upgrade1</Tech>
+				<Tech>unsc_cryo_upgrade2</Tech>
+				<Tech>unsc_cryo_upgrade3</Tech>
+				<Tech>unsc_cyclops_upgrade2</Tech>
+				<Tech>unsc_cyclops_upgrade3</Tech>
+				<Tech>unsc_elephant_upgrade1</Tech>
+				<Tech>unsc_elephant_upgrade2</Tech>
+				<Tech>unsc_elephant_upgrade3</Tech>
+				<Tech>unsc_flameMarine_upgrade1</Tech>
+				<Tech>unsc_flameMarine_upgrade2</Tech>
+				<Tech>unsc_flameMarine_upgrade3</Tech>
+				<Tech>unsc_gremlin_upgrade2</Tech>
+				<Tech>unsc_gremlin_upgrade3</Tech>
+				<Tech>unsc_grizzly_upgrade1</Tech>
+				<Tech>unsc_hawk_upgrade1</Tech>
+				<Tech>unsc_hornet_upgrade2</Tech>
+				<Tech>unsc_hornet_upgrade3</Tech>
+				<Tech>unsc_MAC_upgrade1</Tech>
+				<Tech>unsc_MAC_upgrade2</Tech>
+				<Tech>unsc_MAC_upgrade3</Tech>
+				<Tech>unsc_marine_upgrade1</Tech>
+				<Tech>unsc_marine_upgrade2</Tech>
+				<Tech>unsc_marine_upgrade3</Tech>
+				<Tech>unsc_odst_upgrade1</Tech>
+				<Tech>unsc_reactor_upgrade1</Tech>
+				<Tech>unsc_scorpion_upgrade2</Tech>
+				<Tech>unsc_scorpion_upgrade3</Tech>
+				<Tech>unsc_spartan_upgrade1</Tech>
+				<Tech>unsc_spartan_upgrade2</Tech>
+				<Tech>unsc_spartan_upgrade3</Tech>
+				<Tech>unsc_supplypad_upgrade1</Tech>
+				<Tech>unsc_tech_adrenaline</Tech>
+				<Tech>unsc_tech_oniSpies</Tech>
+				<Tech>unsc_tech_recruitTraining</Tech>
+				<Tech>unsc_tech_reinforcements</Tech>
+				<Tech>unsc_turret_upgrade1</Tech>
+				<Tech>unsc_turret_upgrade2</Tech>
+				<Tech>unsc_turret_upgradeAA</Tech>
+				<Tech>unsc_turret_upgradeAI</Tech>
+				<Tech>unsc_turret_upgradeAV</Tech>
+				<Tech>unsc_vulture_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade2</Tech>
+				<Tech>unsc_warthog_upgrade3</Tech>
+				<Tech>unsc_wolverine_upgrade2</Tech>
+				<Tech>unsc_wolverine_upgrade3</Tech>
+			</ForbidTechs>
+		</Player>
+		<Player Name="Flood" LocalisedDisplayName="25560,Flood" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="UNSC" Leader1="Major Vanilla" Color="9" Team="3" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops>
+				<Pop type="Unit" max="40">10</Pop>
+			</Pops>
+			<ForbidObjects />
+			<ForbidSquads>
+				<Squad>cov_air_banshee_01</Squad>
+				<Squad>cov_air_monitor_01</Squad>
+				<Squad>cov_air_monitor_02</Squad>
+				<Squad>cov_air_spirit_01</Squad>
+				<Squad>cov_air_vampire_01</Squad>
+				<Squad>cov_inf_arbiter_01</Squad>
+				<Squad>cov_inf_brute_01</Squad>
+				<Squad>cov_inf_bruteChief_01</Squad>
+				<Squad>cov_inf_bruteGrunt_01</Squad>
+				<Squad>cov_inf_bruteGrunt_02</Squad>
+				<Squad>cov_inf_bruteGrunt_03</Squad>
+				<Squad>cov_inf_eliteCommando_01</Squad>
+				<Squad>cov_inf_engineer_01</Squad>
+				<Squad>cov_inf_grunt_01</Squad>
+				<Squad>cov_inf_grunt_02</Squad>
+				<Squad>cov_inf_grunt_03</Squad>
+				<Squad>cov_inf_gruntHorde_01</Squad>
+				<Squad>cov_inf_gruntHorde_02</Squad>
+				<Squad>cov_inf_hunter_01</Squad>
+				<Squad>cov_inf_jackal_01</Squad>
+				<Squad>cov_inf_needlerGrunt_01</Squad>
+				<Squad>cov_inf_prophet_01</Squad>
+				<Squad>cov_inf_suicideGrunt_01</Squad>
+				<Squad>cov_veh_bruteChopper_01</Squad>
+				<Squad>cov_veh_ghost_01</Squad>
+				<Squad>cov_veh_locust_01</Squad>
+				<Squad>cov_veh_scarab_01</Squad>
+				<Squad>cov_veh_wraith_01</Squad>
+				<Squad>cpgn_air_hawk_01</Squad>
+				<Squad>cpgn_air_pelican_01</Squad>
+				<Squad>cpgn_inf_bombGrunt_01</Squad>
+				<Squad>cpgn_inf_jackalSniper_01</Squad>
+				<Squad>cpgn_inf_needlerElite_01</Squad>
+				<Squad>cpgn_inf_odst_01</Squad>
+				<Squad>cpgn_inf_spartanMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaRocket_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaSniper_01</Squad>
+				<Squad>cpgn_inf_spartanRocket_01</Squad>
+				<Squad>cpgn_inf_spartanSniper_01</Squad>
+				<Squad>cpgn_npc_anders_01</Squad>
+				<Squad>cpgn_npc_arcadiaPolice_01</Squad>
+				<Squad>cpgn_npc_civilian_01</Squad>
+				<Squad>cpgn_npc_forge_01</Squad>
+				<Squad>cpgn_npc_ForgeAndAnders_01</Squad>
+				<Squad>cpgn_npc_forgeWarthog_01</Squad>
+				<Squad>cpgn_scn02_rocketWarthog_01</Squad>
+				<Squad>cpgn_scn04_ship_01</Squad>
+				<Squad>cpgn_scn04_ship_02</Squad>
+				<Squad>cpgn_scn07_scarabBoss_02</Squad>
+				<Squad>cpgn_scn11_supersentinel_01</Squad>
+				<Squad>cpgn_scn14_reactor_01</Squad>
+				<Squad>cpgn_unit_scarabBoss_01</Squad>
+				<Squad>cpgn_veh_AAwraith_01</Squad>
+				<Squad>cpgn_veh_grizzly_01</Squad>
+				<Squad>cpgn_veh_scn06Rhino_01</Squad>
+				<Squad>creep_heretic_banshee_01</Squad>
+				<Squad>creep_heretic_brute_01</Squad>
+				<Squad>creep_heretic_elite_01</Squad>
+				<Squad>creep_heretic_flyingElite_01</Squad>
+				<Squad>creep_heretic_ghost_01</Squad>
+				<Squad>creep_heretic_grunt_01</Squad>
+				<Squad>creep_heretic_hunter_01</Squad>
+				<Squad>creep_heretic_jackalSniper_01</Squad>
+				<Squad>creep_heretic_wraith_01</Squad>
+				<Squad>creep_inf_jackal_01</Squad>
+				<Squad>creep_inf_needlerJackal_01</Squad>
+				<Squad>creep_inf_rebelGrunt_01</Squad>
+				<Squad>creep_inf_RebelMixedGrunts_01</Squad>
+				<Squad>creep_inf_RebelNeedlerGrunt_01</Squad>
+				<Squad>creep_inf_sniperJackal_01</Squad>
+				<Squad>creep_rebel_flameInfantry_01</Squad>
+				<Squad>creep_rebel_gaussWarthog_01</Squad>
+				<Squad>creep_rebel_infantry_01</Squad>
+				<Squad>creep_rebel_sciTrooper_01</Squad>
+				<Squad>creep_rebel_sniper_01</Squad>
+				<Squad>creep_rebel_warthog_01</Squad>
+				<Squad>creep_rebel_wolverine_01</Squad>
+				<Squad>env_creatures_bird_01</Squad>
+				<Squad>env_creatures_cattle_01</Squad>
+				<Squad>env_creatures_oxyaenaswi_01</Squad>
+				<Squad>env_creatures_snowbeast_01</Squad>
+				<Squad>env_creatures_thornbeast_01</Squad>
+				<Squad>for_air_drone_01</Squad>
+				<Squad>for_air_enforcer_01</Squad>
+				<Squad>for_air_monitor_01</Squad>
+				<Squad>for_air_monitor_02</Squad>
+				<Squad>for_air_monitor_04</Squad>
+				<Squad>for_air_sentinel_01</Squad>
+				<Squad>for_air_sentinel_02</Squad>
+				<Squad>for_air_sentinel_03</Squad>
+				<Squad>Forerunner</Squad>
+				<Squad>Rebel</Squad>
+				<Squad>rsrc_supplies_crate_01</Squad>
+				<Squad>sys_bubbleshield_large_01</Squad>
+				<Squad>sys_bubbleshield_med_01</Squad>
+				<Squad>sys_bubbleshield_small_01</Squad>
+				<Squad>unsc_air_hawk_01</Squad>
+				<Squad>unsc_air_hornet_01</Squad>
+				<Squad>unsc_air_pelican_01</Squad>
+				<Squad>unsc_air_vulture_01</Squad>
+				<Squad>unsc_inf_cyclops_01</Squad>
+				<Squad>unsc_inf_flameMarine_01</Squad>
+				<Squad>unsc_inf_marine_01</Squad>
+				<Squad>unsc_inf_marine_02</Squad>
+				<Squad>unsc_inf_marine_03</Squad>
+				<Squad>unsc_inf_odst_01</Squad>
+				<Squad>unsc_inf_spartan_01</Squad>
+				<Squad>unsc_veh_cobra_01</Squad>
+				<Squad>unsc_veh_elephant_01</Squad>
+				<Squad>unsc_veh_gremlin_01</Squad>
+				<Squad>unsc_veh_grizzly_01</Squad>
+				<Squad>unsc_veh_scorpion_01</Squad>
+				<Squad>unsc_veh_warthog_01</Squad>
+				<Squad>unsc_veh_wolverine_01</Squad>
+			</ForbidSquads>
+			<ForbidTechs>
+				<Tech>ai_cov_cleansing_downgrade1</Tech>
+				<Tech>ai_cov_cleansing_downgrade2</Tech>
+				<Tech>ai_e3_easyNeverDie</Tech>
+				<Tech>cov_arbiter_upgrade1</Tech>
+				<Tech>cov_arbiter_upgrade2</Tech>
+				<Tech>cov_arbiter_upgrade3</Tech>
+				<Tech>cov_banshee_upgrade1</Tech>
+				<Tech>cov_banshee_upgrade2</Tech>
+				<Tech>cov_banshee_upgrade3</Tech>
+				<Tech>cov_base_upgrade1</Tech>
+				<Tech>cov_base_upgrade2</Tech>
+				<Tech>cov_brute_upgrade2</Tech>
+				<Tech>cov_brute_upgrade3</Tech>
+				<Tech>cov_bruteChief_upgrade1</Tech>
+				<Tech>cov_bruteChief_upgrade2</Tech>
+				<Tech>cov_bruteChief_upgrade3</Tech>
+				<Tech>cov_bruteChopper_upgrade1</Tech>
+				<Tech>cov_bruteChopper_upgrade2</Tech>
+				<Tech>cov_bruteChopper_upgrade3</Tech>
+				<Tech>cov_cleansing_upgrade1</Tech>
+				<Tech>cov_cleansing_upgrade2</Tech>
+				<Tech>cov_cleansing_upgrade3</Tech>
+				<Tech>cov_eliteCommando_upgrade2</Tech>
+				<Tech>cov_eliteCommando_upgrade3</Tech>
+				<Tech>cov_engineer_upgrade1</Tech>
+				<Tech>cov_engineer_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade1</Tech>
+				<Tech>cov_ghost_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade3</Tech>
+				<Tech>cov_gravityWave_upgrade1</Tech>
+				<Tech>cov_gravityWave_upgrade2</Tech>
+				<Tech>cov_gravityWave_upgrade3</Tech>
+				<Tech>cov_grunt_upgrade1</Tech>
+				<Tech>cov_grunt_upgrade2</Tech>
+				<Tech>cov_grunt_upgrade3</Tech>
+				<Tech>cov_hunter_upgrade1</Tech>
+				<Tech>cov_hunter_upgrade2</Tech>
+				<Tech>cov_hunter_upgrade3</Tech>
+				<Tech>cov_jackal_upgrade1</Tech>
+				<Tech>cov_jackal_upgrade2</Tech>
+				<Tech>cov_jackal_upgrade3</Tech>
+				<Tech>cov_locust_upgrade2</Tech>
+				<Tech>cov_locust_upgrade3</Tech>
+				<Tech>cov_prophet_upgrade1</Tech>
+				<Tech>cov_prophet_upgrade2</Tech>
+				<Tech>cov_prophet_upgrade3</Tech>
+				<Tech>cov_rage_upgrade1</Tech>
+				<Tech>cov_rage_upgrade2</Tech>
+				<Tech>cov_rage_upgrade3</Tech>
+				<Tech>cov_shield_downgrade</Tech>
+				<Tech>cov_shield_upgrade</Tech>
+				<Tech>cov_suicideGrunt_upgrade2</Tech>
+				<Tech>cov_suicideGrunt_upgrade3</Tech>
+				<Tech>cov_supplyDepot_upgrade1</Tech>
+				<Tech>cov_tech_followers</Tech>
+				<Tech>cov_tech_shieldRecharge</Tech>
+				<Tech>cov_temple_upgrade1</Tech>
+				<Tech>cov_temple_upgrade2</Tech>
+				<Tech>cov_turret_upgrade1</Tech>
+				<Tech>cov_turret_upgrade2</Tech>
+				<Tech>cov_turret_upgradeAA</Tech>
+				<Tech>cov_turret_upgradeAI</Tech>
+				<Tech>cov_turret_upgradeAV</Tech>
+				<Tech>cov_vampire_upgrade2</Tech>
+				<Tech>cov_vampire_upgrade3</Tech>
+				<Tech>cov_wraith_upgrade1</Tech>
+				<Tech>cov_wraith_upgrade2</Tech>
+				<Tech>cov_wraith_upgrade3</Tech>
+				<Tech>cpgn_cutters_baseSizeBonus</Tech>
+				<Tech>cpgn_grant_elephant</Tech>
+				<Tech>cpgn_grant_gremlin</Tech>
+				<Tech>cpgn_grant_rhino</Tech>
+				<Tech>cpgn_marine_snowupgrade</Tech>
+				<Tech>cpgn_scorpion_cannonOnly</Tech>
+				<Tech>cpgn_warthog_canCapture</Tech>
+				<Tech>cpgn_warthog_canRam</Tech>
+				<Tech>tutorial_part1</Tech>
+				<Tech>tutorial_part2</Tech>
+				<Tech>tutorial_part3</Tech>
+				<Tech>unsc_base_upgrade1</Tech>
+				<Tech>unsc_base_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade1</Tech>
+				<Tech>unsc_carpetBomb_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade3</Tech>
+				<Tech>unsc_cobra_upgrade2</Tech>
+				<Tech>unsc_cobra_upgrade3</Tech>
+				<Tech>unsc_cryo_upgrade1</Tech>
+				<Tech>unsc_cryo_upgrade2</Tech>
+				<Tech>unsc_cryo_upgrade3</Tech>
+				<Tech>unsc_cyclops_upgrade2</Tech>
+				<Tech>unsc_cyclops_upgrade3</Tech>
+				<Tech>unsc_elephant_upgrade1</Tech>
+				<Tech>unsc_elephant_upgrade2</Tech>
+				<Tech>unsc_elephant_upgrade3</Tech>
+				<Tech>unsc_flameMarine_upgrade1</Tech>
+				<Tech>unsc_flameMarine_upgrade2</Tech>
+				<Tech>unsc_flameMarine_upgrade3</Tech>
+				<Tech>unsc_gremlin_upgrade2</Tech>
+				<Tech>unsc_gremlin_upgrade3</Tech>
+				<Tech>unsc_grizzly_upgrade1</Tech>
+				<Tech>unsc_hawk_upgrade1</Tech>
+				<Tech>unsc_hornet_upgrade2</Tech>
+				<Tech>unsc_hornet_upgrade3</Tech>
+				<Tech>unsc_MAC_upgrade1</Tech>
+				<Tech>unsc_MAC_upgrade2</Tech>
+				<Tech>unsc_MAC_upgrade3</Tech>
+				<Tech>unsc_marine_upgrade1</Tech>
+				<Tech>unsc_marine_upgrade2</Tech>
+				<Tech>unsc_marine_upgrade3</Tech>
+				<Tech>unsc_odst_upgrade1</Tech>
+				<Tech>unsc_reactor_upgrade1</Tech>
+				<Tech>unsc_scorpion_upgrade2</Tech>
+				<Tech>unsc_scorpion_upgrade3</Tech>
+				<Tech>unsc_spartan_upgrade1</Tech>
+				<Tech>unsc_spartan_upgrade2</Tech>
+				<Tech>unsc_spartan_upgrade3</Tech>
+				<Tech>unsc_supplypad_upgrade1</Tech>
+				<Tech>unsc_tech_adrenaline</Tech>
+				<Tech>unsc_tech_oniSpies</Tech>
+				<Tech>unsc_tech_recruitTraining</Tech>
+				<Tech>unsc_tech_reinforcements</Tech>
+				<Tech>unsc_turret_upgrade1</Tech>
+				<Tech>unsc_turret_upgrade2</Tech>
+				<Tech>unsc_turret_upgradeAA</Tech>
+				<Tech>unsc_turret_upgradeAI</Tech>
+				<Tech>unsc_turret_upgradeAV</Tech>
+				<Tech>unsc_vulture_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade2</Tech>
+				<Tech>unsc_warthog_upgrade3</Tech>
+				<Tech>unsc_wolverine_upgrade2</Tech>
+				<Tech>unsc_wolverine_upgrade3</Tech>
+			</ForbidTechs>
+		</Player>
+		<Player Name="UNSC" LocalisedDisplayName="25541,UNSC" UseStartingUnits="false" Controllable="false" UsePlayerSettings="false" Civ="UNSC" Leader1="Major Vanilla" Color="3" Team="1" DefaultResources="false" Supplies="0" Power="0" Favor="0" Relics="0" Honor="0">
+			<Pops />
+			<ForbidObjects />
+			<ForbidSquads>
+				<Squad>cov_air_banshee_01</Squad>
+				<Squad>cov_air_monitor_01</Squad>
+				<Squad>cov_air_monitor_02</Squad>
+				<Squad>cov_air_spirit_01</Squad>
+				<Squad>cov_air_vampire_01</Squad>
+				<Squad>cov_inf_arbiter_01</Squad>
+				<Squad>cov_inf_brute_01</Squad>
+				<Squad>cov_inf_bruteChief_01</Squad>
+				<Squad>cov_inf_bruteGrunt_01</Squad>
+				<Squad>cov_inf_bruteGrunt_02</Squad>
+				<Squad>cov_inf_bruteGrunt_03</Squad>
+				<Squad>cov_inf_eliteCommando_01</Squad>
+				<Squad>cov_inf_engineer_01</Squad>
+				<Squad>cov_inf_grunt_01</Squad>
+				<Squad>cov_inf_grunt_02</Squad>
+				<Squad>cov_inf_grunt_03</Squad>
+				<Squad>cov_inf_gruntHorde_01</Squad>
+				<Squad>cov_inf_gruntHorde_02</Squad>
+				<Squad>cov_inf_hunter_01</Squad>
+				<Squad>cov_inf_jackal_01</Squad>
+				<Squad>cov_inf_needlerGrunt_01</Squad>
+				<Squad>cov_inf_prophet_01</Squad>
+				<Squad>cov_inf_suicideGrunt_01</Squad>
+				<Squad>cov_veh_bruteChopper_01</Squad>
+				<Squad>cov_veh_ghost_01</Squad>
+				<Squad>cov_veh_locust_01</Squad>
+				<Squad>cov_veh_scarab_01</Squad>
+				<Squad>cov_veh_wraith_01</Squad>
+				<Squad>cpgn_air_hawk_01</Squad>
+				<Squad>cpgn_inf_bombGrunt_01</Squad>
+				<Squad>cpgn_inf_jackalSniper_01</Squad>
+				<Squad>cpgn_inf_needlerElite_01</Squad>
+				<Squad>cpgn_inf_odst_01</Squad>
+				<Squad>cpgn_inf_spartanMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaMg_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaRocket_01</Squad>
+				<Squad>cpgn_inf_spartanOmegaSniper_01</Squad>
+				<Squad>cpgn_inf_spartanRocket_01</Squad>
+				<Squad>cpgn_inf_spartanSniper_01</Squad>
+				<Squad>cpgn_npc_arcadiaPolice_01</Squad>
+				<Squad>cpgn_npc_civilian_01</Squad>
+				<Squad>cpgn_npc_forge_01</Squad>
+				<Squad>cpgn_npc_ForgeAndAnders_01</Squad>
+				<Squad>cpgn_npc_forgeWarthog_01</Squad>
+				<Squad>cpgn_scn02_rocketWarthog_01</Squad>
+				<Squad>cpgn_scn04_ship_01</Squad>
+				<Squad>cpgn_scn04_ship_02</Squad>
+				<Squad>cpgn_scn07_scarabBoss_02</Squad>
+				<Squad>cpgn_scn11_supersentinel_01</Squad>
+				<Squad>cpgn_scn13_scarab_01</Squad>
+				<Squad>cpgn_scn14_reactor_01</Squad>
+				<Squad>cpgn_unit_scarabBoss_01</Squad>
+				<Squad>cpgn_veh_AAwraith_01</Squad>
+				<Squad>cpgn_veh_grizzly_01</Squad>
+				<Squad>cpgn_veh_scn06Rhino_01</Squad>
+				<Squad>creep_inf_jackal_01</Squad>
+				<Squad>creep_inf_needlerJackal_01</Squad>
+				<Squad>creep_inf_rebelGrunt_01</Squad>
+				<Squad>creep_inf_RebelMixedGrunts_01</Squad>
+				<Squad>creep_inf_RebelNeedlerGrunt_01</Squad>
+				<Squad>creep_inf_sniperJackal_01</Squad>
+				<Squad>creep_rebel_flameInfantry_01</Squad>
+				<Squad>creep_rebel_gaussWarthog_01</Squad>
+				<Squad>creep_rebel_infantry_01</Squad>
+				<Squad>creep_rebel_sciTrooper_01</Squad>
+				<Squad>creep_rebel_sniper_01</Squad>
+				<Squad>creep_rebel_warthog_01</Squad>
+				<Squad>creep_rebel_wolverine_01</Squad>
+				<Squad>env_creatures_bird_01</Squad>
+				<Squad>env_creatures_cattle_01</Squad>
+				<Squad>env_creatures_oxyaenaswi_01</Squad>
+				<Squad>env_creatures_snowbeast_01</Squad>
+				<Squad>env_creatures_thornbeast_01</Squad>
+				<Squad>fld_air_bomber_01</Squad>
+				<Squad>fld_air_sporecloud_01</Squad>
+				<Squad>fld_air_swarm_01</Squad>
+				<Squad>fld_egg_infectionForm_01</Squad>
+				<Squad>fld_egg_stalkBase_01</Squad>
+				<Squad>fld_inf_flameMarine_01</Squad>
+				<Squad>fld_inf_flameMarineSingle_01</Squad>
+				<Squad>fld_inf_infectedBrute_01</Squad>
+				<Squad>fld_inf_infectedBruteSingle_01</Squad>
+				<Squad>fld_inf_infectedCarrier_01</Squad>
+				<Squad>fld_inf_infectedElite_01</Squad>
+				<Squad>fld_inf_infectedEliteSingle_01</Squad>
+				<Squad>fld_inf_infectedGrunt_01</Squad>
+				<Squad>fld_inf_infectedGruntSingle_01</Squad>
+				<Squad>fld_inf_infectedJackal_01</Squad>
+				<Squad>fld_inf_infectedJackalSingle_01</Squad>
+				<Squad>fld_inf_infectedMarine_01</Squad>
+				<Squad>fld_inf_infectedMarineSingle_01</Squad>
+				<Squad>fld_inf_infectionForm_01</Squad>
+				<Squad>fld_inf_infectionForm_02</Squad>
+				<Squad>fld_inf_infectionForm_03</Squad>
+				<Squad>fld_inf_rhinodillo_01</Squad>
+				<Squad>fld_inf_tentacle_01</Squad>
+				<Squad>fld_inf_tentacleDormant_01</Squad>
+				<Squad>Flood</Squad>
+				<Squad>FlyingFlood</Squad>
+				<Squad>for_air_drone_01</Squad>
+				<Squad>for_air_enforcer_01</Squad>
+				<Squad>for_air_monitor_01</Squad>
+				<Squad>for_air_monitor_02</Squad>
+				<Squad>for_air_monitor_04</Squad>
+				<Squad>for_air_sentinel_01</Squad>
+				<Squad>for_air_sentinel_02</Squad>
+				<Squad>for_air_sentinel_03</Squad>
+				<Squad>Forerunner</Squad>
+				<Squad>Rebel</Squad>
+				<Squad>rsrc_supplies_crate_01</Squad>
+				<Squad>sys_bubbleshield_large_01</Squad>
+				<Squad>sys_bubbleshield_med_01</Squad>
+				<Squad>sys_bubbleshield_small_01</Squad>
+				<Squad>unsc_air_hawk_01</Squad>
+				<Squad>unsc_air_hornet_01</Squad>
+				<Squad>unsc_air_pelican_01</Squad>
+				<Squad>unsc_air_vulture_01</Squad>
+				<Squad>unsc_inf_cyclops_01</Squad>
+				<Squad>unsc_inf_flameMarine_01</Squad>
+				<Squad>unsc_inf_marine_01</Squad>
+				<Squad>unsc_inf_marine_02</Squad>
+				<Squad>unsc_inf_marine_03</Squad>
+				<Squad>unsc_inf_odst_01</Squad>
+				<Squad>unsc_inf_spartan_01</Squad>
+				<Squad>unsc_veh_cobra_01</Squad>
+				<Squad>unsc_veh_elephant_01</Squad>
+				<Squad>unsc_veh_gremlin_01</Squad>
+				<Squad>unsc_veh_grizzly_01</Squad>
+				<Squad>unsc_veh_scorpion_01</Squad>
+				<Squad>unsc_veh_warthog_01</Squad>
+				<Squad>unsc_veh_wolverine_01</Squad>
+			</ForbidSquads>
+			<ForbidTechs>
+				<Tech>ai_cov_cleansing_downgrade1</Tech>
+				<Tech>ai_cov_cleansing_downgrade2</Tech>
+				<Tech>ai_e3_easyNeverDie</Tech>
+				<Tech>cov_arbiter_upgrade1</Tech>
+				<Tech>cov_arbiter_upgrade2</Tech>
+				<Tech>cov_arbiter_upgrade3</Tech>
+				<Tech>cov_banshee_upgrade1</Tech>
+				<Tech>cov_banshee_upgrade2</Tech>
+				<Tech>cov_banshee_upgrade3</Tech>
+				<Tech>cov_base_upgrade1</Tech>
+				<Tech>cov_base_upgrade2</Tech>
+				<Tech>cov_brute_upgrade2</Tech>
+				<Tech>cov_brute_upgrade3</Tech>
+				<Tech>cov_bruteChief_upgrade1</Tech>
+				<Tech>cov_bruteChief_upgrade2</Tech>
+				<Tech>cov_bruteChief_upgrade3</Tech>
+				<Tech>cov_bruteChopper_upgrade1</Tech>
+				<Tech>cov_bruteChopper_upgrade2</Tech>
+				<Tech>cov_bruteChopper_upgrade3</Tech>
+				<Tech>cov_cleansing_upgrade1</Tech>
+				<Tech>cov_cleansing_upgrade2</Tech>
+				<Tech>cov_cleansing_upgrade3</Tech>
+				<Tech>cov_eliteCommando_upgrade2</Tech>
+				<Tech>cov_eliteCommando_upgrade3</Tech>
+				<Tech>cov_engineer_upgrade1</Tech>
+				<Tech>cov_engineer_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade1</Tech>
+				<Tech>cov_ghost_upgrade2</Tech>
+				<Tech>cov_ghost_upgrade3</Tech>
+				<Tech>cov_gravityWave_upgrade1</Tech>
+				<Tech>cov_gravityWave_upgrade2</Tech>
+				<Tech>cov_gravityWave_upgrade3</Tech>
+				<Tech>cov_grunt_upgrade1</Tech>
+				<Tech>cov_grunt_upgrade2</Tech>
+				<Tech>cov_grunt_upgrade3</Tech>
+				<Tech>cov_hunter_upgrade1</Tech>
+				<Tech>cov_hunter_upgrade2</Tech>
+				<Tech>cov_hunter_upgrade3</Tech>
+				<Tech>cov_jackal_upgrade1</Tech>
+				<Tech>cov_jackal_upgrade2</Tech>
+				<Tech>cov_jackal_upgrade3</Tech>
+				<Tech>cov_locust_upgrade2</Tech>
+				<Tech>cov_locust_upgrade3</Tech>
+				<Tech>cov_prophet_upgrade1</Tech>
+				<Tech>cov_prophet_upgrade2</Tech>
+				<Tech>cov_prophet_upgrade3</Tech>
+				<Tech>cov_rage_upgrade1</Tech>
+				<Tech>cov_rage_upgrade2</Tech>
+				<Tech>cov_rage_upgrade3</Tech>
+				<Tech>cov_shield_downgrade</Tech>
+				<Tech>cov_shield_upgrade</Tech>
+				<Tech>cov_suicideGrunt_upgrade2</Tech>
+				<Tech>cov_suicideGrunt_upgrade3</Tech>
+				<Tech>cov_supplyDepot_upgrade1</Tech>
+				<Tech>cov_tech_followers</Tech>
+				<Tech>cov_tech_shieldRecharge</Tech>
+				<Tech>cov_temple_upgrade1</Tech>
+				<Tech>cov_temple_upgrade2</Tech>
+				<Tech>cov_turret_upgrade1</Tech>
+				<Tech>cov_turret_upgrade2</Tech>
+				<Tech>cov_turret_upgradeAA</Tech>
+				<Tech>cov_turret_upgradeAI</Tech>
+				<Tech>cov_turret_upgradeAV</Tech>
+				<Tech>cov_vampire_upgrade2</Tech>
+				<Tech>cov_vampire_upgrade3</Tech>
+				<Tech>cov_wraith_upgrade1</Tech>
+				<Tech>cov_wraith_upgrade2</Tech>
+				<Tech>cov_wraith_upgrade3</Tech>
+				<Tech>cpgn_cutters_baseSizeBonus</Tech>
+				<Tech>cpgn_flood_upgrade1</Tech>
+				<Tech>cpgn_flood_upgrade2</Tech>
+				<Tech>cpgn_flood_upgrade3</Tech>
+				<Tech>cpgn_grant_cyclops</Tech>
+				<Tech>cpgn_grant_elephant</Tech>
+				<Tech>cpgn_grant_gremlin</Tech>
+				<Tech>cpgn_grant_rhino</Tech>
+				<Tech>cpgn_marine_snowupgrade</Tech>
+				<Tech>cpgn_odst_upgrade</Tech>
+				<Tech>cpgn_scorpion_cannonOnly</Tech>
+				<Tech>cpgn_warthog_canCapture</Tech>
+				<Tech>cpgn_warthog_canRam</Tech>
+				<Tech>tutorial_part1</Tech>
+				<Tech>tutorial_part2</Tech>
+				<Tech>tutorial_part3</Tech>
+				<Tech>unsc_base_upgrade1</Tech>
+				<Tech>unsc_base_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade1</Tech>
+				<Tech>unsc_carpetBomb_upgrade2</Tech>
+				<Tech>unsc_carpetBomb_upgrade3</Tech>
+				<Tech>unsc_cobra_upgrade2</Tech>
+				<Tech>unsc_cobra_upgrade3</Tech>
+				<Tech>unsc_cryo_upgrade1</Tech>
+				<Tech>unsc_cryo_upgrade2</Tech>
+				<Tech>unsc_cryo_upgrade3</Tech>
+				<Tech>unsc_cyclops_upgrade2</Tech>
+				<Tech>unsc_cyclops_upgrade3</Tech>
+				<Tech>unsc_elephant_upgrade1</Tech>
+				<Tech>unsc_elephant_upgrade2</Tech>
+				<Tech>unsc_elephant_upgrade3</Tech>
+				<Tech>unsc_flameMarine_upgrade1</Tech>
+				<Tech>unsc_flameMarine_upgrade2</Tech>
+				<Tech>unsc_flameMarine_upgrade3</Tech>
+				<Tech>unsc_gremlin_upgrade2</Tech>
+				<Tech>unsc_gremlin_upgrade3</Tech>
+				<Tech>unsc_grizzly_upgrade1</Tech>
+				<Tech>unsc_hawk_upgrade1</Tech>
+				<Tech>unsc_hornet_upgrade2</Tech>
+				<Tech>unsc_hornet_upgrade3</Tech>
+				<Tech>unsc_MAC_upgrade1</Tech>
+				<Tech>unsc_MAC_upgrade2</Tech>
+				<Tech>unsc_MAC_upgrade3</Tech>
+				<Tech>unsc_marine_upgrade1</Tech>
+				<Tech>unsc_marine_upgrade2</Tech>
+				<Tech>unsc_marine_upgrade3</Tech>
+				<Tech>unsc_odst_upgrade1</Tech>
+				<Tech>unsc_reactor_upgrade1</Tech>
+				<Tech>unsc_scorpion_upgrade2</Tech>
+				<Tech>unsc_scorpion_upgrade3</Tech>
+				<Tech>unsc_spartan_upgrade1</Tech>
+				<Tech>unsc_spartan_upgrade2</Tech>
+				<Tech>unsc_spartan_upgrade3</Tech>
+				<Tech>unsc_supplypad_upgrade1</Tech>
+				<Tech>unsc_tech_adrenaline</Tech>
+				<Tech>unsc_tech_oniSpies</Tech>
+				<Tech>unsc_tech_recruitTraining</Tech>
+				<Tech>unsc_tech_reinforcements</Tech>
+				<Tech>unsc_turret_upgrade1</Tech>
+				<Tech>unsc_turret_upgrade2</Tech>
+				<Tech>unsc_turret_upgradeAA</Tech>
+				<Tech>unsc_turret_upgradeAI</Tech>
+				<Tech>unsc_turret_upgradeAV</Tech>
+				<Tech>unsc_vulture_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade1</Tech>
+				<Tech>unsc_warthog_upgrade2</Tech>
+				<Tech>unsc_warthog_upgrade3</Tech>
+				<Tech>unsc_wolverine_upgrade2</Tech>
+				<Tech>unsc_wolverine_upgrade3</Tech>
+			</ForbidTechs>
+		</Player>
+	</Players>
+	<Objectives>
+		<Objective id="44">
+			<Flag>Required</Flag>
+			<Flag>Player1</Flag>
+			<Flag>Player2</Flag>
+			<Description>$$22260$$</Description>
+			<TrackerText />
+			<TrackerDuration>8000</TrackerDuration>
+			<MinTrackerIncrement>1</MinTrackerIncrement>
+			<Hint>$$24980$$</Hint>
+			<Score>500</Score>
+			<FinalCount>-1</FinalCount>rojvO3HoldLZ</Objective>
+		<Objective id="49">
+			<Flag>Required</Flag>
+			<Flag>Player1</Flag>
+			<Flag>Player2</Flag>
+			<Description>$$22261$$</Description>
+			<TrackerText>$$25950$$</TrackerText>
+			<TrackerDuration>8000</TrackerDuration>
+			<MinTrackerIncrement>1</MinTrackerIncrement>
+			<Hint>$$25556$$</Hint>
+			<Score>1500</Score>
+			<FinalCount>4</FinalCount>rojvO4Get4Bases</Objective>
+		<Objective id="50">
+			<Flag>Player1</Flag>
+			<Flag>Player2</Flag>
+			<Flag>Required</Flag>
+			<Description>$$22259$$</Description>
+			<TrackerText />
+			<TrackerDuration>8000</TrackerDuration>
+			<MinTrackerIncrement>1</MinTrackerIncrement>
+			<Hint>$$24978$$</Hint>
+			<Score>250</Score>
+			<FinalCount>-1</FinalCount>rojvO1ToPelican</Objective>
+		<Objective id="51">
+			<Flag>Player1</Flag>
+			<Flag>Player2</Flag>
+			<Description>$$22263$$</Description>
+			<TrackerText />
+			<TrackerDuration>8000</TrackerDuration>
+			<MinTrackerIncrement>1</MinTrackerIncrement>
+			<Hint>$$24981$$</Hint>
+			<Score>250</Score>
+			<FinalCount>-1</FinalCount>ojvOO1TakeScarab</Objective>
+		<Objective id="54">
+			<Flag>Player1</Flag>
+			<Flag>Player2</Flag>
+			<Description>$$22264$$</Description>
+			<TrackerText>$$25942$$</TrackerText>
+			<TrackerDuration>8000</TrackerDuration>
+			<MinTrackerIncrement>1</MinTrackerIncrement>
+			<Hint>$$24982$$</Hint>
+			<Score>750</Score>
+			<FinalCount>10</FinalCount>ojvOO2KillObjective</Objective>
+		<Objective id="56">
+			<Flag>Required</Flag>
+			<Flag>Player1</Flag>
+			<Flag>Player2</Flag>
+			<Description>$$22865$$</Description>
+			<TrackerText />
+			<TrackerDuration>8000</TrackerDuration>
+			<MinTrackerIncrement>1</MinTrackerIncrement>
+			<Hint>$$24979$$</Hint>
+			<Score>250</Score>
+			<FinalCount>-1</FinalCount>rojvO2FindANewLZ</Objective>
+		<MaxObjectiveID>56</MaxObjectiveID>
+	</Objectives>
+	<Minimap>
+		<MinimapTexture />
+	</Minimap>
+	<BuildingTextureIndexUNSC>0</BuildingTextureIndexUNSC>
+	<BuildingTextureIndexCOVN>0</BuildingTextureIndexCOVN>
+	<DesignObjects>
+		<Spheres />
+		<Lines>
+			<Lines ID="4589" Name="CovFleeToBase1" Position="883.813782,-37.1792984,671.335083">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>900.0602,-20.8971,731.9594|898.9101,3.9167,827.4009</Points>
+			</Lines>
+			<Lines ID="4590" Name="CovFleeToBase2" Position="842.019409,-36.9757004,657.842407">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>871.7184,-31.5320,693.8819|876.3712,-18.2739,741.7017|862.9079,9.6433,851.2148</Points>
+			</Lines>
+			<Lines ID="4591" Name="CovFleeToBase3" Position="883.225525,-35.3284988,612.334229">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>936.0240,-24.4123,719.0457|928.6600,9.8029,858.8083</Points>
+			</Lines>
+			<Lines ID="4860" Name="CameraBounds" Position="998.624573,14.1276999,32.1594009">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>31.5505,59.3291,32.1287|31.5708,94.3837,992.3818|991.6751,35.4931,992.2821|998.5640,11.9374,33.1434|998.6246,14.1277,32.1594</Points>
+			</Lines>
+			<Lines ID="4988" Name="DesignPath4988" Position="94.1028976,20.0734997,74.3974991">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>108.3447,21.1356,86.6914|108.6280,21.4787,101.1800|99.8288,21.4208,111.6821|87.0494,21.3070,112.8206|70.8358,21.0093,99.4734|71.0828,20.6288,86.6701|82.4438,20.3785,75.5587|94.1029,20.0735,74.3975</Points>
+			</Lines>
+			<Lines ID="4989" Name="DesignPath4989" Position="941.284119,-38.8322983,75.4045029">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>951.4495,-40.5225,86.0277|953.1437,-40.7643,98.2254|940.0698,-39.5353,111.2214|927.2307,-39.6815,109.8901|916.0294,-39.7940,99.3249|915.3640,-39.7283,87.4590|927.9462,-40.1420,73.5366|941.2841,-38.8323,75.4045</Points>
+			</Lines>
+			<Lines ID="4990" Name="DesignPath4990" Position="939.744507,9.30780029,912.521301">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>953.7805,9.6729,924.8149|953.1964,9.6329,935.9382|942.6541,9.7296,947.6367|931.2438,9.5895,949.9896|916.3074,9.2824,937.7175|916.0268,9.7990,923.0550|925.0969,9.7869,913.1072|939.7430,9.3464,912.2285</Points>
+			</Lines>
+			<Lines ID="4991" Name="DesignPath4991" Position="82.2429962,58.5713997,911.635925">
+				<Data>
+					<Type>CameraBoundary-Hover</Type>
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>96.0985,59.4063,912.1352|106.5671,59.4643,921.0687|109.6304,59.4707,932.8105|95.8601,59.8003,949.6160|84.6177,59.5103,948.3763|72.8659,59.4116,938.4316|69.2712,59.2452,926.4419|82.2430,58.5714,911.6359</Points>
+			</Lines>
+			<Lines ID="5124" Name="BansheeFlight1Start" Position="231.130997,44.6165009,433.361603">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>424.4038,-33.6267,308.9671|670.1649,-11.5547,303.9530|782.6307,-37.8634,162.6214</Points>
+			</Lines>
+			<Lines ID="5125" Name="BansheeFlight3Start" Position="910.028076,0.117200002,812.132874">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>952.4626,-1.8537,522.3308|716.6447,-32.0667,504.9410|641.1348,-33.6240,663.0015</Points>
+			</Lines>
+			<Lines ID="5126" Name="BansheeFlight2Start" Position="116.344803,79.7338028,641.638794">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>345.1496,-82.2528,702.2439|495.4300,-35.2374,726.6691|557.0876,-15.3712,809.4558</Points>
+			</Lines>
+			<Lines ID="5154" Name="FlightPath1A" Position="767.514221,-38.4440002,135.251099">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>878.8800,-38.8341,130.3071|922.3987,-39.1809,251.4586|833.5211,-17.3421,371.1323|772.7441,-39.1636,291.1750|871.2972,-39.4248,201.1447|881.1733,-39.1636,336.8001|685.9194,-32.5701,354.8239|793.0038,-37.9632,180.1254|636.3394,-39.0599,204.7265|583.4182,-35.5174,82.9256|697.5307,-21.8477,89.9744</Points>
+			</Lines>
+			<Lines ID="5155" Name="FlightPath1B" Position="805.811584,-39.9929008,112.654602">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>949.3663,-31.3314,281.5255|819.9286,-18.7842,379.8474|773.7048,-39.1633,243.5985|930.2277,-38.8933,176.0462</Points>
+			</Lines>
+			<Lines ID="5156" Name="FlightPath3A" Position="669.664978,-29.8728008,661.824707">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>344.8553,-69.8042,494.4521|595.3815,-33.6240,412.6128|565.1159,-194.8356,647.7898|413.0127,-33.6240,414.2173|635.0709,-202.8176,459.0338|413.7863,-42.3868,636.4111</Points>
+			</Lines>
+			<Lines ID="5157" Name="FlightPath3B" Position="600.984619,-33.6228981,727.454529">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>558.4807,-33.6241,438.2856|456.3337,-33.6240,439.3552|417.9810,-202.8175,659.5906|509.2908,-33.6229,663.9727|682.5527,-33.6240,532.9501|457.9360,-33.6240,339.3489|390.5655,-33.6240,534.0151</Points>
+			</Lines>
+			<Lines ID="5158" Name="FlightPath2A" Position="531.399475,-15.3093004,854.575806">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>779.2109,-37.1303,860.4185|722.2479,-37.0982,737.3572|661.5235,-37.1303,878.6891|722.3755,-38.1441,903.0086|782.9728,-37.1090,768.5254|678.8135,-38.5151,740.9915</Points>
+			</Lines>
+			<Lines ID="5159" Name="FlightPath2B" Position="588.793884,10.4849005,920.968323">
+				<Data>
+					<Type />
+					<Attract>0</Attract>
+					<Repel>0</Repel>
+					<ChokePoint>0</ChokePoint>
+					<Value>0</Value>
+					<Value1 />
+					<Value2 />
+					<Value3 />
+					<Value4 />
+					<Value5 />
+					<Value6 />
+					<Value7 />
+					<Value8 />
+					<Value9 />
+					<Value10 />
+					<Value11 />
+					<Value12 />
+				</Data>
+				<Points>835.1019,-37.1101,733.5942|821.1496,-37.1802,714.2385|558.5704,-0.0392,919.7310</Points>
+			</Lines>
+		</Lines>
+	</DesignObjects>
+	<ObjectGroups>
+		<ObjectGroup ID="1" Name="Locker" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="2" Name="Hide" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="3" Name="Artlock" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="4" Name="FlightPaths" Visible="true" Locked="true" BB="false" ExploreGroup="false" />
+		<ObjectGroup ID="5" Name="testbases" Visible="false" Locked="false" BB="false" ExploreGroup="false" />
+	</ObjectGroups>
+	<Objects>
+		<Object IsSquad="false" Player="5" ID="4495" TintValue="1" EditorName="Vent North" Position="100.236298,59.0326004,917.489075" Forward="0.650600016,0,-0.75940001" Right="-0.75940001,0,-0.650600016" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_forerunnervent_01</Object>
+		<Object IsSquad="false" Player="5" ID="4497" TintValue="1" EditorName="Vent West" Position="102.846901,21.1786995,104.4664" Forward="0.740100026,0,0.672500014" Right="0.672500014,0,-0.740100026" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_forerunnervent_01</Object>
+		<Object IsSquad="false" Player="5" ID="4496" TintValue="1" EditorName="Vent East" Position="922.124084,9.73499966,919.682129" Forward="-0.745700002,0,-0.666199982" Right="-0.666199982,0,0.745700002" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_forerunnervent_01</Object>
+		<Object IsSquad="false" Player="5" ID="4494" TintValue="1" EditorName="Vent South" Position="922.007019,-39.2496986,104.959702" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="1" VisualVariationIndex="0">
+			<Flag>NoTieToGround</Flag>env_shieldinterior_forerunnervent_01</Object>
+		<Object IsSquad="false" Player="0" ID="4678" TintValue="1" EditorName="game_base_Socket_01_4678" Position="509.971893,-33.6240005,520.615112" Forward="0.00680000009,0,-1" Right="-1,0,-0.00680000009" Group="-1" VisualVariationIndex="0">game_base_Socket_01</Object>
+		<Object IsSquad="false" Player="0" ID="4743" TintValue="1" EditorName="game_collectable_blackBox_13_4743" Position="605.240173,14.9793997,950.019714" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">game_collectable_blackBox_13</Object>
+		<Object IsSquad="false" Player="0" ID="5071" TintValue="1" EditorName="hook_bldg_miniBase_01_5071" Position="851.552979,9.8114996,894.164185" Forward="1,0,0.00400000019" Right="0.00400000019,0,-1" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" ID="5070" TintValue="1" EditorName="hook_bldg_miniBase_01_5070" Position="169.328705,44.6169014,435.578705" Forward="-0.0665000007,0,0.997799993" Right="0.997799993,0,0.0665000007" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" ID="5069" TintValue="1" EditorName="hook_bldg_miniBase_01_5069" Position="58.0094986,89.518898,639.47821" Forward="-0.00870000012,0,1" Right="1,0,0.00870000012" Group="-1" VisualVariationIndex="0">hook_bldg_miniBase_01</Object>
+		<Object IsSquad="false" Player="0" ID="4697" TintValue="1" EditorName="hook_spawner_supply3hole_01_4690" Position="708.978516,-33.6244011,394.253998" Forward="0.862100005,0,0.506699979" Right="0.506699979,0,-0.862100005" Group="-1" VisualVariationIndex="0">hook_spawner_supply3hole_01</Object>
+		<Object IsSquad="false" Player="0" ID="4541" TintValue="1" EditorName="rsrc_supplies_crate_01_4541" Position="511.324585,-22.8332005,107.349998" Forward="0.0582999997,0,-0.998300016" Right="-0.998300016,0,-0.0582999997" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4887" TintValue="1" EditorName="rsrc_supplies_crate_01_4887" Position="509.073303,-23.6256008,91.0593033" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4888" TintValue="1" EditorName="rsrc_supplies_crate_01_4888" Position="500.803101,-22.6327,102.050797" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4548" TintValue="1" EditorName="rsrc_supplies_crate_01_4548" Position="786.919922,-39.1632996,266.5065" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4890" TintValue="1" EditorName="rsrc_supplies_crate_01_4890" Position="636.228271,-39.9384995,245.511505" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4547" TintValue="1" EditorName="rsrc_supplies_crate_01_4547" Position="791.347595,-39.1632996,270.155212" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4891" TintValue="1" EditorName="rsrc_supplies_crate_01_4891" Position="626.846924,-38.8103981,243.019699" Forward="-0.239199996,0,-0.971000016" Right="-0.971000016,0,0.239199996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4542" TintValue="1" EditorName="rsrc_supplies_crate_01_4542" Position="504.474792,-22.6219997,108.737503" Forward="0.97390002,0,-0.227200001" Right="-0.227200001,0,-0.97390002" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4544" TintValue="1" EditorName="rsrc_supplies_crate_01_4544" Position="939.008911,-35.6921997,265.297913" Forward="-0.141200006,0,-0.99000001" Right="-0.99000001,0,0.141200006" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4540" TintValue="1" EditorName="rsrc_supplies_crate_01_4540" Position="507.864807,-23.2413006,97.4291" Forward="-0.973800004,0,-0.227200001" Right="-0.227200001,0,0.973800004" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4886" TintValue="1" EditorName="rsrc_supplies_crate_01_4886" Position="512.405212,-23.3036003,101.619102" Forward="0.389400005,0,0.92110002" Right="0.92110002,0,-0.389400005" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4545" TintValue="1" EditorName="rsrc_supplies_crate_01_4545" Position="944.872009,-36.0796013,260.645599" Forward="0.442499995,0,-0.896799982" Right="-0.896799982,0,-0.442499995" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4889" TintValue="1" EditorName="rsrc_supplies_crate_01_4889" Position="637.66449,-39.1679993,251.205994" Forward="0.198699996,0,0.980099976" Right="0.980099976,0,-0.198699996" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4539" TintValue="1" EditorName="rsrc_supplies_crate_01_4539" Position="631.23291,-39.2240982,248.884995" Forward="0.999599993,0,-0.0292000007" Right="-0.0292000007,0,-0.999599993" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4546" TintValue="1" EditorName="rsrc_supplies_crate_01_4546" Position="787.965027,-39.1632996,273.294098" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4543" TintValue="1" EditorName="rsrc_supplies_crate_01_4543" Position="938.670288,-35.1407013,270.999786" Forward="0,0,1" Right="1,0,0" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+		<Object IsSquad="false" Player="0" ID="4538" TintValue="1" EditorName="rsrc_supplies_crate_01_4538" Position="644.725098,-40.1130981,242.841797" Forward="-0.717400014,0,0.696699977" Right="0.696699977,0,0.717400014" Group="-1" VisualVariationIndex="0">rsrc_supplies_crate_01</Object>
+	</Objects>
+	<Lights />
+	<TriggerSystem Name="Blood_Gulch" Type="Scenario" NextTriggerVarID="79" NextTriggerID="69" NextConditionID="67" NextEffectID="71" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="20" Type="Squad" Name="" IsNull="false">87</TriggerVar>
+			<TriggerVar ID="21" Type="Squad" Name="" IsNull="false">5</TriggerVar>
+			<TriggerVar ID="23" Type="Squad" Name="" IsNull="false">86</TriggerVar>
+			<TriggerVar ID="24" Type="Squad" Name="" IsNull="false">6</TriggerVar>
+			<TriggerVar ID="32" Type="String" Name="" IsNull="false">B tel</TriggerVar>
+			<TriggerVar ID="33" Type="String" Name="" IsNull="false">a tel</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="14" Name="Teleporter 1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="110" Y="120" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+						<Input Name="Source" SigID="1" Optional="false">20</Input>
+						<Input Name="Target" SigID="2" Optional="false">21</Input>
+					</Effect>
+					<Effect ID="25" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+						<Input Name="String" SigID="1" Optional="false">33</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+			<Trigger ID="16" Name="Teleporter 2" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="133" Y="327" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+						<Input Name="Source" SigID="1" Optional="false">23</Input>
+						<Input Name="Target" SigID="2" Optional="false">24</Input>
+					</Effect>
+					<Effect ID="24" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+						<Input Name="String" SigID="1" Optional="false">32</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Blood_Gulch" Type="Scenario" NextTriggerVarID="79" NextTriggerID="69" NextConditionID="67" NextEffectID="71" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="20" Type="Squad" Name="" IsNull="false">_TeleporterEntranceA_,_87_</TriggerVar>
+					<TriggerVar ID="21" Type="Squad" Name="" IsNull="false">_TeleporterExitA_,_5_</TriggerVar>
+					<TriggerVar ID="23" Type="Squad" Name="" IsNull="false">_TeleporterEntranceB_,_86_</TriggerVar>
+					<TriggerVar ID="24" Type="Squad" Name="" IsNull="false">_TelePorterExitB_,_6_</TriggerVar>
+					<TriggerVar ID="32" Type="String" Name="" IsNull="false">B tel</TriggerVar>
+					<TriggerVar ID="33" Type="String" Name="" IsNull="false">a tel</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="14" Name="Teleporter 1" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="110" Y="120" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+								<Input Name="Source" SigID="1" Optional="false">20</Input>
+								<Input Name="Target" SigID="2" Optional="false">21</Input>
+							</Effect>
+							<Effect ID="25" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+								<Input Name="String" SigID="1" Optional="false">33</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+					<Trigger ID="16" Name="Teleporter 2" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="133" Y="327" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="15" Type="SetTeleporterDestination" DBID="967" Version="1" CommentOut="false">
+								<Input Name="Source" SigID="1" Optional="false">23</Input>
+								<Input Name="Target" SigID="2" Optional="false">24</Input>
+							</Effect>
+							<Effect ID="24" Type="DebugVar(String)" DBID="230" Version="1" CommentOut="false">
+								<Input Name="String" SigID="1" Optional="false">32</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="78" NextTriggerID="77" NextConditionID="76" NextEffectID="77" External="false">
+		<TriggerGroups />
+		<TriggerVars>
+			<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+			<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+		</TriggerVars>
+		<Triggers>
+			<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="576" Y="94" GroupID="-1" TemplateID="-1">
+				<TriggerConditions>
+					<And />
+				</TriggerConditions>
+				<TriggerEffectsOnTrue>
+					<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+						<Input Name="Sound" SigID="1" Optional="false">0</Input>
+						<Input Name="Queue" SigID="3" Optional="true">1</Input>
+					</Effect>
+				</TriggerEffectsOnTrue>
+				<TriggerEffectsOnFalse />
+			</Trigger>
+		</Triggers>
+		<EditorData>
+			<TriggerMappings />
+			<UIData>
+				<NoteNodes />
+				<Groups />
+			</UIData>
+			<TriggerSystem Name="Audio" Type="Scenario" NextTriggerVarID="78" NextTriggerID="77" NextConditionID="76" NextEffectID="77" External="false">
+				<TriggerGroups />
+				<TriggerVars>
+					<TriggerVar ID="0" Type="Sound" Name="" IsNull="false">play_amb_shield_int</TriggerVar>
+					<TriggerVar ID="1" Type="Bool" Name="QueueVar1" IsNull="true">False</TriggerVar>
+				</TriggerVars>
+				<Triggers>
+					<Trigger ID="0" Name="newTrigger0" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="576" Y="94" GroupID="-1" TemplateID="-1">
+						<TriggerConditions>
+							<And />
+						</TriggerConditions>
+						<TriggerEffectsOnTrue>
+							<Effect ID="0" Type="PlaySound" DBID="33" Version="2" CommentOut="false">
+								<Input Name="Sound" SigID="1" Optional="false">0</Input>
+								<Input Name="Queue" SigID="3" Optional="true">1</Input>
+							</Effect>
+						</TriggerEffectsOnTrue>
+						<TriggerEffectsOnFalse />
+					</Trigger>
+				</Triggers>
+				<EditorData>
+					<TriggerMappings />
+					<UIData>
+						<NoteNodes />
+						<Groups />
+					</UIData>
+				</EditorData>
+			</TriggerSystem>
+		</EditorData>
+	</TriggerSystem>
+	<NextID>5200</NextID>
+	<EditorOnlyData>
+		<HelperAreas>
+			<HelperAreaObject>
+				<Name>MapBoundary - South</Name>
+				<ID>4335</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>1023.24902,23.7373009,1.24510002</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>StartingAreaBase Area</Name>
+				<ID>4409</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>854.703613,-39.1626015,285.793304</Position>
+				<Direction>-0.0083999997,0,-1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>PelicanFlyinStart</Name>
+				<ID>4464</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>695.537781,-16.5454998,56.2057991</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>PelicanFlyinEnd</Name>
+				<ID>4465</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>722.066711,-20.1676006,57.4771996</Position>
+				<Direction>0.985400021,0,0.170000002</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>RampBase Area</Name>
+				<ID>4550</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>210.753799,44.6169014,507.999603</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>SecondBase Area</Name>
+				<ID>4551</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>720.934814,-37.1409988,812.02417</Position>
+				<Direction>0.999800026,0,0.0208000001</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>LookAtScarabWreck</Name>
+				<ID>4561</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>849.888184,-37.6226997,620.822571</Position>
+				<Direction>-0.675499976,0,-0.737399995</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Tentacles1</Name>
+				<ID>4584</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>863.953979,-35.6968002,607.506104</Position>
+				<Direction>0.985400021,0,0.170000002</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Tentacles2</Name>
+				<ID>4585</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>851.078125,-37.0691986,649.108582</Position>
+				<Direction>0.985400021,0,0.170000002</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Tentacles3</Name>
+				<ID>4586</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>842.689026,-36.3158989,601.078674</Position>
+				<Direction>0.931999981,0,0.362399995</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Tentacles4</Name>
+				<ID>4587</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>833.950012,-37.0884018,635.352722</Position>
+				<Direction>0.985400021,0,0.170000002</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>ScarabRevealer</Name>
+				<ID>4588</ID>
+				<Group>1</Group>
+				<Radius>40</Radius>
+				<Position>849.888184,-37.6226997,620.822693</Position>
+				<Direction>-0.808499992,0,-0.588500023</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FledToCenter</Name>
+				<ID>4592</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>570.831482,-33.6257019,501.864288</Position>
+				<Direction>0.985400021,0,0.170000002</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Skull</Name>
+				<ID>4665</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>147.760101,20.3258991,145.688599</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CenterBase Area</Name>
+				<ID>4680</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>509.971893,-33.6240005,520.615112</Position>
+				<Direction>0.00680000009,0,-1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackVent1</Name>
+				<ID>4730</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>896.78717,-38.9067001,131.668106</Position>
+				<Direction>-0.717400014,0,0.696699977</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackVent2</Name>
+				<ID>4731</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>894.895081,9.81690025,901.222717</Position>
+				<Direction>-0.745700002,0,-0.666199982</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackVent3</Name>
+				<ID>4738</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>122.694199,58.8336983,901.032593</Position>
+				<Direction>0.788500011,0,-0.61500001</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackBase1</Name>
+				<ID>4739</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>184.366501,44.6169014,521.737305</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackBase2</Name>
+				<ID>4740</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>721.753906,-37.1341019,813.757324</Position>
+				<Direction>0.999800026,0,0.0208000001</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackBase3</Name>
+				<ID>4741</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>854.823914,-39.1626015,285.111206</Position>
+				<Direction>-0.0083999997,0,-1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodAttackBase4</Name>
+				<ID>4742</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>509.924286,-33.6240005,519.390076</Position>
+				<Direction>0.00680000009,0,-1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodRallyLoc1</Name>
+				<ID>4744</ID>
+				<Group>1</Group>
+				<Radius>40</Radius>
+				<Position>228.444595,7.59079981,253.976898</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>HeroesDetect1</Name>
+				<ID>4753</ID>
+				<Group>1</Group>
+				<Radius>70</Radius>
+				<Position>267.334198,9.25889969,277.202515</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>ODSTsLZ</Name>
+				<ID>4756</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>266.624603,9.6019001,273.821686</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>HotDropper</Name>
+				<ID>4768</ID>
+				<Group>1</Group>
+				<Radius>40</Radius>
+				<Position>292.963196,44.5988007,492.329712</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>HeroesDetect2</Name>
+				<ID>4771</ID>
+				<Group>1</Group>
+				<Radius>100</Radius>
+				<Position>547.468872,-39.1371994,214.596405</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodRallyLoc2</Name>
+				<ID>4775</ID>
+				<Group>1</Group>
+				<Radius>50</Radius>
+				<Position>321.358185,7.71750021,276.211304</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovMainRallyLoc2</Name>
+				<ID>4776</ID>
+				<Group>1</Group>
+				<Radius>50</Radius>
+				<Position>505.133392,-33.6240005,607.414001</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>PelicanLZ</Name>
+				<ID>4777</ID>
+				<Group>1</Group>
+				<Radius>30</Radius>
+				<Position>555.727722,-39.4012985,218.172897</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovMainRallyLoc</Name>
+				<ID>4780</ID>
+				<Group>1</Group>
+				<Radius>30</Radius>
+				<Position>737.434326,-37.0976982,733.223877</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovHGRallyLoc</Name>
+				<ID>4781</ID>
+				<Group>1</Group>
+				<Radius>30</Radius>
+				<Position>275.910004,44.5707016,541.948975</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>NukePelican</Name>
+				<ID>4788</ID>
+				<Group>1</Group>
+				<Radius>30</Radius>
+				<Position>713.417725,-8.50809956,48.8269997</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FloodDefendHome</Name>
+				<ID>4795</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>151.471405,19.4750004,161.7715</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>ArbiterFailsafe</Name>
+				<ID>4803</ID>
+				<Group>1</Group>
+				<Radius>30</Radius>
+				<Position>193.407501,15.6589003,219.642395</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovMainAttackLoc1</Name>
+				<ID>4815</ID>
+				<Group>1</Group>
+				<Radius>144</Radius>
+				<Position>821.090698,-39.2610016,220.721802</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovMainDefendLoc1</Name>
+				<ID>4816</ID>
+				<Group>1</Group>
+				<Radius>144</Radius>
+				<Position>510.610413,-33.6240005,518.880676</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CreateArbiter</Name>
+				<ID>4819</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>443.3974,-28.5547009,218.6241</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>HeroesDetect3</Name>
+				<ID>4821</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>477.549896,-35.2336006,226.253799</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>HeroesDetect4</Name>
+				<ID>4822</ID>
+				<Group>1</Group>
+				<Radius>80</Radius>
+				<Position>306.243591,7.71750021,264.035797</Position>
+				<Direction>-0.644200027,0,0.764800012</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearRamp</Name>
+				<ID>4824</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>249.661301,44.6152992,446.026398</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearSecond</Name>
+				<ID>4825</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>775.634094,-37.1416016,787.943481</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearStartingArea</Name>
+				<ID>4826</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>763.609192,-39.2005997,217.247604</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearCenter</Name>
+				<ID>4827</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>428.949097,-33.6240005,455.623688</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>TeleporterRevealer</Name>
+				<ID>4849</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>353.420685,7.71750021,294.358185</Position>
+				<Direction>0.389400005,0,0.92110002</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>TeleporterDestinationRevealer</Name>
+				<ID>4856</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>434.111389,-28.6791,218.727097</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovMainAttackLoc2</Name>
+				<ID>4899</ID>
+				<Group>1</Group>
+				<Radius>144</Radius>
+				<Position>680.172791,-37.1302986,838.901428</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FirstLZ</Name>
+				<ID>4903</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>266.414886,9.69169998,272.917908</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,174,239</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>LZPressureGroup1</Name>
+				<ID>4918</ID>
+				<Group>1</Group>
+				<Radius>50</Radius>
+				<Position>570.489319,-38.9496002,203.455002</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>LZPressureGroup2</Name>
+				<ID>4919</ID>
+				<Group>1</Group>
+				<Radius>50</Radius>
+				<Position>613.135376,-39.0522995,208.529907</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Banshee1</Name>
+				<ID>4975</ID>
+				<Group>1</Group>
+				<Radius>40</Radius>
+				<Position>169.328705,44.6169014,435.578705</Position>
+				<Direction>-0.0665000007,0,0.997799993</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FlightRallyPoint1</Name>
+				<ID>4983</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>112.898201,80.7953033,638.884216</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Banshee2</Name>
+				<ID>5012</ID>
+				<Group>1</Group>
+				<Radius>40</Radius>
+				<Position>58.0094986,89.518898,639.47821</Position>
+				<Direction>-0.00870000012,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Banshee3</Name>
+				<ID>5013</ID>
+				<Group>1</Group>
+				<Radius>40</Radius>
+				<Position>851.552979,9.8114996,894.164185</Position>
+				<Direction>1,0,0.00400000019</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Tentacles5</Name>
+				<ID>5027</ID>
+				<Group>1</Group>
+				<Radius>3</Radius>
+				<Position>822.483215,-36.6563988,603.249084</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>ScarabRevealer</Name>
+				<ID>5033</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>180.587402,59.1587982,641.16217</Position>
+				<Direction>0.997500002,0,0.0706999972</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>ScarabRevealer</Name>
+				<ID>5034</ID>
+				<Group>1</Group>
+				<Radius>60</Radius>
+				<Position>242.684204,44.9740982,641.16217</Position>
+				<Direction>0.997500002,0,0.0706999972</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>ArbiterBaseDefense</Name>
+				<ID>5035</ID>
+				<Group>1</Group>
+				<Radius>150</Radius>
+				<Position>173.554703,44.4085007,568.879089</Position>
+				<Direction>0.198699996,0,0.980099976</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FlightRallyPoint2</Name>
+				<ID>5084</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>234.637497,44.6164017,433.56781</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>FlightRallyPoint3</Name>
+				<ID>5085</ID>
+				<Group>1</Group>
+				<Radius>20</Radius>
+				<Position>900.462708,2.12089992,820.168579</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearRamp2</Name>
+				<ID>5104</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>290.868896,44.5592003,483.354095</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearSecond2</Name>
+				<ID>5105</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>652.163818,-37.1371994,841.700012</Position>
+				<Direction>-0.198699996,0,0.980099976</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearStarting2</Name>
+				<ID>5106</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>807.794128,-37.8274994,165.324402</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>CovAppearCenter2</Name>
+				<ID>5107</ID>
+				<Group>-1</Group>
+				<Radius>10</Radius>
+				<Position>573.169495,-33.6240005,568.507874</Position>
+				<Direction>0,0,1</Direction>
+				<Color>237,28,36</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area5164</Name>
+				<ID>5164</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>241.914001,44.6165009,430.037598</Position>
+				<Direction>-0.985400021,0,0.170000002</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>Area5165</Name>
+				<ID>5165</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>120.951599,44.6492996,430.998901</Position>
+				<Direction>0,0,1</Direction>
+				<Color>0,0,255</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>GuardDestination</Name>
+				<ID>5171</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>249.542297,45.5252991,642.69989</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaObject>
+			<HelperAreaObject>
+				<Name>BomberSpawn</Name>
+				<ID>5177</ID>
+				<Group>-1</Group>
+				<Radius>3</Radius>
+				<Position>114.514702,20.2516994,138.8983</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,242,0</Color>
+			</HelperAreaObject>
+		</HelperAreas>
+		<HelperAreaBoxes>
+			<HelperAreaBoxObject>
+				<Name>ArbitersBase</Name>
+				<ID>5031</ID>
+				<Group>1</Group>
+				<HalfLengthX>150</HalfLengthX>
+				<HalfLengthY>50</HalfLengthY>
+				<HalfLengthZ>200</HalfLengthZ>
+				<LengthX>300</LengthX>
+				<LengthY>100</LengthY>
+				<LengthZ>400</LengthZ>
+				<Position>179.556305,45.9704018,585.848511</Position>
+				<Direction>0,0,1</Direction>
+				<Color>102,45,145</Color>
+			</HelperAreaBoxObject>
+			<HelperAreaBoxObject>
+				<Name>ScarabRampCommandos</Name>
+				<ID>5032</ID>
+				<Group>1</Group>
+				<HalfLengthX>100</HalfLengthX>
+				<HalfLengthY>50</HalfLengthY>
+				<HalfLengthZ>50</HalfLengthZ>
+				<LengthX>200</LengthX>
+				<LengthY>100</LengthY>
+				<LengthZ>100</LengthZ>
+				<Position>227.110703,44.6169014,638.096375</Position>
+				<Direction>0,0,1</Direction>
+				<Color>255,255,255</Color>
+			</HelperAreaBoxObject>
+		</HelperAreaBoxes>
+		<HelpePositions>
+			<HelpePositionObject>
+				<Name>Position4531</Name>
+				<ID>4531</ID>
+				<Group>-1</Group>
+				<Position>510.819214,205.053894,510.834503</Position>
+			</HelpePositionObject>
+		</HelpePositions>
+		<EditorOnlyObjects />
+	</EditorOnlyData>
+	<SimBoundsMinX>0</SimBoundsMinX>
+	<SimBoundsMinZ>0</SimBoundsMinZ>
+	<SimBoundsMaxX>1024</SimBoundsMaxX>
+	<SimBoundsMaxZ>1024</SimBoundsMaxZ>
+	<SoundBank>scenario_13.bnk</SoundBank>
+	<SoundBank>amb_shield_int.bnk</SoundBank>
+	<EnvironmentReverbPreset>Reverb_Valley</EnvironmentReverbPreset>
+	<ScenarioWorld />
+	<AllowVeterancy>true</AllowVeterancy>
+</Scenario>

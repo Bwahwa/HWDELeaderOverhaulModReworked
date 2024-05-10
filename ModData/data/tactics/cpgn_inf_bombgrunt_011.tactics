@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<TacticData>
+	<Weapon>
+		<Name>Bomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>5760</DamagePerSecond>
+		<UseDPSasDPA />
+		<WeaponType>MediumExplosive</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<ImpactEffect size="Large">Rhinoshell</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>CorrosiveBomb</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>5760</DamagePerSecond>
+		<DOTrate>90</DOTrate>
+		<DOTduration>10</DOTduration>
+		<UseDPSasDPA />
+		<WeaponType>MediumExplosive</WeaponType>
+		<Projectile>fx_proj_suicide_plasmaGrenade_02</Projectile>
+		<DOTEffect small="fx_proj_acidburnSm_01" medium="fx_proj_acidburnMed_01" large="fx_proj_acidburnLg_01" />
+		<ImpactEffect size="Large">Rhinoshell</ImpactEffect>
+		<MaxRange>4</MaxRange>
+		<AOERadius>12</AOERadius>
+		<AOEPrimaryTargetFactor>0</AOEPrimaryTargetFactor>
+		<AOEDistanceFactor>0.75</AOEDistanceFactor>
+		<AOEDamageFactor>0.75</AOEDamageFactor>
+		<ThrowUnits />
+		<PhysicsLaunchAngleMin>15</PhysicsLaunchAngleMin>
+		<PhysicsLaunchAngleMax>75</PhysicsLaunchAngleMax>
+		<PhysicsForceMin>500</PhysicsForceMin>
+		<PhysicsForceMax>700</PhysicsForceMax>
+	</Weapon>
+	<Weapon>
+		<Name>None</Name>
+		<AttackRate>1</AttackRate>
+		<DamagePerSecond>0</DamagePerSecond>
+		<WeaponType>Explosive</WeaponType>
+		<MaxRange>1</MaxRange>
+	</Weapon>
+	<Action>
+		<Name>Detonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>Bomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Action>
+		<Name>CorrosiveDetonate</Name>
+		<ActionType>Detonate</ActionType>
+		<Weapon>CorrosiveBomb</Weapon>
+		<DetonateWhenInRange>true</DetonateWhenInRange>
+	</Action>
+	<Action>
+		<Name>RunAtAttackAction</Name>
+		<ActionType>HandAttack</ActionType>
+		<Anim>None</Anim>
+		<Weapon>None</Weapon>
+		<MainAttack />
+	</Action>
+	<Action>
+		<Name>GatherSupplies</Name>
+		<ActionType>Gather</ActionType>
+		<Anim>Gather</Anim>
+		<Resource>Supplies</Resource>
+		<WorkRate>2.5</WorkRate>
+		<WorkRange>3</WorkRange>
+		<RestrictedAutoTarget>true</RestrictedAutoTarget>
+	</Action>
+	<Tactic>
+		<PersistentAction>Detonate</PersistentAction>
+		<TargetRule>
+			<Relation>Enemy</Relation>
+			<Action>RunAtAttackAction</Action>
+		</TargetRule>
+	</Tactic>
+</TacticData>

@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TriggerSystem Name="unscSuppressiveBombardment1.triggerscript" Type="TriggerScript" NextTriggerVarID="33" NextTriggerID="4" NextConditionID="4" NextEffectID="12" External="false">
+	<TriggerVars>
+		<TriggerVar ID="1" Type="Trigger" Name="SetupVar" IsNull="false">1</TriggerVar>
+		<TriggerVar ID="2" Type="Player" Name="newPlayerVar" IsNull="false" />
+		<TriggerVar ID="3" Type="Power" Name="nullPowerVar" IsNull="true" />
+		<TriggerVar ID="4" Type="Squad" Name="nullSquadVar" IsNull="true" />
+		<TriggerVar ID="5" Type="SquadList" Name="nullSquadListVar" IsNull="true" />
+		<TriggerVar ID="6" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="7" Type="UnitList" Name="nullUnitListVar" IsNull="true" />
+		<TriggerVar ID="8" Type="Cost" Name="nullCostVar" IsNull="true" />
+		<TriggerVar ID="9" Type="Vector" Name="OriginalLocation" IsNull="false" />
+		<TriggerVar ID="10" Type="Trigger" Name="ProjectileLauncherVar" IsNull="false">2</TriggerVar>
+		<TriggerVar ID="11" Type="Float" Name="InnerRadius" IsNull="false" />
+		<TriggerVar ID="12" Type="Float" Name="OuterRadius" IsNull="false" />
+		<TriggerVar ID="13" Type="Bool" Name="TestObstructions" IsNull="false">false</TriggerVar>
+		<TriggerVar ID="14" Type="Bool" Name="TestPathing" IsNull="false">false</TriggerVar>
+		<TriggerVar ID="15" Type="ProtoObject" Name="nullProtoObjectVar" IsNull="true" />
+		<TriggerVar ID="16" Type="ProtoSquad" Name="nullProtoSquadVar" IsNull="true" />
+		<TriggerVar ID="17" Type="Vector" Name="RandomLocation" IsNull="false" />
+		<TriggerVar ID="18" Type="Vector" Name="GroundTargetLoc" IsNull="false" />
+		<TriggerVar ID="19" Type="Float" Name="nullFloatVar" IsNull="true" />
+		<TriggerVar ID="20" Type="Float" Name="AdjustY" IsNull="false">40</TriggerVar>
+		<TriggerVar ID="21" Type="Float" Name="nullFloatVar" IsNull="true" />
+		<TriggerVar ID="22" Type="Vector" Name="nullVectorVar" IsNull="true" />
+		<TriggerVar ID="23" Type="Bool" Name="nullBoolVar" IsNull="true" />
+		<TriggerVar ID="24" Type="Vector" Name="ProjectileSpawnLoc" IsNull="false" />
+		<TriggerVar ID="25" Type="ProtoObject" Name="newProtoObjectVar" IsNull="false">fx_proj_plasmaMortar_01</TriggerVar>
+		<TriggerVar ID="26" Type="Unit" Name="nullUnitVar" IsNull="true" />
+		<TriggerVar ID="27" Type="Float" Name="nullFloatVar" IsNull="true" />
+		<TriggerVar ID="28" Type="Integer" Name="StartingNumProjectilesLaunched" IsNull="false">0</TriggerVar>
+		<TriggerVar ID="29" Type="Integer" Name="NumProjectilesLaunched" IsNull="false" />
+		<TriggerVar ID="30" Type="Trigger" Name="NewTrigger2Var" IsNull="false">3</TriggerVar>
+		<TriggerVar ID="31" Type="Operator" Name="newOperatorVar" IsNull="false">GreaterThanOrEqualTo</TriggerVar>
+		<TriggerVar ID="32" Type="Integer" Name="MaxProjectiles" IsNull="false">15</TriggerVar>
+	</TriggerVars>
+	<Triggers>
+		<Trigger ID="1" Name="Setup" Active="true" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="218" Y="14" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="1" Type="CanRetrieveExternals" DBID="192" Version="2" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="ExternPlayer" SigID="1" Optional="true">2</Output>
+						<Output Name="ExternPower" SigID="2" Optional="true">3</Output>
+						<Output Name="ExternSquad" SigID="3" Optional="true">4</Output>
+						<Output Name="ExternSquadList" SigID="7" Optional="true">5</Output>
+						<Output Name="ExternUnit" SigID="4" Optional="true">6</Output>
+						<Output Name="ExternUnitList" SigID="6" Optional="true">7</Output>
+						<Output Name="ExternCost" SigID="5" Optional="true">8</Output>
+					</Condition>
+					<Condition ID="2" Type="CanRetrieveExternalLocation" DBID="440" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Output Name="Location" SigID="1" Optional="false">9</Output>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="10" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">10</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="11" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="2" Name="ProjectileLauncher" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="false" X="908" Y="1" GroupID="-1">
+			<TriggerConditions>
+				<And />
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="1" Type="RandomLocation" DBID="55" Version="4" CommentOut="false">
+					<Input Name="OrigLocation" SigID="1" Optional="false">9</Input>
+					<Input Name="InnerRadius" SigID="2" Optional="true">11</Input>
+					<Input Name="OuterRadius" SigID="4" Optional="false">12</Input>
+					<Input Name="TestObstructions" SigID="5" Optional="true">13</Input>
+					<Input Name="TestPathing" SigID="6" Optional="true">14</Input>
+					<Input Name="TestProtoObject" SigID="7" Optional="true">15</Input>
+					<Input Name="TestProtoSquad" SigID="8" Optional="true">16</Input>
+					<Output Name="RandLocation" SigID="3" Optional="false">17</Output>
+				</Effect>
+				<Effect ID="2" Type="LocationTieToGround" DBID="58" Version="1" CommentOut="false">
+					<Input Name="SourceLocation" SigID="1" Optional="false">17</Input>
+					<Output Name="GroundLocation" SigID="2" Optional="false">18</Output>
+				</Effect>
+				<Effect ID="3" Type="LocationAdjust" DBID="59" Version="3" CommentOut="false">
+					<Input Name="SourceLoc" SigID="1" Optional="false">17</Input>
+					<Input Name="AdjustX" SigID="2" Optional="true">19</Input>
+					<Input Name="AdjustY" SigID="4" Optional="true">20</Input>
+					<Input Name="AdjustZ" SigID="5" Optional="true">21</Input>
+					<Input Name="AdjustVector" SigID="6" Optional="true">22</Input>
+					<Input Name="UseMultiply" SigID="7" Optional="true">23</Input>
+					<Output Name="ResultLoc" SigID="3" Optional="false">24</Output>
+				</Effect>
+				<Effect ID="4" Type="LaunchProjectile" DBID="57" Version="3" CommentOut="false">
+					<Input Name="ProjectileOwner" SigID="1" Optional="false">2</Input>
+					<Input Name="ProjectileProto" SigID="2" Optional="false">25</Input>
+					<Input Name="StartLoc" SigID="3" Optional="false">24</Input>
+					<Input Name="TargetLoc" SigID="4" Optional="true">18</Input>
+					<Input Name="TargetUnit" SigID="5" Optional="true">26</Input>
+					<Input Name="DamageOverride" SigID="6" Optional="true">27</Input>
+				</Effect>
+				<Effect ID="5" Type="IntIncrement" DBID="52" Version="1" CommentOut="false">
+					<Input Name="OriginalInt" SigID="1" Optional="false">28</Input>
+					<Output Name="IncrementedInt" SigID="2" Optional="false">29</Output>
+				</Effect>
+				<Effect ID="8" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">30</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="9" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+		<Trigger ID="3" Name="NewTrigger2" Active="false" EvaluateFrequency="0" EvalLimit="0" CommentOut="false" ConditionalTrigger="true" X="4573" Y="106" GroupID="-1">
+			<TriggerConditions>
+				<And>
+					<Condition ID="3" Type="CompareInteger" DBID="14" Version="1" CommentOut="false" Invert="false" Async="false" AsyncParameterKey="0">
+						<Input Name="FirstInteger" SigID="1" Optional="false">29</Input>
+						<Input Name="CompareType" SigID="2" Optional="false">31</Input>
+						<Input Name="SecondInteger" SigID="3" Optional="false">32</Input>
+					</Condition>
+				</And>
+			</TriggerConditions>
+			<TriggerEffectsOnTrue>
+				<Effect ID="6" Type="TriggerActivate" DBID="31" Version="1" CommentOut="false">
+					<Input Name="Trigger" SigID="1" Optional="false">10</Input>
+				</Effect>
+			</TriggerEffectsOnTrue>
+			<TriggerEffectsOnFalse>
+				<Effect ID="7" Type="Shutdown" DBID="56" Version="1" CommentOut="false" />
+			</TriggerEffectsOnFalse>
+		</Trigger>
+	</Triggers>
+</TriggerSystem>

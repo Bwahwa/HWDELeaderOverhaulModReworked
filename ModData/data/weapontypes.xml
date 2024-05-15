@@ -1,0 +1,775 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<WeaponTypes>
+	 <!--Basics-->
+	<WeaponType>
+		<Name>Basic</Name>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.15</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.8</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.6</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.3</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.15</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SmallArms</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1.25</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.15</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.85</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavySmallArms</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.15</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.85</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.25</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>SmallArmsPlasma</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1.25</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.15</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.85</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavySmallArmsPlasma</Name>
+		<DeathAnimation>DeathByMachinegun</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.85</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	 <!--AntiInfantry-->
+	<WeaponType>
+		<Name>SniperRifle</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">4</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.15</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.875</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.75</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>DMR</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.2</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.625</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Shotgun</Name>
+		<DamageModifier rating="1" type="LightInfantry">4</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">4</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.05</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Needler</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">4</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Building">0</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavyNeedler</Name>
+		<DeathAnimation>DeathByHeadshot</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1.75</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.45</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.15</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">4</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">3</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.25</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.45</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Fire</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">4</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">2.5</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavyFire</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">2.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">2.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1.75</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">4</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">2.5</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	 <!--AntiVehicle-->
+	<WeaponType>
+		<Name>Electricity</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">0.75</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.45</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.45</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MediumRailgun</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.25</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavyRailgun</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">4</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">3.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">4</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">3</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<!--Explosives-->
+	<WeaponType>
+		<Name>LightExplosive</Name>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.7</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.4</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1.1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.7</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MediumExplosive</Name>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">2.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">2.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.8</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavyExplosive</Name>
+		<DamageModifier rating="1" type="LightInfantry">1.4</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">1.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1.2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">2.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">2.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">2.4</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">1.2</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">2.3</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">1.1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">2.2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">1.4</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>Missile</Name>
+		<DeathAnimation>DeathByMelee</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.7</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">2.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">2.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">1.75</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.8</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	 <!--Melee-->
+	<WeaponType>
+		<Name>Sword</Name>
+		<DamageModifier rating="1" type="LightInfantry">4</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">4</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">1</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.25</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>BuildingKillerMelee</Name>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.8</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.7</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.25</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.125</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.875</DamageModifier>
+		<DamageModifier rating="1" type="Building">1.6</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>InfectionForm</Name>
+		<DamageModifier rating="1" type="LightInfantry">4</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">3.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">1.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">1.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.05</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.01</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.2</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.1</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Building">0</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>FloodLightMelee</Name>
+		<DamageModifier rating="1" type="LightInfantry">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">1.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>FloodHeavyMelee</Name>
+		<DamageModifier rating="1" type="LightInfantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">1.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.75</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.1</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>CarrierForm</Name>
+		<DamageModifier rating="1" type="LightInfantry">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">2.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">2.75</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">2.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.4</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">3</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">3</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">2.5</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.5</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+        <Name>EggLightExplosive</Name>
+        <DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+        <DamageModifier rating="1" type="LightInfantryInCover">1</DamageModifier>
+        <DamageModifier rating="1" type="MediumInfantry">0.9</DamageModifier>
+        <DamageModifier rating="1" type="MediumInfantryInCover">0.9</DamageModifier>
+        <DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+        <DamageModifier rating="1" type="HeavyInfantryInCover">0.8</DamageModifier>
+        <DamageModifier rating="1" type="LightVehicle">2</DamageModifier>
+        <DamageModifier rating="1" type="MediumVehicle">1.5</DamageModifier>
+        <DamageModifier rating="1" type="HeavyVehicle">1</DamageModifier>
+        <DamageModifier rating="1" type="UberVehicle">0.5</DamageModifier>
+        <DamageModifier rating="1" type="LightAir">0.75</DamageModifier>
+        <DamageModifier rating="1" type="MediumAir">0.6</DamageModifier>
+        <DamageModifier rating="1" type="HeavyAir">0.4</DamageModifier>
+        <DamageModifier rating="1" type="LightFlood">1.7</DamageModifier>
+        <DamageModifier rating="1" type="LightFloodInCover">1</DamageModifier>
+        <DamageModifier rating="1" type="MediumFlood">1.4</DamageModifier>
+        <DamageModifier rating="1" type="MediumFloodInCover">0.9</DamageModifier>
+        <DamageModifier rating="1" type="HeavyFlood">1.1</DamageModifier>
+        <DamageModifier rating="1" type="HeavyFloodInCover">0.8</DamageModifier>
+        <DamageModifier rating="1" type="UberFlood">0.7</DamageModifier>
+        <DamageModifier rating="1" type="Building">0</DamageModifier>
+        <DamageModifier rating="1" type="Shielded">1</DamageModifier>
+    </WeaponType>
+	 <!--Beams-->
+	<WeaponType>
+		<Name>LocustBeam</Name>
+		<DeathAnimation>DeathByFire</DeathAnimation>
+		<DamageModifier rating="1" type="LightInfantry">1</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry">0.9</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry">0.8</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover">0.6</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle">0.8</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle">0.5</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">0.9</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">0.8</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">1.3</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">1.15</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">0.7</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">0.85</DamageModifier>
+		<DamageModifier rating="1" type="Building">2</DamageModifier>
+		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
+	</WeaponType>
+	 <!--Ram-->
+	<WeaponType>
+		<Name>LightRam</Name>
+		<DamageModifier rating="1" type="LightInfantry" reflectDamageFactor="0.2" bowlable="true">1.25</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry" reflectDamageFactor="0.4" bowlable="true">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.6" bowlable="true">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle" reflectDamageFactor="1" rammable="true">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle" reflectDamageFactor="2" rammable="true">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle" reflectDamageFactor="4" rammable="true">0.1</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle" reflectDamageFactor="8" rammable="true">0</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood" reflectDamageFactor="0.1" bowlable="true">1.25</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood" reflectDamageFactor="0.2" bowlable="true">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood" reflectDamageFactor="0.6" bowlable="true">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood" reflectDamageFactor="4" rammable="true">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="3" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0.2" rammable="true">1.8</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>MediumRam</Name>
+		<DamageModifier rating="1" type="LightInfantry" reflectDamageFactor="0.15" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry" reflectDamageFactor="0.3" bowlable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.45" bowlable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle" reflectDamageFactor="0.5" rammable="true">0.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle" reflectDamageFactor="1" rammable="true">0.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle" reflectDamageFactor="2" rammable="true">0.1</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle" reflectDamageFactor="4" rammable="true">0</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood" reflectDamageFactor="0.15" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood" reflectDamageFactor="0.3" bowlable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood" reflectDamageFactor="0.45" bowlable="true">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood" reflectDamageFactor="3" rammable="true">0.1</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="2" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0.2" rammable="true">1.8</DamageModifier>
+	</WeaponType>
+	<WeaponType>
+		<Name>HeavyRam</Name>
+		<DamageModifier rating="1" type="LightInfantry" reflectDamageFactor="0.1" bowlable="true">3</DamageModifier>
+		<DamageModifier rating="1" type="LightInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantry" reflectDamageFactor="0.2" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantry" reflectDamageFactor="0.3" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyInfantryInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="LightVehicle" reflectDamageFactor="0.5" rammable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="MediumVehicle" reflectDamageFactor="1" rammable="true">1.5</DamageModifier>
+		<DamageModifier rating="1" type="HeavyVehicle" reflectDamageFactor="2" rammable="true">0.75</DamageModifier>
+		<DamageModifier rating="1" type="UberVehicle" reflectDamageFactor="4" rammable="true">0.05</DamageModifier>
+		<DamageModifier rating="1" type="LightAir">1</DamageModifier>
+		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
+		<DamageModifier rating="1" type="HeavyAir">1</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood" reflectDamageFactor="0.1" bowlable="true">3</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood" reflectDamageFactor="0.2" bowlable="true">2.5</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood" reflectDamageFactor="0.3" bowlable="true">2</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover" reflectDamageFactor="0" bowlable="false">0.25</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood" reflectDamageFactor="3" rammable="true">0.75</DamageModifier>
+		<DamageModifier rating="1" type="Building" reflectDamageFactor="2" rammable="true">0.4</DamageModifier>
+		<DamageModifier rating="1" type="Shielded" reflectDamageFactor="0.2" rammable="true">1.8</DamageModifier>
+	</WeaponType>
+</WeaponTypes>

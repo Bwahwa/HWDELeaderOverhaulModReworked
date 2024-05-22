@@ -988,7 +988,7 @@
 				<Data type="float" name="TeleportTime">0.3</Data>
 				<Data type="float" name="TeleportLateralDistance">5</Data>
 				<Data type="float" name="TeleportJumpDistance">10</Data>
-				<Data type="float" name="TimeBetweenRetarget">5</Data>
+				<Data type="float" name="TimeBetweenRetarget">2.5</Data>
 				<Data type="float" name="MotionBlurAmount">0.25</Data>
 				<Data type="float" name="MotionBlurDistance">0.3</Data>
 				<Data type="float" name="MotionBlurTime">0.35</Data>

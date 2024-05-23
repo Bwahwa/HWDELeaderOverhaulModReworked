@@ -49806,9 +49806,9 @@
 		<Bounty>0.1</Bounty>
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<SubSelectSort>499</SubSelectSort>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
@@ -49835,6 +49835,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>DoNotFilterOrient</Flag>
+		<Flag>NonCollideable</Flag>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="fld_inf_InfectionForm_02" id="0" dbid="3757">
@@ -49858,9 +49859,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -49886,6 +49887,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>DoNotFilterOrient</Flag>
+		<Flag>NonCollideable</Flag>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="fld_inf_InfectionForm_03" id="0" dbid="232">
@@ -49908,9 +49910,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -49936,6 +49938,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>DoNotFilterOrient</Flag>
+		<Flag>NonCollideable</Flag>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="fld_inf_InfectionForm_04" id="0" dbid="3757">
@@ -49959,9 +49962,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -49987,6 +49990,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>DoNotFilterOrient</Flag>
+		<Flag>NonCollideable</Flag>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="fld_inf_InfectionForm_05" id="0" dbid="3757">
@@ -50010,9 +50014,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -50038,6 +50042,7 @@
 		<Flag>HasHPBar</Flag>
 		<Flag>OrientUnitWithGround</Flag>
 		<Flag>DoNotFilterOrient</Flag>
+		<Flag>NonCollideable</Flag>
 		<HPBar>UNSC_Health</HPBar>
 	</Object>
 	<Object name="fld_inf_builderForm_01" id="0" dbid="232">

@@ -35372,9 +35372,6 @@
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">heretic_inf_leader_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_tartarus_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_gruntdeacon_01</Object>
 		</ChildObjects>
 		<Sound Type="Create">play_vog_building_leadertemple</Sound>
@@ -35494,9 +35491,6 @@
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">heretic_inf_leader_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_tartarus_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_gruntdeacon_01</Object>
 		</ChildObjects>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -35610,8 +35604,6 @@
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">heretic_inf_leader_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_tartarus_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_gruntdeacon_01</Object>
 		</ChildObjects>
 		<Sound Type="Death">play_cov_banshee_death</Sound>
@@ -35729,9 +35721,6 @@
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">heretic_inf_leader_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_tartarus_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_gruntdeacon_01</Object>
 			<Object Type="Socket" Offset="0,0,22" Rotation="0">cov_bldg_turretSocket_02</Object>
 			<Object Type="Socket" Offset="0,0,-9" Rotation="45">cov_bldg_powernode_02</Object>
@@ -35865,9 +35854,6 @@
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">heretic_inf_leader_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_arbiter_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_tartarus_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_gruntdeacon_01</Object>
 			<Object Type="Socket" Offset="0,0,18" Rotation="0">cov_bldg_turretSocket_02</Object>
 			<Object Type="Socket" Offset="0,0,-9" Rotation="45">cov_bldg_powernode_02</Object>
@@ -35997,8 +35983,6 @@
 		<Command Type="Kill" Position="4" />
 		<ChildObjects>
 			<Object Type="OneTimeSpawnSquad">heretic_inf_leader_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_tartarus_01</Object>
-			<Object Type="OneTimeSpawnSquad">cov_inf_prophet_01</Object>
 			<Object Type="OneTimeSpawnSquad">cov_inf_gruntdeacon_01</Object>
 			<Object Type="Socket" Offset="0,0,18" Rotation="0">cov_bldg_turretSocket_02</Object>
 			<Object Type="Socket" Offset="0,0,-9" Rotation="45">cov_bldg_powernode_02</Object>

@@ -21935,7 +21935,7 @@
 		<Flag>ForceToGaiaPlayer</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -28759,7 +28759,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -28778,7 +28778,7 @@
 		<DeathFadeDelayTime>0</DeathFadeDelayTime>
 		<Flag>NoCorpse</Flag>
 		<Flag>IgnoreSquadAI</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>Immoveable</Flag>
@@ -28813,7 +28813,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -28851,7 +28851,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -28895,7 +28895,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -28949,7 +28949,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -28987,7 +28987,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29031,7 +29031,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29085,7 +29085,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29123,7 +29123,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29167,7 +29167,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29221,7 +29221,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29259,7 +29259,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29303,7 +29303,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29357,7 +29357,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29396,7 +29396,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29440,7 +29440,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29494,7 +29494,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29532,7 +29532,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29576,7 +29576,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29630,7 +29630,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29668,7 +29668,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29712,7 +29712,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29766,7 +29766,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29804,7 +29804,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -29848,7 +29848,7 @@
 		<Flag>IgnoreSquadAI</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>Obscurable</Flag>
-		<Flag>Noncollideable</Flag>
+		<Flag>NonCollideable</Flag>
 		<Flag>ForceCreateObstruction</Flag>
 		<Flag>Doppled</Flag>
 		<Flag>KBAware</Flag>
@@ -70264,7 +70264,7 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>NotSelectableWhenChildObject</Flag>
-		<Flag>NonCollidable</Flag>
+		<Flag>NonCollideable</Flag>
 	</Object>
 	<Object name="fx_proj_fldbomb_02" id="0" dbid="3667">
 		<PhysicsInfo>egg</PhysicsInfo>
@@ -70305,7 +70305,7 @@
 		<Flag>KBAware</Flag>
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>NotSelectableWhenChildObject</Flag>
-		<Flag>NonCollidable</Flag>
+		<Flag>NonCollideable</Flag>
 	</Object>
 	<Object name="fx_proj_fldbomb_03" id="0" dbid="3667">
 		<PhysicsInfo>egg</PhysicsInfo>
@@ -70346,7 +70346,7 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>NotSelectableWhenChildObject</Flag>
-		<Flag>NonCollidable</Flag>
+		<Flag>NonCollideable</Flag>
 	</Object>
 	<Object name="fx_proj_fldbomb_04" id="0" dbid="3667">
 		<PhysicsInfo>egg</PhysicsInfo>
@@ -70387,7 +70387,7 @@
 		<Flag>DontRotateObstruction</Flag>
 		<Flag>HasHPBar</Flag>
 		<Flag>NotSelectableWhenChildObject</Flag>
-		<Flag>NonCollidable</Flag>
+		<Flag>NonCollideable</Flag>
 	</Object>
 	<Object name="cpgn_scn02_forechasm_01" is="0" id="2349" dbid="3669">
 		<ObjectClass>Object</ObjectClass>

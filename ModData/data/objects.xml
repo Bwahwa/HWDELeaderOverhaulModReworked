@@ -49806,9 +49806,9 @@
 		<Bounty>0.1</Bounty>
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<SubSelectSort>499</SubSelectSort>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
@@ -49858,9 +49858,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -49908,9 +49908,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -49959,9 +49959,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>
@@ -50010,9 +50010,9 @@
 		<Tactics>fld_inf_InfectionForm_01.tactics</Tactics>
 		<SubSelectSort>499</SubSelectSort>
 		<RepairPoints>20</RepairPoints>
-		<ObstructionRadiusX>0.1</ObstructionRadiusX>
-		<ObstructionRadiusY>0.1</ObstructionRadiusY>
-		<ObstructionRadiusZ>0.1</ObstructionRadiusZ>
+		<ObstructionRadiusX>0.5</ObstructionRadiusX>
+		<ObstructionRadiusY>0.9</ObstructionRadiusY>
+		<ObstructionRadiusZ>0.5</ObstructionRadiusZ>
 		<PickRadius>1.5</PickRadius>
 		<PickOffset>0.8</PickOffset>
 		<PickPriority>Unit</PickPriority>

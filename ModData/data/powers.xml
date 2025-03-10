@@ -616,7 +616,7 @@
 	<Power name="SesFloodDrop">
 		<Attributes>
 			<Cost Supplies="400" Power="1" />
-			<AutoRecharge>180000</AutoRecharge>
+			<AutoRecharge>1.80000</AutoRecharge>
             <SequentialRecharge />
 			<PowerType>CarpetBombing</PowerType>
 			<UIRadius>35</UIRadius>
@@ -988,7 +988,7 @@
 				<Data type="float" name="TeleportTime">0.3</Data>
 				<Data type="float" name="TeleportLateralDistance">5</Data>
 				<Data type="float" name="TeleportJumpDistance">10</Data>
-				<Data type="float" name="TimeBetweenRetarget">2.5</Data>
+				<Data type="float" name="TimeBetweenRetarget">1</Data>
 				<Data type="float" name="MotionBlurAmount">0.25</Data>
 				<Data type="float" name="MotionBlurDistance">0.3</Data>
 				<Data type="float" name="MotionBlurTime">0.35</Data>

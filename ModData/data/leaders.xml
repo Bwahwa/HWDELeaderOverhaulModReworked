@@ -58,7 +58,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="125">30</Pop>
-		<Pop Type="Spartan" Max="5">5</Pop>
+		<Pop Type="Spartan" Max="3">4</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="MiniBaseFieldArmory" Max="1">1</Pop>
 		<Pop Type="Hologram" Max="1">1</Pop>
@@ -85,7 +85,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="125">30</Pop>
-		<Pop Type="Spartan" Max="5">5</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="MiniBaseFieldArmory" Max="1">1</Pop>
 		<Pop Type="Hologram" Max="1">1</Pop>
@@ -112,7 +112,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="125">30</Pop>
-		<Pop Type="Spartan" Max="5">5</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="MiniBaseFieldArmory" Max="1">1</Pop>
 		<Pop Type="Hologram" Max="1">1</Pop>
@@ -139,7 +139,7 @@
 		<RepairCost Type="Supplies">35</RepairCost>
 		<RepairTime>30</RepairTime>
 		<Pop Type="Unit" Max="125">30</Pop>
-		<Pop Type="Spartan" Max="5">5</Pop>
+		<Pop Type="Spartan" Max="3">3</Pop>
 		<Pop Type="OmegaTeam" Max="3">3</Pop>
 		<Pop Type="Leader" Max="1">1</Pop>
 		<Pop Type="MiniBaseFieldArmory" Max="1">1</Pop>

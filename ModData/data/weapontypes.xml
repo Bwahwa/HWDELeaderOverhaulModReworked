@@ -795,7 +795,7 @@
 		<DamageModifier rating="1" type="HeavyFlood">1</DamageModifier>
 		<DamageModifier rating="1" type="HeavyFloodInCover">0.15</DamageModifier>
 		<DamageModifier rating="1" type="UberFlood">0.75</DamageModifier>
-		<DamageModifier rating="1" type="Building">0</DamageModifier>
+		<DamageModifier rating="1" type="Building">0.01</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 	</WeaponType>
 </WeaponTypes>

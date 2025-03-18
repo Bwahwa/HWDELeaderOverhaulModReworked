@@ -1422,8 +1422,8 @@
 	</Power>
 	<Power name="UnscLeaderCryo">
 		<Attributes>
-			<Cost Supplies="600" Power="1" />
-			<AutoRecharge>180000</AutoRecharge>
+			<Cost Supplies="200" Power="1" />
+			<AutoRecharge>150000</AutoRecharge>
 			<PowerType>Cryo</PowerType>
 			<UIRadius>35</UIRadius>
 			<DisplayNameID>5002</DisplayNameID>
@@ -1606,8 +1606,8 @@
 	<Power name="UnscLeaderOrbitalBombard">
 		<Attributes>
 			<PowerType>Orbital</PowerType>
-			<Cost Supplies="600" Power="1" />
-			<AutoRecharge>180000</AutoRecharge>
+			<Cost Supplies="1000" Power="1" />
+			<AutoRecharge>210000</AutoRecharge>
 			<UIRadius>18</UIRadius>
 			<DisplayNameID>5026</DisplayNameID>
 			<RolloverTextID>5027</RolloverTextID>
@@ -1656,6 +1656,7 @@
 				<Data type="protoobject" name="Projectile">pow_gp_macCannonSmall</Data>
 				<Data type="protoobject" name="Effect">pow_gp_macCannonVisualSmall</Data>
 				<Data type="int" name="NumShots">1</Data>
+				<AutoRecharge>180000</AutoRecharge>
 			</DataLevel>
 			<DataLevel level="1">
 				<Data type="protoobject" name="Projectile">pow_gp_macCannonSmall</Data>

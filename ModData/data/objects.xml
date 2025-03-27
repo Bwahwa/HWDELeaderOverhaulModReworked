@@ -36040,12 +36040,12 @@
 		<RolloverTextID>10105</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<MovementType>Land</MovementType>
-		<Hitpoints>7000</Hitpoints>
+		<Hitpoints>3500</Hitpoints>
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>
 		<Cost resourcetype="Supplies">350</Cost>
 		<Cost resourcetype="Power">1</Cost>
-		<Pop Type="Unit">3</Pop>
+		<Pop Type="ShadeTurret">9</Pop>
 		<Bounty>5</Bounty>
 		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="90" yawattachment="turret" />
 		<Veterancy Level="1" XP="15" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />

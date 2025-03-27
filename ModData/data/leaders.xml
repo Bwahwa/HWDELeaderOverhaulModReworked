@@ -308,6 +308,7 @@
 		<Pop Type="MegaTurret" Max="1">1</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 		<Pop Type="Experimental" Max="2">2</Pop>
+		<Pop Type="ShadeTurret" Max="9">9</Pop>
 	</Leader>
 	<Leader Name="Heretics" Icon="ui\game\icon\covenant\leader\heretics" Alpha="0" LeaderPickerOrder="12" StatsID="12" DefaultPlayerSlotFlags="0x8">
 		<Civ>Heretic</Civ>

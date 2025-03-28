@@ -15450,7 +15450,7 @@
 		<AbilityCommand>cpgnUnload</AbilityCommand>
 		<Command Type="Research" Position="0">cov_spiritdocked_02_upgrade2</Command>
 		<Command Type="TrainSquad" Position="7">cov_bldg_sniperplatform_01</Command>
-		<Command Type="TrainSquad" Position="6">cov_bldg_shadeTurret_01</Command>
+		<Command Type="TrainSquad" Position="6">cov_bldg_shadeturret_01</Command>
 		<Contain>Transportable</Contain>
 		<MaxContained>1</MaxContained>
 		<DamageType direction="Full">Shielded</DamageType>
@@ -36030,7 +36030,7 @@
 		<BuildOffset>-7.5,0,0</BuildOffset>
 	</Object>
 <!--End of Minibase Temple-->
-	<Object name="cov_bldg_shadeTurret_01" id="0" dbid="187">
+	<Object name="cov_bldg_shadeturret_01" id="0" dbid="187">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\shadeturret_01\shadeturret_01.vis</Visual>
 		<PhysicsInfo>cov_bldg_shadeturret_01</PhysicsInfo>
@@ -36091,7 +36091,7 @@
 		<Flag>ChildForDamageTakenScalar</Flag>
 		<HPBar>COV_Bldg_Health</HPBar>
 	</Object>
-	<Object name="cov_bldg_shadeTurret_03" id="0" dbid="187">
+	<Object name="cov_bldg_shadeturret_03" id="0" dbid="187">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\shadeturret_02\shadeturret_02.vis</Visual>
 		<PhysicsInfo>cov_bldg_shadeturret_01</PhysicsInfo>
@@ -36225,7 +36225,7 @@
 		<Flag>Repairable</Flag>
 		<HPBar>COV_Health</HPBar>
 	</Object>
-	<Object name="cov_bldg_shadeTurret_02" id="0" dbid="2971">
+	<Object name="cov_bldg_shadeturret_02" id="0" dbid="2971">
 		<ObjectClass>Building</ObjectClass>
 		<Visual>covenant\building\shadeturret_01\shadeturret_01.vis</Visual>
 		<PhysicsInfo>cov_bldg_shadeturret_01</PhysicsInfo>

@@ -4866,7 +4866,7 @@
 		<TriggerVar ID="15560" Type="KBSquadList" Name="FailedKBSquadListVar3" IsNull="true" />
 		<TriggerVar ID="15572" Type="ObjectTypeList" Name="" IsNull="false">_Building</TriggerVar>
 		<TriggerVar ID="15573" Type="Bool" Name="" IsNull="false">True</TriggerVar>
-		<TriggerVar ID="15575" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_shadeTurret_01,cov_bldg_shadeTurret_02,cov_bldg_turret_01,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01,unsc_bldg_turret_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01</TriggerVar>
+		<TriggerVar ID="15575" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_shadeturret_01,cov_bldg_shadeturret_02,cov_bldg_turret_01,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01,unsc_bldg_turret_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01</TriggerVar>
 		<TriggerVar ID="15576" Type="Bool" Name="" IsNull="false">True</TriggerVar>
 		<TriggerVar ID="15578" Type="ObjectTypeList" Name="" IsNull="false">_Base</TriggerVar>
 		<TriggerVar ID="15579" Type="Bool" Name="InvertVar5" IsNull="true">False</TriggerVar>
@@ -6821,7 +6821,7 @@
 		<TriggerVar ID="20016" Type="Trigger" Name="TriggerVar1057" IsNull="false">2396</TriggerVar>
 		<TriggerVar ID="20017" Type="ProtoObject" Name="" IsNull="false">unsc_bldg_turret_01</TriggerVar>
 		<TriggerVar ID="20018" Type="ProtoObject" Name="hookTurretType" IsNull="false" />
-		<TriggerVar ID="20019" Type="ProtoObject" Name="" IsNull="false">cov_bldg_shadeTurret_01</TriggerVar>
+		<TriggerVar ID="20019" Type="ProtoObject" Name="" IsNull="false">cov_bldg_shadeturret_01</TriggerVar>
 		<TriggerVar ID="20021" Type="Trigger" Name="TriggerVar1058" IsNull="false">2397</TriggerVar>
 		<TriggerVar ID="20022" Type="Operator" Name="" IsNull="false">GreaterThan</TriggerVar>
 		<TriggerVar ID="20023" Type="Time" Name="" IsNull="false">70000.0234</TriggerVar>

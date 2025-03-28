@@ -8579,7 +8579,7 @@
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
 		<VeterancyBar Centered="UNSC_Star_Centered">UNSC_Star</VeterancyBar>
 		<Units>
-			<Unit count="1" role="normal">cov_bldg_shadeturret_02</Unit>
+			<Unit count="1" role="normal">cov_bldg_shadeturret_01</Unit>
 		</Units>
 		<Sound Type="StartMove">play_ani_cov_grunts_walk</Sound>
 		<Sound Type="StopMove">stop_ani_cov_grunts_move</Sound>

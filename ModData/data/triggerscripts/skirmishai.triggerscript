@@ -1910,7 +1910,7 @@
 		<TriggerVar ID="1856" Type="Trigger" Name="" IsNull="false">1963</TriggerVar>
 		<TriggerVar ID="1857" Type="KBSquadFilterSet" Name="" IsNull="false" />
 		<TriggerVar ID="1858" Type="KBSquadList" Name="" IsNull="true" />
-		<TriggerVar ID="1859" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_shadeTurret_01,cov_bldg_shadeTurret_02,cov_bldg_turret_01,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01,unsc_bldg_turret_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01,unsc_bldg_watchtower_01,cov_bldg_sniperplatform_01</TriggerVar>
+		<TriggerVar ID="1859" Type="ObjectTypeList" Name="" IsNull="false">cov_bldg_shadeturret_01,cov_bldg_shadeturret_02,cov_bldg_turret_01,cov_bldg_turretAA_01,cov_bldg_turretAI_01,cov_bldg_turretAV_01,unsc_bldg_turret_01,unsc_bldg_turretAA_01,unsc_bldg_turretAI_01,unsc_bldg_turretAV_01,unsc_bldg_watchtower_01,cov_bldg_sniperplatform_01</TriggerVar>
 		<TriggerVar ID="1860" Type="Integer" Name="" IsNull="false" />
 		<TriggerVar ID="1861" Type="Trigger" Name="" IsNull="false">1969</TriggerVar>
 		<TriggerVar ID="1862" Type="Trigger" Name="" IsNull="false">1972</TriggerVar>
@@ -2425,7 +2425,7 @@
 		<TriggerVar ID="2371" Type="Trigger" Name="" IsNull="false">2396</TriggerVar>
 		<TriggerVar ID="2372" Type="ProtoObject" Name="" IsNull="false">unsc_bldg_turret_01</TriggerVar>
 		<TriggerVar ID="2373" Type="ProtoObject" Name="" IsNull="false" />
-		<TriggerVar ID="2374" Type="ProtoObject" Name="" IsNull="false">cov_bldg_shadeTurret_01</TriggerVar>
+		<TriggerVar ID="2374" Type="ProtoObject" Name="" IsNull="false">cov_bldg_shadeturret_01</TriggerVar>
 		<TriggerVar ID="2375" Type="Trigger" Name="" IsNull="false">2397</TriggerVar>
 		<TriggerVar ID="2376" Type="Time" Name="" IsNull="false">70000.02</TriggerVar>
 		<TriggerVar ID="2377" Type="Trigger" Name="" IsNull="false">2397</TriggerVar>

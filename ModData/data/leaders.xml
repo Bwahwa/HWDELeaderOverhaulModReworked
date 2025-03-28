@@ -305,7 +305,7 @@
 		<ReverseHotDropCost Type="Supplies">100</ReverseHotDropCost>
 		<Pop Type="Unit" Max="150">30</Pop>
 		<Pop Type="Leader" Max="3">3</Pop>
-		<Pop Type="MegaTurret" Max="1">1</Pop>
+		<Pop Type="MegaTurret" Max="2">2</Pop>
 		<Pop Type="Temple" Max="1">1</Pop>
 		<Pop Type="Experimental" Max="2">2</Pop>
 		<Pop Type="ShadeTurret" Max="9">9</Pop>

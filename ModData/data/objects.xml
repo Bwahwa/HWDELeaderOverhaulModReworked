@@ -5838,7 +5838,7 @@
 		<Velocity>12</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>2750</Hitpoints>
+		<Hitpoints>1375</Hitpoints>
 		<ShieldPoints>0</ShieldPoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
@@ -36239,7 +36239,6 @@
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>
-		<Pop Type="Shade">1</Pop>
 		<Bounty>5</Bounty>
 		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="90" yawattachment="turret" />
 		<RepairPoints>75</RepairPoints>

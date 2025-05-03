@@ -36239,6 +36239,7 @@
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>
+		<Pop Type="Shade">1</Pop>
 		<Bounty>5</Bounty>
 		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="90" yawattachment="turret" />
 		<RepairPoints>75</RepairPoints>

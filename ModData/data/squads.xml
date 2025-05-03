@@ -2059,7 +2059,7 @@
 		<RolloverTextID>99159</RolloverTextID>
 		<BuildPoints>15</BuildPoints>
 		<RoleTextID>519</RoleTextID>
-		<Cost resourcetype="Supplies">150</Cost>
+		<Cost resourcetype="Supplies">200</Cost>
 		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>4799</SubSelectSort>
 		<HPBar offset="0,8,0">COV_Health</HPBar>

@@ -36240,6 +36240,7 @@
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>
 		<Bounty>5</Bounty>
+		<Pop Type="ShadeTurret">1</Pop>
 		<Hardpoint name="Turret" autocenter="true" yawrate="180" pitchrate="180" pitchMinAngle="-90" pitchMaxAngle="90" yawattachment="turret" />
 		<RepairPoints>75</RepairPoints>
 		<Tactics>cov_bldg_shadeturret_01.tactics</Tactics>

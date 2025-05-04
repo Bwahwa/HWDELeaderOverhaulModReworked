@@ -36235,7 +36235,7 @@
 		<RolloverTextID>10105</RolloverTextID>
 		<RoleTextID>516</RoleTextID>
 		<MovementType>Land</MovementType>
-		<Hitpoints>5500</Hitpoints>
+		<Hitpoints>2750</Hitpoints>
 		<CombatValue>8</CombatValue>
 		<LOS>55</LOS>
 		<BuildPoints>15</BuildPoints>

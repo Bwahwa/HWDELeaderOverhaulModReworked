@@ -46,10 +46,10 @@
 		<FlashImg>orbital</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\cutter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_cutter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_03" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_warthogtroop_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -100,10 +100,10 @@
 		<FlashImg>oni</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\Anders.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_anders.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="unsc_bldg_command_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">unsc_veh_jackrabbit_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>

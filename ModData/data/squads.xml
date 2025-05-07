@@ -9373,7 +9373,7 @@
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>502</RoleTextID>
 		<BuildPoints>19</BuildPoints>
-		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Supplies">350</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>7001</SubSelectSort>
 		<LeashDistance>45</LeashDistance>

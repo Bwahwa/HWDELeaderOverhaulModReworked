@@ -31858,7 +31858,7 @@
 		<Velocity>30</Velocity>
 		<ReverseSpeed>15.0f</ReverseSpeed>
 		<TurnRate>120</TurnRate>
-		<Hitpoints>6391</Hitpoints>
+		<Hitpoints>7391</Hitpoints>
 		<AttackGradeDPS>165</AttackGradeDPS>
 		<CombatValue>10</CombatValue>
 		<LOS>55</LOS>

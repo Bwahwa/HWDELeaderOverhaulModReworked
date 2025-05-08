@@ -4402,7 +4402,7 @@
 		<MovementType>Scarab</MovementType>
 		<Velocity>15</Velocity>
 		<TurnRate>180</TurnRate>
-		<Shieldpoints>3450</Shieldpoints>
+		<Shieldpoints>9999</Shieldpoints>
 		<Hitpoints>2833</Hitpoints>
 		<AttackGradeDPS>252</AttackGradeDPS>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />
@@ -15357,7 +15357,7 @@
 		<BuildPoints>15</BuildPoints>
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">2</Cost>
-		<Pop Type="Unit">5</Pop>
+		<Pop Type="Unit">3</Pop>
 		<Sound Type="Create">play_cov_vampire_birth</Sound>
 		<Sound Type="Select">play_cov_vampire_select</Sound>
 		<Sound Type="Work">play_cov_vampire_acknowledge</Sound>
@@ -15521,7 +15521,7 @@
 		<BuildPoints>15</BuildPoints>
 		<Cost ResourceType="Supplies">350</Cost>
 		<Cost ResourceType="Power">2</Cost>
-		<Pop Type="Unit">5</Pop>
+		<Pop Type="Unit">4</Pop>
 		<Sound Type="Create">play_cov_vampire_birth</Sound>
 		<Sound Type="Select">play_cov_vampire_select</Sound>
 		<Sound Type="Work">play_cov_vampire_acknowledge</Sound>
@@ -31858,7 +31858,7 @@
 		<Velocity>30</Velocity>
 		<ReverseSpeed>15.0f</ReverseSpeed>
 		<TurnRate>120</TurnRate>
-		<Hitpoints>7391</Hitpoints>
+		<Hitpoints>6391</Hitpoints>
 		<AttackGradeDPS>165</AttackGradeDPS>
 		<CombatValue>10</CombatValue>
 		<LOS>55</LOS>
@@ -32112,7 +32112,7 @@
 		<Hardpoint name="TurbineRR" autocenter="true" yawrate="0" yawmaxangle="0" pitchrate="60" pitchMaxAngle="30" pitchMinAngle="-30" pitchattachment="Turbine RR" />
 		<Hitpoints>12500</Hitpoints>
 		<LOS>55</LOS>
-		<Pop Type="Unit">5</Pop>
+		<Pop Type="Unit">3</Pop>
 		<Bounty>36</Bounty>
 		<Veterancy Level="1" XP="72" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="180" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />

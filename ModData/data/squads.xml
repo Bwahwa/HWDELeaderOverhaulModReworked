@@ -8408,8 +8408,8 @@
 		<RoleTextID>509</RoleTextID>
 		<PrereqTextID>243</PrereqTextID>
 		<BuildPoints>15</BuildPoints>
-		<Cost resourcetype="Supplies">500</Cost>
-		<Cost resourcetype="Power">1</Cost>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,6,0">COV_Health</HPBar>
 		<Birth spawnpoint="bone_spawnPoint01">Flyin</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -8434,7 +8434,7 @@
 		<PrereqTextID>243</PrereqTextID>
 		<BuildPoints>15</BuildPoints>
 		<Cost resourcetype="Supplies">500</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Power">0</Cost>
 		<HPBar offset="0,6,0">COV_Health</HPBar>
 		<Birth spawnpoint="bone_spawnPoint01">Flyin</Birth>
 		<AbilityRecoveryBar Centered="UNSC_Ability_Centered">UNSC_Ability</AbilityRecoveryBar>
@@ -9308,8 +9308,8 @@
 		<PrereqTextID>233</PrereqTextID>
 		<RoleTextID>509</RoleTextID>
 		<BuildPoints>18</BuildPoints>
-		<Cost resourcetype="Supplies">500</Cost>
-		<Cost resourcetype="Power">2</Cost>
+		<Cost resourcetype="Supplies">300</Cost>
+		<Cost resourcetype="Power">1</Cost>
 		<SubSelectSort>7300</SubSelectSort>
 		<LeashDistance>15</LeashDistance>
 		<LeashDeadzone>5</LeashDeadzone>
@@ -9373,7 +9373,7 @@
 		<PrereqTextID>232</PrereqTextID>
 		<RoleTextID>502</RoleTextID>
 		<BuildPoints>19</BuildPoints>
-		<Cost resourcetype="Supplies">350</Cost>
+		<Cost resourcetype="Supplies">300</Cost>
 		<Cost resourcetype="Power">2</Cost>
 		<SubSelectSort>7001</SubSelectSort>
 		<LeashDistance>45</LeashDistance>

@@ -53,7 +53,7 @@
 	<Weapon>
 		<Name>RocketWeapon</Name>
 		<AttackRate>0.5</AttackRate>
-		<DamagePerSecond>375</DamagePerSecond>
+		<DamagePerSecond>1500</DamagePerSecond>
 		<UseDPSasDPA />
 		<WeaponType>MediumExplosive</WeaponType>
 		<Projectile>fx_proj_plasma_arty_large_01</Projectile>

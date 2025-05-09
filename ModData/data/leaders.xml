@@ -154,10 +154,10 @@
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\flood.ddx</FlashPortrait>
 		<FlashCivID>2</FlashCivID>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_Gravemind.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0, 0, 0" BuildOther="fld_bldg_gravemind_01" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">fld_inf_stalkerform_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -208,10 +208,10 @@
 		<FlashImg>arbiter</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\arbiter.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_arbiter.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -235,10 +235,10 @@
 		<FlashImg>bruteleader</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\brute.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_brutechief.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_brutechopper_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -263,10 +263,10 @@
 		<FlashImg>prophet</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\prophet.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_prophet.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>
@@ -291,10 +291,10 @@
 		<FlashImg>arbiter</FlashImg>
 		<FlashPortrait>img://art\ui\flash\shared\textures\pregame\leaderImages\grunt.ddx</FlashPortrait>
 		<UIControlBackground>img://art\ui\flash\shared\textures\leaders\LeaderPict_grunt.ddx</UIControlBackground>
-		<Resource Type="Supplies">800</Resource>
+		<Resource Type="Supplies">9999</Resource>
 		<Resource Type="Collectable">0</Resource>
 		<Resource Type="CampaignFoo">0</Resource>
-		<Resource Type="Power">0</Resource>
+		<Resource Type="Power">4</Resource>
 		<StartingUnit Offset="0,0,0" BuildOther="cov_bldg_builder_02" DoppleOnStart="true">game_base_socket_01</StartingUnit>
 		<StartingSquad FlyIn="false" Offset="60,0,-20">cov_veh_ghost_grunt_01</StartingSquad>
 		<RallyPointOffset>50,0,0</RallyPointOffset>

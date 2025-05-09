@@ -4402,7 +4402,7 @@
 		<MovementType>Scarab</MovementType>
 		<Velocity>15</Velocity>
 		<TurnRate>180</TurnRate>
-		<Shieldpoints>9999</Shieldpoints>
+		<Shieldpoints>3450</Shieldpoints>
 		<Hitpoints>2833</Hitpoints>
 		<AttackGradeDPS>252</AttackGradeDPS>
 		<Hardpoint name="Turret" autocenter="true" yawrate="90" pitchrate="90" pitchMinAngle="-30" pitchMaxAngle="75" yawattachment="Turret" pitchattachment="Turret" />

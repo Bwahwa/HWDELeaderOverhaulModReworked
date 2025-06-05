@@ -1216,7 +1216,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1400</Hitpoints>
+		<Hitpoints>1600</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -1288,7 +1288,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1400</Hitpoints>
+		<Hitpoints>1600</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -13650,7 +13650,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1900</Hitpoints>
+		<Hitpoints>2100</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -38774,11 +38774,11 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1151</Hitpoints>
+		<Hitpoints>1351</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">0.5</Pop>
 		<Bounty>3</Bounty>
 		<Veterancy Level="1" XP="6" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -38844,11 +38844,11 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1151</Hitpoints>
+		<Hitpoints>1351</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">0.5</Pop>
 		<Bounty>3</Bounty>
 		<Veterancy Level="1" XP="6" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="15" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -38917,7 +38917,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>2800</Hitpoints>
+		<Hitpoints>3200</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -38988,7 +38988,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>3800</Hitpoints>
+		<Hitpoints>4000</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39059,7 +39059,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>3800</Hitpoints>
+		<Hitpoints>4000</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39130,7 +39130,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>3800</Hitpoints>
+		<Hitpoints>4000</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39200,7 +39200,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1151</Hitpoints>
+		<Hitpoints>1351</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39270,11 +39270,11 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1151</Hitpoints>
+		<Hitpoints>1351</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
-		<Pop Type="Unit">1</Pop>
+		<Pop Type="Unit">0.5</Pop>
 		<Bounty>3</Bounty>
 		<Veterancy Level="1" XP="12" Damage="1.15" Velocity="1" Accuracy="1.6" WorkRate="1.2" WeaponRange="1" DamageTaken="0.87" />
 		<Veterancy Level="2" XP="30" Damage="1.25" Velocity="1" Accuracy="1.7" WorkRate="1.2" WeaponRange="1" DamageTaken="0.8" />
@@ -39340,7 +39340,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1400</Hitpoints>
+		<Hitpoints>1600</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39411,7 +39411,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>2200</Hitpoints>
+		<Hitpoints>2400</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39733,10 +39733,10 @@
 		<Sound Type="Attack">play_cov_hunter_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_hunter.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="FrontHalf" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="FrontHalf" mode="Cover">HeavyInfantryInCover</DamageType>
-		<DamageType direction="BackHalf" mode="Normal">MediumInfantry</DamageType>
-		<DamageType direction="BackHalf" mode="Cover">MediumInfantryInCover</DamageType>
+		<DamageType direction="FrontHalf" mode="Normal">UberVehicle</DamageType>
+		<DamageType direction="FrontHalf" mode="Cover">UberVehicle</DamageType>
+		<DamageType direction="BackHalf" mode="Normal">HeavyInfantry</DamageType>
+		<DamageType direction="BackHalf" mode="Cover">HeavyInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -40009,7 +40009,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>5350</Hitpoints>
+		<Hitpoints>5550</Hitpoints>
 		<Shieldpoints>3250</Shieldpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>

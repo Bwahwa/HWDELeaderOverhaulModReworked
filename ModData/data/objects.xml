@@ -1216,7 +1216,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1600</Hitpoints>
+		<Hitpoints>1920</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -1248,10 +1248,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -1288,7 +1288,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1600</Hitpoints>
+		<Hitpoints>1920</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -1320,10 +1320,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -13650,7 +13650,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>2100</Hitpoints>
+		<Hitpoints>2520</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -13682,10 +13682,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -38774,7 +38774,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1351</Hitpoints>
+		<Hitpoints>1621.2</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -38806,10 +38806,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -38844,7 +38844,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1351</Hitpoints>
+		<Hitpoints>1621.2</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -38876,10 +38876,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -38917,7 +38917,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>3200</Hitpoints>
+		<Hitpoints>3840</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -38949,10 +38949,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -38988,7 +38988,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>4000</Hitpoints>
+		<Hitpoints>4800</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39020,10 +39020,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39059,7 +39059,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>4000</Hitpoints>
+		<Hitpoints>4800</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39091,10 +39091,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39130,7 +39130,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>4000</Hitpoints>
+		<Hitpoints>4800</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39162,10 +39162,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39200,7 +39200,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1351</Hitpoints>
+		<Hitpoints>1621.2</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39232,10 +39232,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39270,7 +39270,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1351</Hitpoints>
+		<Hitpoints>1621.2</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39302,10 +39302,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39340,7 +39340,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>1600</Hitpoints>
+		<Hitpoints>1920</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39372,10 +39372,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39411,7 +39411,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>2400</Hitpoints>
+		<Hitpoints>2880</Hitpoints>
 		<AttackGradeDPS>54</AttackGradeDPS>
 		<CombatValue>3</CombatValue>
 		<LOS>55</LOS>
@@ -39443,10 +39443,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -39481,7 +39481,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>1114</Hitpoints>
+		<Hitpoints>1336.8</Hitpoints>
 		<AttackGradeDPS>24.7</AttackGradeDPS>
 		<CombatValue>1.6</CombatValue>
 		<LOS>55</LOS>
@@ -39513,10 +39513,10 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
+		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -40009,7 +40009,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>5550</Hitpoints>
+		<Hitpoints>6660</Hitpoints>
 		<Shieldpoints>3250</Shieldpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
@@ -40041,7 +40041,7 @@
 		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full">Shielded</DamageType>
-		<DamageType direction="Full">HeavyInfantry</DamageType>
+		<DamageType direction="Full">MediumInfantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -40306,7 +40306,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>15550</Hitpoints>
+		<Hitpoints>18660</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<LOS>55</LOS>
@@ -40342,7 +40342,7 @@
 		<Sound Type="Pain">play_cov_chieftain_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full">HeavyInfantry</DamageType>
+		<DamageType direction="Full">MediumInfantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -40378,7 +40378,7 @@
 		<Velocity>10</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>360</TurnRate>
-		<Hitpoints>15550</Hitpoints>
+		<Hitpoints>18660</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<LOS>55</LOS>
@@ -40412,8 +40412,8 @@
 		<Sound Type="Pain">play_cov_chieftain_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="Full" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>

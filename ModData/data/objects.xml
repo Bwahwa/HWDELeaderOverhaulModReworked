@@ -39733,10 +39733,10 @@
 		<Sound Type="Attack">play_cov_hunter_attack</Sound>
 		<ExtendedSoundBank>xtnd_ui_hunter.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="FrontHalf" mode="Normal">UberVehicle</DamageType>
-		<DamageType direction="FrontHalf" mode="Cover">UberVehicle</DamageType>
-		<DamageType direction="BackHalf" mode="Normal">HeavyInfantry</DamageType>
-		<DamageType direction="BackHalf" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="FrontHalf" mode="Normal">HeavyInfantry</DamageType>
+		<DamageType direction="FrontHalf" mode="Cover">HeavyInfantryInCover</DamageType>
+		<DamageType direction="BackHalf" mode="Normal">MediumInfantry</DamageType>
+		<DamageType direction="BackHalf" mode="Cover">MediumInfantryInCover</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>

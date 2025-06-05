@@ -1248,7 +1248,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -1320,7 +1320,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -13682,7 +13682,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -38806,7 +38806,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -38876,7 +38876,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -38949,7 +38949,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39020,7 +39020,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39091,7 +39091,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39162,7 +39162,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39232,7 +39232,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39302,7 +39302,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39372,7 +39372,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39443,7 +39443,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -39513,7 +39513,7 @@
 		<Sound Type="Work">play_cov_brute_acknowledge</Sound>
 		<Sound Type="Ability">play_cov_brute_ability</Sound>
 		<Sound Type="Attack">play_cov_brute_attack</Sound>
-		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
+				<ExtendedSoundBank>xtnd_ui_brute.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
 		<DamageType direction="Full" mode="Normal">MediumInfantry</DamageType>
 		<DamageType direction="Full" mode="Cover">MediumInfantryInCover</DamageType>
@@ -40079,7 +40079,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>20550</Hitpoints>
+		<Hitpoints>24660</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<LOS>55</LOS>
@@ -40115,7 +40115,7 @@
 		<Sound Type="Pain">play_cov_chieftain_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full">HeavyInfantry</DamageType>
+		<DamageType direction="Full">MediumInfantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>
@@ -40155,7 +40155,7 @@
 		<Velocity>18</Velocity>
 		<Acceleration>26</Acceleration>
 		<TurnRate>540</TurnRate>
-		<Hitpoints>20550</Hitpoints>
+		<Hitpoints>24660</Hitpoints>
 		<AttackGradeDPS>450</AttackGradeDPS>
 		<CombatValue>30</CombatValue>
 		<LOS>55</LOS>
@@ -40191,7 +40191,7 @@
 		<Sound Type="Pain">play_cov_chieftain_vo_hit</Sound>
 		<ExtendedSoundBank>xtnd_ui_chieftain.bnk</ExtendedSoundBank>
 		<ObjectType>Covenant</ObjectType>
-		<DamageType direction="Full">HeavyInfantry</DamageType>
+		<DamageType direction="Full">MediumInfantry</DamageType>
 		<ObjectType>KeepsInGame</ObjectType>
 		<ObjectType>Military</ObjectType>
 		<ObjectType>NonFlying</ObjectType>

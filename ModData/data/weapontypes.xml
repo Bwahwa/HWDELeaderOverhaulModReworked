@@ -276,13 +276,13 @@
 		<DamageModifier rating="1" type="LightAir">1.25</DamageModifier>
 		<DamageModifier rating="1" type="MediumAir">1</DamageModifier>
 		<DamageModifier rating="1" type="HeavyAir">0.75</DamageModifier>
-		<DamageModifier rating="1" type="LightFlood">4</DamageModifier>
-		<DamageModifier rating="1" type="LightFloodInCover">3.5</DamageModifier>
-		<DamageModifier rating="1" type="MediumFlood">3.5</DamageModifier>
-		<DamageModifier rating="1" type="MediumFloodInCover">3</DamageModifier>
-		<DamageModifier rating="1" type="HeavyFlood">3</DamageModifier>
-		<DamageModifier rating="1" type="HeavyFloodInCover">2.5</DamageModifier>
-		<DamageModifier rating="1" type="UberFlood">2.5</DamageModifier>
+		<DamageModifier rating="1" type="LightFlood">3.25</DamageModifier>
+		<DamageModifier rating="1" type="LightFloodInCover">2.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFlood">2.75</DamageModifier>
+		<DamageModifier rating="1" type="MediumFloodInCover">2.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFlood">2.25</DamageModifier>
+		<DamageModifier rating="1" type="HeavyFloodInCover">1.75</DamageModifier>
+		<DamageModifier rating="1" type="UberFlood">1.75</DamageModifier>
 		<DamageModifier rating="1" type="Building">0.75</DamageModifier>
 		<DamageModifier rating="1" type="Shielded">1</DamageModifier>
 	</WeaponType>

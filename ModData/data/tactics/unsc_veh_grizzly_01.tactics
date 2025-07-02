@@ -33,9 +33,9 @@
 		<MaxVelocityLead>20</MaxVelocityLead>
 		<MaxRange>60</MaxRange>
 		<Accuracy>0.400000006</Accuracy>
-		<MaxDeviation>5</MaxDeviation>
+		<MaxDeviation>3</MaxDeviation>
 		<MovingAccuracy>0.400000006</MovingAccuracy>
-		<MovingMaxDeviation>7</MovingMaxDeviation>
+		<MovingMaxDeviation>5</MovingMaxDeviation>
 		<AccuracyDistanceFactor>0.5</AccuracyDistanceFactor>
 		<AccuracyDeviationFactor>0.330000013</AccuracyDeviationFactor>
 		<EnableHeightBonusDamage />
